@@ -58,7 +58,7 @@ export default function App() {
           />
 
           {/* Main Content Viewport */}
-          <main className="max-w-6xl mx-auto px-3 sm:px-4 pt-4 sm:pt-6">
+          <main className="max-w-6xl mx-auto px-3 sm:px-4 pt-6 sm:pt-10 md:pt-12">
             {activeTab === 'poem' && (
               <PoemView
                 poem={poemData}

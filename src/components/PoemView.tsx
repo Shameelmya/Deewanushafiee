@@ -55,7 +55,7 @@ export const PoemView: React.FC<PoemViewProps> = ({
         <div className="absolute top-0 right-0 -mt-8 -mr-8 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl pointer-events-none"></div>
 
         <div className="relative z-10 flex flex-col items-center text-center max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 bg-white/10 backdrop-blur-md rounded-full text-[11px] font-semibold mb-2 border border-white/20 text-blue-200">
+          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 bg-white/10 backdrop-blur-md rounded-full text-[11px] font-semibold mb-4 sm:mb-5 border border-white/20 text-blue-200">
             <Sparkles size={12} />
             <span className="font-arabic">{poem.meter}</span>
           </div>
