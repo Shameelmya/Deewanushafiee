@@ -3,9 +3,9 @@
   "name": "الألوان - Arabic Poem Learning",
   "icons": [
     {
-      "src": "/favicon.jpg",
+      "src": "/favicon.png",
       "sizes": "192x192 512x512",
-      "type": "image/jpeg"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
