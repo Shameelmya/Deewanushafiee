@@ -6,7 +6,7 @@ interface HomeViewProps {
 }
 
 export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
-  const whatsappMsg = "i have seen you r applicatin . we also need to craete on e like it.  or somehing lik eit.";
+  const whatsappMsg = "Hello! 👋 I have seen your application and really liked it. We would love to create something similar. Could we discuss this further? 😊";
   const encodedMsg = encodeURIComponent(whatsappMsg);
   
   return (
@@ -17,19 +17,16 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       
       <div className="z-10 text-center max-w-3xl flex flex-col items-center space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
         
-        {/* App Title */}
+        {/* Logo and App Title */}
+        <img src="https://www.wafycic.com/front_end/img/logo.jpg" alt="Logo" className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-lg border-2 border-white/50 dark:border-slate-800/50 mb-4" />
         <h1 className="font-arabic font-bold text-6xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-tight mb-2 py-2 drop-shadow-sm" dir="rtl">
-          رونق القوافي
+          الألوان
         </h1>
         
         {/* Subtitle */}
         <div className="space-y-3 p-6 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-3xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
           <p className="text-lg md:text-xl font-semibold text-slate-800 dark:text-slate-200">
-            Arabic study aid for Class : Degree 1 students
-          </p>
-          <div className="h-px w-24 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
-          <p className="text-sm md:text-md text-slate-600 dark:text-slate-400 uppercase tracking-widest font-bold">
-            Coordination of Islamic Colleges
+            Arabic study aid for Class : Aliya 2
           </p>
         </div>
 
@@ -49,7 +46,10 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       </div>
 
       {/* Footer text */}
-      <div className="absolute bottom-6 w-full text-center z-10 animate-in fade-in duration-1000 delay-500">
+      <div className="absolute bottom-6 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1">
+        <p className="text-[10px] md:text-[11px] text-slate-600 dark:text-slate-400 font-medium tracking-tight">
+          Coordination Of Islamic Colleges
+        </p>
         <a 
           href={`https://wa.me/917559865389?text=${encodedMsg}`}
           target="_blank"

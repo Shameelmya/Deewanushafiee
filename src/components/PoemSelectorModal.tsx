@@ -23,7 +23,7 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
       titleMl: 'ഖും ലിൽ മുഅല്ലിമി വഫ്ഫിഹി തബ്ജീലാ',
       poetAr: 'أحمد شوقي',
       poetMl: 'അഹമ്മദ് ഷൗഖി',
-      versesCount: 48,
+      versesCount: 132,
       status: 'active',
       badge: 'പ്രധാന കവിത (Active)'
     }
