@@ -120,15 +120,17 @@ export const PoetView: React.FC<PoetViewProps> = ({ interfaceLang = 'ml' }) => {
                   {fact.titleAr}
                 </h4>
               </div>
-              <h5 className="font-bold text-xs sm:text-sm text-slate-800 dark:text-slate-200" dir="ltr">
-                {interfaceLang === 'ml' ? fact.titleMl : fact.titleEn}
-              </h5>
-              <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed text-justify" dir="ltr">
-                {interfaceLang === 'ml' ? fact.descMl : fact.descEn}
-              </p>
-              <p className="text-xs font-arabic amiri-regular text-slate-500 dark:text-slate-400 text-right leading-relaxed pt-1.5 border-t border-slate-100 dark:border-slate-800" dir="rtl">
+              <p className="text-sm font-arabic amiri-regular text-slate-800 dark:text-slate-200 text-right leading-relaxed pb-1.5" dir="rtl">
                 {fact.descAr}
               </p>
+              <div className="pt-2 border-t border-slate-100 dark:border-slate-800 space-y-1">
+                <h5 className="font-bold text-xs sm:text-sm text-slate-800 dark:text-slate-200" dir="ltr">
+                  {interfaceLang === 'ml' ? fact.titleMl : fact.titleEn}
+                </h5>
+                <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed text-justify" dir="ltr">
+                  {interfaceLang === 'ml' ? fact.descMl : fact.descEn}
+                </p>
+              </div>
             </div>
           ))}
         </div>
