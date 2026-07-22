@@ -15,14 +15,14 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-400/20 dark:bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/20 dark:bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
       
-      <div className="z-10 text-center max-w-3xl flex flex-col items-center space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
+      <div className="z-10 text-center max-w-3xl flex flex-col items-center space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-700 -mt-16 md:-mt-24">
         
         {/* Logo and App Title */}
-        <div className="w-14 h-24 md:w-16 md:h-28 mb-2 overflow-hidden flex items-center justify-center mix-blend-multiply">
+        <div className="w-10 h-16 md:w-12 md:h-20 mb-2 overflow-hidden flex items-center justify-center mix-blend-multiply">
           <img 
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNPdGWZBf-5w-PhPW6lrawUlfqGrhYK8IdLaX-cgXLT-NB7GBADblToA&s=10" 
             alt="Logo" 
-            className="w-full h-full object-cover object-center" 
+            className="w-full h-full object-cover object-center contrast-150 mix-blend-multiply" 
           />
         </div>
         <h1 className="font-arabic font-bold text-6xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-tight mb-2 py-2 drop-shadow-sm" dir="rtl">
@@ -32,10 +32,10 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         {/* Subtitle */}
         <div className="space-y-2 px-6 py-3 md:px-8 md:py-4 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-2xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
           <p className="text-sm md:text-base font-semibold text-slate-800 dark:text-slate-200">
-            Arabic study aid for students
+            Arabic Study Aid For Students
           </p>
           <div className="h-px w-16 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
-          <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
+          <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold tracking-wide">
             Class : Aliya 2
           </p>
         </div>
