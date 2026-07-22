@@ -19,7 +19,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         
         {/* Logo and App Title */}
         <div className="flex flex-col items-center justify-center space-y-4">
-          <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center overflow-hidden bg-white rounded-full p-2">
+          <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center overflow-hidden">
             <img 
               src="/logo.png" 
               alt="Logo" 
