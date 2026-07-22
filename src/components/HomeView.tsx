@@ -15,11 +15,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-400/20 dark:bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/20 dark:bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
       
-      <div className="z-10 text-center max-w-3xl flex flex-col items-center justify-center space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 w-full px-4">
+      <div className="z-10 mt-12 md:mt-20 text-center max-w-3xl flex flex-col items-center justify-center space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 w-full px-4">
         
         {/* Logo and App Title */}
-        <div className="relative flex flex-col items-center justify-center">
-          <div className="w-16 h-28 md:w-20 md:h-32 -mb-8 md:-mb-12 z-0 opacity-90">
+        <div className="flex flex-col items-center justify-center space-y-4">
+          <div className="w-16 h-24 md:w-20 md:h-28 flex items-center justify-center overflow-hidden mix-blend-multiply">
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNPdGWZBf-5w-PhPW6lrawUlfqGrhYK8IdLaX-cgXLT-NB7GBADblToA&s=10" 
               alt="Logo" 
@@ -27,7 +27,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
               style={{ mixBlendMode: 'multiply' }}
             />
           </div>
-          <h1 className="relative z-10 font-arabic font-bold text-7xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-tight drop-shadow-sm" dir="rtl">
+          <h1 className="font-arabic font-bold text-7xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-tight drop-shadow-sm" dir="rtl">
             الألوان
           </h1>
         </div>
@@ -59,7 +59,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       </div>
 
       {/* Footer text */}
-      <div className="mt-auto pt-16 pb-4 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1.5">
+      <div className="mt-12 md:mt-16 mb-8 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1.5">
         <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold tracking-tight uppercase">
           Coordination Of Islamic Colleges
         </p>
