@@ -30,12 +30,12 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         </h1>
         
         {/* Subtitle */}
-        <div className="space-y-2.5 p-4 md:p-5 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-3xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
-          <p className="text-base md:text-lg font-semibold text-slate-800 dark:text-slate-200">
+        <div className="space-y-2 px-6 py-3 md:px-8 md:py-4 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-2xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
+          <p className="text-sm md:text-base font-semibold text-slate-800 dark:text-slate-200">
             Arabic study aid for students
           </p>
-          <div className="h-px w-20 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
-          <p className="text-sm md:text-base text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
+          <div className="h-px w-16 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
+          <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
             Class : Aliya 2
           </p>
         </div>
@@ -43,7 +43,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         {/* Action Button */}
         <button 
           onClick={onSeeChapters}
-          className="mt-8 group relative inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white bg-blue-600 rounded-full overflow-hidden transition-transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30 active:scale-95 border border-blue-500/50"
+          className="mt-5 group relative inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white bg-blue-600 rounded-full overflow-hidden transition-transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30 active:scale-95 border border-blue-500/50"
         >
           <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-600 to-emerald-500 transition-opacity group-hover:opacity-90" />
           <span className="relative z-10 flex items-center gap-3">
