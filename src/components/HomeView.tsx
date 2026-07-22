@@ -15,10 +15,10 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-400/20 dark:bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/20 dark:bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
       
-      <div className="z-10 mt-12 md:mt-20 text-center max-w-3xl flex flex-col items-center justify-center space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 w-full px-4">
+      <div className="z-10 mt-24 md:mt-20 text-center max-w-3xl flex flex-col items-center justify-center space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 w-full px-4">
         
         {/* Logo and App Title */}
-        <div className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex flex-col items-center justify-center space-y-6">
           <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center overflow-hidden">
             <img 
               src="/logo.png" 
@@ -26,7 +26,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
               className="w-full h-full object-contain" 
             />
           </div>
-          <h1 className="font-arabic font-bold text-7xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-normal pt-4 pb-2 drop-shadow-sm" dir="rtl">
+          <h1 className="font-jomhuria font-normal text-[120px] md:text-[150px] text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-[0.8] pt-6 drop-shadow-sm" dir="rtl">
             الألوان
           </h1>
         </div>
@@ -58,7 +58,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       </div>
 
       {/* Footer text */}
-      <div className="mt-auto md:mt-16 mb-6 md:mb-8 pt-12 md:pt-0 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1.5">
+      <div className="mt-auto md:mt-16 mb-12 md:mb-16 pt-12 md:pt-0 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1.5">
         <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold tracking-tight uppercase">
           Coordination Of Islamic Colleges
         </p>
