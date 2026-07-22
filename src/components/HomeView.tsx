@@ -26,7 +26,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         {/* Subtitle */}
         <div className="space-y-3 p-6 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-3xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
           <p className="text-lg md:text-xl font-semibold text-slate-800 dark:text-slate-200">
-            Arabic study aid for Class : Aliya 2
+            Arabic study aid for students
+          </p>
+          <div className="h-px w-24 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
+          <p className="text-md md:text-lg text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
+            Class : Aliya 2
           </p>
         </div>
 
