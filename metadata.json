@@ -1,0 +1,6 @@
+{
+  "name": "Qum Lil Mu'allimi - Poem Learning Platform",
+  "description": "Interactive learning app for Ahmad Shawqi's poem Qum Lil Mu'allimi with word meanings, Irab, Sharah, quizzes, and analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+import React, { useState, useEffect } from 'react';
+import { Header } from './components/Header';
+import { PoemView } from './components/PoemView';
+import { QuestionsView } from './components/QuestionsView';
+import { PoetView } from './components/PoetView';
+import { BalaghaView } from './components/BalaghaView';
+import { GlossaryView } from './components/GlossaryView';
+import { EssayView } from './components/EssayView';
+import { PoemSelectorModal } from './components/PoemSelectorModal';
+import { poemData } from './data/poemData';
+
+export default function App() {
+  const [activeTab, setActiveTab] = useState<string>('poem');
+  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [interfaceLang, setInterfaceLang] = useState<'ml' | 'en'>('ml');
+  const [isIrabMode, setIsIrabMode] = useState<boolean>(false);
+  const [isHideMeaning, setIsHideMeaning] = useState<boolean>(false);
+  const [isPoemModalOpen, setIsPoemModalOpen] = useState<boolean>(false);
+  const [selectedPoemId, setSelectedPoemId] = useState<string>('qum-lil-muallimi');
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
+
+  return (
+    <div className={`min-h-screen bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300 selection:bg-blue-500 selection:text-white ${interfaceLang === 'ml' ? 'font-malayalam' : 'font-english'}`}>
+      {/* macOS Header Navigation */}
+      <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+        interfaceLang={interfaceLang}
+        setInterfaceLang={setInterfaceLang}
+        isIrabMode={isIrabMode}
+        setIsIrabMode={setIsIrabMode}
+        isHideMeaning={isHideMeaning}
+        setIsHideMeaning={setIsHideMeaning}
+        selectedPoemTitle={poemData.titleAr}
+        onOpenPoemModal={() => setIsPoemModalOpen(true)}
+      />
+
+      {/* Main Content Viewport */}
+      <main className="max-w-6xl mx-auto px-3 sm:px-4 pt-4 sm:pt-6">
+        {activeTab === 'poem' && (
+          <PoemView
+            poem={poemData}
+            interfaceLang={interfaceLang}
+            isIrabMode={isIrabMode}
+            isHideMeaning={isHideMeaning}
+          />
+        )}
+        {activeTab === 'qa' && <QuestionsView interfaceLang={interfaceLang} />}
+        {activeTab === 'poet' && <PoetView interfaceLang={interfaceLang} />}
+        {activeTab === 'balagha' && <BalaghaView interfaceLang={interfaceLang} />}
+        {activeTab === 'glossary' && <GlossaryView interfaceLang={interfaceLang} />}
+        {activeTab === 'essay' && <EssayView interfaceLang={interfaceLang} />}
+      </main>
+
+      {/* Poem Selector Modal */}
+      <PoemSelectorModal
+        isOpen={isPoemModalOpen}
+        onClose={() => setIsPoemModalOpen(false)}
+        currentPoemId={selectedPoemId}
+        onSelectPoem={(id) => setSelectedPoemId(id)}
+      />
+
+      {/* Footer */}
+      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white/60 dark:bg-slate-900/60 backdrop-blur-sm py-6 text-center text-xs text-slate-500 dark:text-slate-400">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span>
+            <span className="font-semibold text-slate-700 dark:text-slate-300">
+              Qum Lil Mu'allimi - Interactive Arabic Poem Platform
+            </span>
+          </div>
+          <p className="font-arabic amiri-bold text-sm" dir="rtl">
+            قُم لِلمُعَلِّمِ وَفِّهِ التَبجيلا كادَ المُعَلِّمُ أَن يَكونَ رَسولا
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}

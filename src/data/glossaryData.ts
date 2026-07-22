@@ -1,0 +1,32 @@
+import { GlossaryItem } from '../types';
+
+export const glossaryData: GlossaryItem[] = [
+  { id: 1, wordAr: "قُم", rootAr: "قوم", meaningMl: "എഴുന്നേൽക്കുക", meaningEn: "Stand up", typeAr: "فعل أمر", exampleLineNumber: 1 },
+  { id: 2, wordAr: "وَفِّهِ", rootAr: "وفى", meaningMl: "അദ്ദേഹത്തിന് പൂർണ്ണമായി നൽകുക", meaningEn: "Give him fully", typeAr: "فعل أمر + ضمير", exampleLineNumber: 1 },
+  { id: 3, wordAr: "التَبجيلا", rootAr: "بجل", meaningMl: "ആദരവ്, ബഹുമാനം", meaningEn: "Reverence / Respect", typeAr: "اسم (مفعول به)", exampleLineNumber: 1 },
+  { id: 4, wordAr: "كادَ", rootAr: "كود", meaningMl: "ആകാറായിരുന്നു, അടുത്തു", meaningEn: "Almost / Nearly", typeAr: "فعل ناقص", exampleLineNumber: 2 },
+  { id: 5, wordAr: "أَشرَفَ", rootAr: "شرف", meaningMl: "ഏറ്റവും ശ്രേഷ്ഠനായ", meaningEn: "More honorable", typeAr: "اسم تفضيل", exampleLineNumber: 3 },
+  { id: 6, wordAr: "أَجَلَّ", rootAr: "جلل", meaningMl: "ഏറ്റവും മഹത്തായ", meaningEn: "More glorious", typeAr: "اسم تفضيل", exampleLineNumber: 3 },
+  { id: 7, wordAr: "يُنشِئُ", rootAr: "نشأ", meaningMl: "വളർത്തിയെടുക്കുന്നു", meaningEn: "Raises / Nurtures", typeAr: "فعل مضارع", exampleLineNumber: 4 },
+  { id: 8, wordAr: "عُقولا", rootAr: "عقل", meaningMl: "ബുദ്ധികളെ", meaningEn: "Minds", typeAr: "اسم (جمع عقل)", exampleLineNumber: 4 },
+  { id: 9, wordAr: "سُبحانَكَ", rootAr: "سبح", meaningMl: "നിന്റെ പരിശുദ്ധി", meaningEn: "Glory be to You", typeAr: "اسم (مفعول مطلق)", exampleLineNumber: 5 },
+  { id: 10, wordAr: "القُرونَ", rootAr: "قرن", meaningMl: "തലമുറകളെ / നൂറ്റാണ്ടുകളെ", meaningEn: "Generations / Centuries", typeAr: "اسم (جمع قرن)", exampleLineNumber: 6 },
+  { id: 11, wordAr: "ظُلُماتِه", rootAr: "ظلم", meaningMl: "അതിന്റെ ഇരുട്ടുകളിൽ (അജ്ഞത)", meaningEn: "Its darknesses (ignorance)", typeAr: "اسم مجرور", exampleLineNumber: 7 },
+  { id: 12, wordAr: "المُبينَ", rootAr: "بين", meaningMl: "വ്യക്തമായ", meaningEn: "Clear / Manifest", typeAr: "اسم (صفة)", exampleLineNumber: 8 },
+  { id: 13, wordAr: "صَدِئَ", rootAr: "صدأ", meaningMl: "തുരുമ്പെടുത്തു", meaningEn: "Rusted", typeAr: "فعل ماض", exampleLineNumber: 10 },
+  { id: 14, wordAr: "مَصقولا", rootAr: "صقل", meaningMl: "മിനുസപ്പെടുത്തിയത് / തിളക്കമുള്ളത്", meaningEn: "Polished", typeAr: "اسم مفعول", exampleLineNumber: 10 },
+  { id: 15, wordAr: "مُرشِداً", rootAr: "رشد", meaningMl: "വഴികാട്ടിയായി", meaningEn: "Guide / Instructor", typeAr: "اسم فاعل (حال)", exampleLineNumber: 11 },
+  { id: 16, wordAr: "البَتولِ", rootAr: "بتل", meaningMl: "കന്യക (മർയം നബി)", meaningEn: "Virgin Mary", typeAr: "اسم علم", exampleLineNumber: 12 },
+  { id: 17, wordAr: "يَنبوعَ", rootAr: "نبغ", meaningMl: "ഉറവ / സ്രോതസ്സ്", meaningEn: "Fountain / Spring", typeAr: "اسم", exampleLineNumber: 13 },
+  { id: 18, wordAr: "البَيانِ", rootAr: "بين", meaningMl: "സാഹിത്യ സൗന്ദര്യം / സാഹിത്യ വ്യക്തത", meaningEn: "Eloquence / Clarity", typeAr: "اسم (مضاف إليه)", exampleLineNumber: 13 },
+  { id: 19, wordAr: "التَنزيلا", rootAr: "نزل", meaningMl: "ഖുർആൻ വചനം", meaningEn: "The Revelation (Quran)", typeAr: "اسم", exampleLineNumber: 14 },
+  { id: 20, wordAr: "أُفوﻻً", rootAr: "أفل", meaningMl: "അസ്തമയം", meaningEn: "Setting / Decline", typeAr: "مصدر", exampleLineNumber: 16 },
+  { id: 21, wordAr: "تَطفيلا", rootAr: "طفل", meaningMl: "അന്യരെ ആശ്രയിക്കൽ", meaningEn: "Dependence / Sponging", typeAr: "مصدر", exampleLineNumber: 18 },
+  { id: 22, wordAr: "أُديلا", rootAr: "دول", meaningMl: "മേൽക്കോയ്മ നൽകപ്പെട്ടു", meaningEn: "Given dominance over", typeAr: "فعل مبني للمجهول", exampleLineNumber: 20 },
+  { id: 23, wordAr: "وَبيلا", rootAr: "وبل", meaningMl: "കഠിനമായ / ദാരുണമായ", meaningEn: "Severe / Grievous", typeAr: "صفة", exampleLineNumber: 24 },
+  { id: 24, wordAr: "عَلقَماً", rootAr: "علقم", meaningMl: "കയ്പുള്ള വസ്തു", meaningEn: "Bitter colocynth", typeAr: "اسم (مفعول به)", exampleLineNumber: 31 },
+  { id: 25, wordAr: "عِبءَ", rootAr: "عبأ", meaningMl: "കനത്ത ഭാരം", meaningEn: "Heavy burden", typeAr: "اسم", exampleLineNumber: 36 },
+  { id: 26, wordAr: "عِزريلا", rootAr: "عزر", meaningMl: "മരണദൂതൻ (ഇസ്രാഈൽ)", meaningEn: "Azrael (Angel of Death)", typeAr: "اسم علم أعجمي", exampleLineNumber: 38 },
+  { id: 27, wordAr: "كَهفَ", rootAr: "كهف", meaningMl: "അഭയകേന്ദ്രം / കോട്ട", meaningEn: "Cave / Haven", typeAr: "اسم", exampleLineNumber: 40 },
+  { id: 28, wordAr: "مَأتَماً", rootAr: "أتم", meaningMl: "വിലാപസഭ", meaningEn: "Mourning assembly", typeAr: "اسم مكان / مصدر", exampleLineNumber: 44 }
+];
