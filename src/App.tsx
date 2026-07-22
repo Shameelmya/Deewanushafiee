@@ -54,6 +54,7 @@ export default function App() {
             setIsHideMeaning={setIsHideMeaning}
             selectedPoemTitle={poemData.titleAr}
             onOpenPoemModal={() => setIsPoemModalOpen(true)}
+            onGoHome={() => setCurrentView('home')}
           />
 
           {/* Main Content Viewport */}

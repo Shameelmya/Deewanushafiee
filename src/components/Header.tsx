@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, HelpCircle, User, Feather, List, FileText, Moon, Sun, ChevronDown, Sparkles, Globe, Eye, EyeOff } from 'lucide-react';
+import { BookOpen, HelpCircle, User, Feather, List, FileText, Moon, Sun, ChevronDown, Sparkles, Globe, Eye, EyeOff, Home } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: string;
@@ -14,6 +14,7 @@ interface HeaderProps {
   setIsHideMeaning: (val: boolean) => void;
   selectedPoemTitle: string;
   onOpenPoemModal: () => void;
+  onGoHome: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -29,6 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
   setIsHideMeaning,
   selectedPoemTitle,
   onOpenPoemModal,
+  onGoHome,
 }) => {
   const tabs = [
     { id: 'poem', labelMl: 'കവിത & അർത്ഥം', labelEn: 'Poem & Meaning', icon: <BookOpen size={18} /> },
@@ -45,13 +47,15 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Top Control Bar (Poem Selector & Options Toggles) */}
         <div className="max-w-7xl mx-auto px-2.5 sm:px-4 py-1.5 flex items-center justify-between gap-1.5 sm:gap-2 text-xs border-b border-slate-100 dark:border-slate-800/60">
           
-          {/* Left: macOS dots & Poem selector */}
+          {/* Left: Home Button & Poem selector */}
           <div className="flex items-center gap-1.5">
-            <div className="hidden md:flex items-center gap-1.5 mr-1">
-              <span className="w-2.5 h-2.5 rounded-full bg-red-500/90 inline-block"></span>
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-400/90 inline-block"></span>
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/90 inline-block"></span>
-            </div>
+            <button
+              onClick={onGoHome}
+              className="flex items-center gap-1 px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 rounded-lg font-medium transition-colors border border-slate-200/60 dark:border-slate-700/60 text-xs mr-1"
+              title="Home"
+            >
+              <Home size={14} className="text-slate-500 flex-shrink-0" />
+            </button>
 
             <button
               onClick={onOpenPoemModal}

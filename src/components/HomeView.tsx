@@ -54,9 +54,10 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
           href={`https://wa.me/917559865389?text=${encodedMsg}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[11px] md:text-xs font-medium text-slate-500 dark:text-slate-500 hover:text-blue-600 dark:hover:text-blue-400 transition-all hover:underline underline-offset-4"
+          className="text-[11px] md:text-xs transition-all hover:opacity-80 inline-flex items-center gap-1"
         >
-          developed and designed by Shameel Wafy Malayamma
+          <span className="font-light text-black dark:text-slate-300">developed and designed by</span>
+          <span className="font-normal text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 dark:from-blue-400 dark:to-emerald-400">Shameel Wafy Malayamma</span>
         </a>
       </div>
     </div>
