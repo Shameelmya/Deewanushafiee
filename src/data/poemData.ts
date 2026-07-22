@@ -27,6 +27,7 @@ const linesRawData: { ar: string; noteMl?: string; noteEn?: string; words: { ml:
   {
     ar: "قُم لِلمُعَلِّمِ وَفِّهِ التَبجيلا",
     noteMl: "വ്യാകരണ കുറിപ്പ്: 'قُم' (എഴുന്നേൽക്കുക) എന്നത് കല്പനക്രിയയാണ് (അംറ്). 'التَبجيلا' എന്നതിലെ അലിഫ് കാവ്യതാളത്തിന് (ഇത്വ്‌ലാഖ്) വേണ്ടി നൽകിയതാണ്.",
+    noteEn: "Grammar Note: 'قُم' (stand up) is an imperative verb (Amr). The Alif in 'التَبجيلا' is added for poetic rhythm (Itlaq).",
     words: [
       { ml: "എഴുന്നേൽക്കുക", en: "Stand up", irab: "فعل أمر مبني على السكون، والفاعل ضمير مستتر تقديره أنت", root: "قوم" },
       { ml: "അധ്യാപകനുവേണ്ടി", en: "For the teacher", irab: "اللام حرف جر، المعلم اسم مجرور بالكسرة", root: "علم" },
@@ -38,6 +39,7 @@ const linesRawData: { ar: string; noteMl?: string; noteEn?: string; words: { ml:
   {
     ar: "كادَ المُعَلِّمُ أَن يَكونَ رَسولا",
     noteMl: "ആശയക്കുറിപ്പ്: 'كاد... أن يكون' (ആകാറായിരുന്നു) എന്നത് അധ്യാപകന്റെ അതിമഹത്തായ പദവിയെ സൂചിപ്പിക്കുന്നു.",
+    noteEn: "Conceptual Note: 'كاد... أن يكون' (almost became) indicates the supremely high status of the teacher.",
     words: [
       { ml: "ആകാറായിരുന്നു", en: "Almost became", irab: "فعل ماض ناقص من أفعال المقاربة مبني على الفتح", root: "كود" },
       { ml: "അധ്യാപകൻ", en: "The teacher", irab: "اسم كاد مرفوع وعلامة رفعه الضمة", root: "علم" },
@@ -50,6 +52,7 @@ const linesRawData: { ar: string; noteMl?: string; noteEn?: string; words: { ml:
   {
     ar: "أَعَلِمتَ أَشرَفَ أَو أَجَلَّ مِنَ الَّذي",
     noteMl: "അലങ്കാരം: 'أعلمت' (നിനക്കറിയാമോ) എന്നത് ഇസ്തിഫ്ഹാം ഇൻകാരി (അധ്യാപകനേക്കാൾ ശ്രേഷ്ഠനില്ല എന്ന് സ്ഥാപിക്കുന്ന ചോദ്യം) ആണ്.",
+    noteEn: "Rhetorical Note: 'أعلمت' (Did you know) is an interrogative of denial (Istifham Inkari), asserting that there is no one more honorable than the teacher.",
     words: [
       { ml: "നിനക്കറിയാമോ", en: "Did you know", irab: "الهمزة للاستفهام، علمت فعل ماض والتاء فاعل", root: "علم" },
       { ml: "ഏറ്റവും ശ്രേഷ്ഠനായ", en: "More honorable", irab: "مفعول به أول منصوب وعلامة نصبه الفتحة", root: "شرف" },
@@ -63,6 +66,7 @@ const linesRawData: { ar: string; noteMl?: string; noteEn?: string; words: { ml:
   {
     ar: "يَبني وَيُنشِئُ أَنفُساً وَعُقولا",
     noteMl: "രൂപകം: 'يبني أنفساً وعقولا' മനുഷ്യന്റെ മനസ്സും ബുദ്ധിയും നിർമ്മിക്കുന്നു എന്ന് പറയുന്നത് ഇസ്തിആറ മക്നിയ്യ ആണ്.",
+    noteEn: "Metaphor: 'يبني أنفساً وعقولا' (building souls and minds) is a hidden metaphor (Isti'arah Makniyyah).",
     words: [
       { ml: "നിർമ്മിക്കുന്നു", en: "Builds", irab: "فعل مضارع مرفوع، والفاعل ضمير مستتر", root: "بني" },
       { ml: "വളർത്തുന്നു", en: "Nurtures / Raises", irab: "الواو عاطفة، ينشئ فعل مضارع مرفوع", root: "نشأ" },
@@ -84,6 +88,7 @@ const linesRawData: { ar: string; noteMl?: string; noteEn?: string; words: { ml:
   {
     ar: "عَلَّمتَ بِالقَلَمِ القُرونَ الأولى",
     noteMl: "ഖുർആൻ സൂചന: 'علم بالقلم' (സൂറത്തുൽ അലഖ്) എന്ന വചനത്തിലേക്കുള്ള സൂചന.",
+    noteEn: "Quranic Reference: Allusion to the verse 'علم بالقلم' (He who taught by the pen) from Surah Al-Alaq.",
     words: [
       { ml: "നീ പഠിപ്പിച്ചു", en: "You taught", irab: "فعل ماض مبني على السكون والتاء فاعل", root: "علم" },
       { ml: "പേനകൊണ്ട്", en: "By the pen", irab: "الباء حرف جر، القلم اسم مجرور بالكسرة", root: "قلم" },
