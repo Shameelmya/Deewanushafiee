@@ -30,12 +30,12 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         </h1>
         
         {/* Subtitle */}
-        <div className="space-y-3 p-6 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-3xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
-          <p className="text-lg md:text-xl font-semibold text-slate-800 dark:text-slate-200">
+        <div className="space-y-2.5 p-4 md:p-5 bg-white/40 dark:bg-slate-900/40 backdrop-blur-md rounded-3xl border border-white/50 dark:border-slate-800/50 shadow-xl shadow-blue-900/5">
+          <p className="text-base md:text-lg font-semibold text-slate-800 dark:text-slate-200">
             Arabic study aid for students
           </p>
-          <div className="h-px w-24 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
-          <p className="text-md md:text-lg text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
+          <div className="h-px w-20 bg-blue-200 dark:bg-blue-800 mx-auto rounded-full" />
+          <p className="text-sm md:text-base text-slate-700 dark:text-slate-300 font-bold uppercase tracking-wide">
             Class : Aliya 2
           </p>
         </div>
@@ -56,18 +56,18 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
       </div>
 
       {/* Footer text */}
-      <div className="absolute bottom-6 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1">
-        <p className="text-[10px] md:text-[11px] text-slate-600 dark:text-slate-400 font-medium tracking-tight">
+      <div className="absolute bottom-6 w-full text-center z-10 animate-in fade-in duration-1000 delay-500 flex flex-col items-center justify-center space-y-1.5">
+        <p className="text-xs md:text-sm text-slate-700 dark:text-slate-300 font-bold tracking-tight uppercase">
           Coordination Of Islamic Colleges
         </p>
         <a 
           href={`https://wa.me/917559865389?text=${encodedMsg}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[11px] md:text-xs transition-all hover:opacity-80 inline-flex items-center gap-1"
+          className="text-[9px] md:text-[10px] transition-all hover:opacity-80 inline-flex items-center gap-1"
         >
           <span className="font-light text-black dark:text-slate-300">developed and designed by</span>
-          <span className="font-normal text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 dark:from-blue-400 dark:to-emerald-400">Shameel Wafy Malayamma</span>
+          <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 dark:from-blue-400 dark:to-emerald-400">Shameel Wafy Malayamma</span>
         </a>
       </div>
     </div>
