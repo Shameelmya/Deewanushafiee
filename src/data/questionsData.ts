@@ -295,6 +295,170 @@ export const questionsData: QuestionItem[] = [
     answerMl: "മനുഷ്യ മനസ്സുകളെയും ബുദ്ധിയെയും വളർത്തുന്നവനനേക്കാൾ ശ്രേഷ്ഠനായ മറ്റാരുമില്ല എന്ന് നിഷേധാത്മകമായി ഉറപ്പിച്ചു പറയുന്ന ചോദ്യശൈലി (استفهام إنكاري غرضه النفي).",
     answerEn: "Disapproving / Rhetorical Negation (Istifham Inkari for negation and affirmation): It emphatically declares that there is absolutely no one more noble than the educator who builds minds and souls.",
     category: "البلاغة والتذوق"
+  // Additional Questions to reach 25
+  {
+    id: 17,
+    qAr: "ما هو الباب الذي أغلقت فيه قصيدة (قم للمعلم)؟",
+    qMl: "കവിതയിൽ ചർച്ച ചെയ്യപ്പെട്ട പ്രധാന പ്രമേയം എന്താണ്?",
+    qEn: "What is the main theme discussed in the poem?",
+    type: "mcq",
+    options: [
+      "التربية والتعليم",
+      "الرثاء",
+      "المدح والغزل",
+      "الوصف الطبيعي"
+    ],
+    optionsEn: [
+      "Education and Pedagogy",
+      "Elegy / Lamentation",
+      "Praise and Romance",
+      "Nature Description"
+    ],
+    correctOptionIndex: 0,
+    answerAr: "التربية والتعليم",
+    answerMl: "വിദ്യാഭ്യാസവും സദാചാരവും",
+    answerEn: "Education and Pedagogy",
+    category: "المضمون والفهم"
+  },
+  {
+    id: 18,
+    qAr: "إلى من يوجه الشاعر خطابه في قوله (أمُعَلِّمي وادي النيلِ)؟",
+    qMl: "'നൈൽ താഴ്‌വരയിലെ അധ്യാപകരേ' എന്ന് കവി വിളിക്കുന്നത് ആരെയാണ്?",
+    qEn: "Who is the poet addressing in 'O teachers of the Nile Valley'?",
+    type: "mcq",
+    options: [
+      "معلمي مصر",
+      "علماء اليونان",
+      "طلاب المدارس",
+      "جنود الجيش"
+    ],
+    optionsEn: [
+      "The teachers of Egypt",
+      "The scholars of Greece",
+      "The school students",
+      "The soldiers of the army"
+    ],
+    correctOptionIndex: 0,
+    answerAr: "معلمي مصر",
+    answerMl: "ഈജിപ്തിലെ അധ്യാപകരെ",
+    answerEn: "The teachers of Egypt",
+    category: "المضمون والفهم"
+  },
+  {
+    id: 19,
+    qAr: "ماذا يقصد الشاعر بكلمة (عزريلا) في البيت: (كيف الحياة على يدِ عزريلا)؟",
+    qMl: "'ഇസ്രാഈൽ' (മരണദൂതൻ) എന്ന് കവി ഇവിടെ എന്തിനെയാണ് സൂചിപ്പിക്കുന്നത്?",
+    qEn: "What does the poet mean by 'Azrael' in the line 'How can life exist in the hands of Azrael'?",
+    type: "mcq",
+    options: [
+      "شخص قوي وشجاع",
+      "ملك الموت، رمزاً للجهل الذي يقتل الأمم",
+      "أحد القادة العسكريين",
+      "اسم مدينة قديمة"
+    ],
+    optionsEn: [
+      "A strong and brave person",
+      "The Angel of Death, symbolizing ignorance that kills nations",
+      "A military leader",
+      "An ancient city's name"
+    ],
+    correctOptionIndex: 1,
+    answerAr: "ملك الموت، رمزاً للجهل الذي يقتل الأمم",
+    answerMl: "സമൂഹങ്ങളെ നശിപ്പിക്കുന്ന അജ്ഞതയെ സൂചിപ്പിക്കാൻ ഉപയോഗിച്ച മരണദൂതൻ",
+    answerEn: "The Angel of Death, used as a symbol for ignorance that kills nations",
+    category: "المعاني والمفردات"
+  },
+  {
+    id: 20,
+    qAr: "كيف يجب أن يربى شباب الوطن وفقاً للقصيدة؟",
+    qMl: "കവിതയുടെ അടിസ്ഥാനത്തിൽ രാജ്യത്തെ യുവത്വത്തെ എപ്രകാരമാണ് വളർത്തേണ്ടത്?",
+    qEn: "According to the poem, how should the youth of the nation be raised?",
+    type: "descriptive",
+    answerAr: "يجب أن يربى الشباب على الإنصاف والعدل والفضيلة، حتى إذا وصلوا لسن الشباب كانوا كالحصن المنيع الذي يدافع عن الحقوق.",
+    answerMl: "നീതിയിലും സദാചാരത്തിലും അവരെ വളർത്തണം. അങ്ങനെ വളരുന്ന യുവത്വമാണ് ഭാവിയിൽ രാജ്യത്തിന്റെ അവകാശങ്ങൾ സംരക്ഷിക്കുന്ന കോട്ടകളായി മാറുക.",
+    answerEn: "They should be raised on justice, equity, and virtue, so that when they come of age, they stand as an impenetrable fortress defending human rights.",
+    category: "الشرح والتحليل"
+  },
+  {
+    id: 21,
+    qAr: "ما معنى كلمة (طُفولة) في سياق: (واليوم أصبحتا بحال طفولةٍ)؟",
+    qMl: "'ബാല്യാവസ്ഥ' എന്ന് ഇവിടെ സൂചിപ്പിക്കുന്നത് എന്ത്?",
+    qEn: "What is meant by 'childhood' in the context of 'Today they have become in a state of childhood'?",
+    type: "descriptive",
+    answerAr: "يقصد بها حالة الضعف والتبعية وفقدان الاستقلال العلمي والحضاري، حيث تعتمد الأمم الشرقية على الغرب كما يعتمد الطفل على أبويه.",
+    answerMl: "വിജ്ഞാനത്തിൽ പിന്നാക്കം പോയി, കുട്ടികളെപ്പോലെ അന്യരുടെ സഹായം തേടി ജീവിക്കുന്ന ഗതികേടിനെയാണ് ഇത് സൂചിപ്പിക്കുന്നത്.",
+    answerEn: "It refers to a state of weakness, dependency, and loss of intellectual independence, where once-great nations now rely on others like a child relies on its parents.",
+    category: "الشرح والتحليل"
+  },
+  {
+    id: 22,
+    qAr: "ما هو البحر الشعري الذي نظمت عليه هذه القصيدة؟",
+    qMl: "ഈ കവിത രചിക്കപ്പെട്ടിട്ടുള്ള വൃത്തം (ബഹർ) ഏതാണ്?",
+    qEn: "What is the poetic meter (Bahr) used in this poem?",
+    type: "mcq",
+    options: [
+      "البحر الطويل",
+      "البحر الكامل",
+      "البحر البسيط",
+      "البحر الوافر"
+    ],
+    optionsEn: [
+      "Bahr Al-Tawil",
+      "Bahr Al-Kamil",
+      "Bahr Al-Basit",
+      "Bahr Al-Wafir"
+    ],
+    correctOptionIndex: 1,
+    answerAr: "البحر الكامل",
+    answerMl: "ബഹറുൽ കാമിൽ (البحر الكامل)",
+    answerEn: "Bahr Al-Kamil",
+    category: "المؤلف والقصيدة"
+  },
+  {
+    id: 23,
+    qAr: "ما الجمع الصحيح لكلمة (عقل)؟",
+    qMl: "'عقل' (ബുദ്ധി) എന്ന വാക്കിന്റെ ബഹുവചനം (ജംഅ്) എന്ത്?",
+    qEn: "What is the correct plural of the word 'عقل' (mind)?",
+    type: "mcq",
+    options: [
+      "عقلاء",
+      "عقول",
+      "معاقيل",
+      "عقالات"
+    ],
+    optionsEn: [
+      "Uqala'",
+      "Uqool",
+      "Ma'aqeel",
+      "Iqalaat"
+    ],
+    correctOptionIndex: 1,
+    answerAr: "عقول",
+    answerMl: "عقول (ഉഖൂൽ)",
+    answerEn: "Uqool (عقول)",
+    category: "المعاني والمفردات"
+  },
+  {
+    id: 24,
+    qAr: "استخرج أسلوب الشرط في البيت: (وَإِذا أُصيبَ القَومُ في أَخلاقِهِم فَأَقِم عَلَيهِم مَأتَماً وَعَويلا) وحدد أجزاءه؟",
+    qMl: "മുകളിലെ വരിയിൽ നിന്നും 'ശർത്വ്' (കണ്ടീഷണൽ സെന്റൻസ്) കണ്ടെത്തി അവയുടെ ഘടകങ്ങൾ വിശദമാക്കുക?",
+    qEn: "Extract the conditional sentence (Shart) in 'وَإِذا أُصيبَ القَومُ...' and identify its parts?",
+    type: "grammar",
+    answerAr: "• أداة الشرط: إذا (ظرف لما يستقبل من الزمان).\n• فعل الشرط: أصيب القوم في أخلاقهم.\n• جواب الشرط: فأقم عليهم مأتماً وعويلا.",
+    answerMl: "• ശർത്വിനുള്ള ഉപകരണം (أداة الشرط): إذا.\n• ശർത്വ് വാക്യം (فعل الشرط): أصيب القوم في أخلاقهم.\n• മറുപടി വാക്യം (جواب الشرط): فأقم عليهم مأتماً وعويلا.",
+    answerEn: "• Conditional Particle (أداة الشرط): إذا (If/When).\n• Condition Clause (فعل الشرط): أصيب القوم في أخلاقهم (a people's morals are struck).\n• Result Clause (جواب الشرط): فأقم عليهم مأتماً وعويلا (hold a funeral for them).",
+    category: "النحو والإعراب"
+  },
+  {
+    id: 25,
+    qAr: "اشرح صورة (صَدِئَ الحَديدُ وَتارَةً مَصقولا) من الناحية البلاغية؟",
+    qMl: "(ചിലപ്പോൾ തുരുമ്പിച്ച ഇരുമ്പ് പോലെയും, മറ്റു ചിലപ്പോൾ മിനുസപ്പെടുത്തിയത് പോലെയും) എന്ന വരിയിലെ അലങ്കാരം എന്ത്?",
+    qEn: "Explain the rhetorical imagery in 'صَدِئَ الحَديدُ وَتارَةً مَصقولا' (rusted iron and at times polished)?",
+    type: "grammar",
+    answerAr: "استعارة مكنية رائعة وتشبيه بليغ؛ حيث شبه الطالب الذي يحتاج للتربية بالحديد الصدئ الذي يقوم المعلم بصقله وإزالة الجهل عنه ليصبح لامعاً كالسيف، وفيها طباق بين (صدئ) و (مصقول).",
+    answerMl: "അജ്ഞനായ വിദ്യാർത്ഥിയെ തുരുമ്പിച്ച ഇരുമ്പിനോടും, അധ്യാപകൻ അവനെ പഠിപ്പിച്ച് ഉത്തമനാക്കുന്നതിനെ മിനുസപ്പെടുത്തിയ വാളിനോടും ഉപമിച്ചിരിക്കുന്നു. (صدئ), (مصقول) എന്നീ വിപരീത പദങ്ങൾ (ത്വബാഖ്) ഇവിടെ ഉപയോഗിച്ചിട്ടുണ്ട്.",
+    answerEn: "It is a brilliant metaphor comparing an uneducated student to rusted iron, which the teacher polishes into a shining sword through education. It also uses antithesis (Tabaq) between 'rusted' (Sadi'a) and 'polished' (Masqul).",
+    category: "البلاغة والتذوق"
   }
 ];
 
