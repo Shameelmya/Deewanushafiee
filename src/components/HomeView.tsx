@@ -43,18 +43,20 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
         </div>
 
         {/* Action Button */}
-        <button 
-          onClick={onSeeChapters}
-          className="mt-5 group relative inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white bg-blue-600 rounded-full overflow-hidden transition-transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30 active:scale-95 border border-blue-500/50"
-        >
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-600 to-emerald-500 transition-opacity group-hover:opacity-90" />
-          <span className="relative z-10 flex items-center gap-3">
-            <span className="text-lg tracking-wide">See Chapters</span>
-            <span className="w-px h-5 bg-white/30 rounded-full" />
-            <span className="font-arabic text-2xl font-bold" dir="rtl">الفصول</span>
-            <BookOpen size={20} className="group-hover:animate-bounce" />
-          </span>
-        </button>
+        <div className="pt-16 md:pt-0">
+          <button 
+            onClick={onSeeChapters}
+            className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 font-bold text-white bg-blue-600 rounded-full overflow-hidden transition-transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/30 active:scale-95 border border-blue-500/50"
+          >
+            <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-600 to-emerald-500 transition-opacity group-hover:opacity-90" />
+            <span className="relative z-10 flex items-center gap-3">
+              <span className="text-lg tracking-wide">See Chapters</span>
+              <span className="w-px h-5 bg-white/30 rounded-full" />
+              <span className="font-arabic text-2xl font-bold" dir="rtl">الفصول</span>
+              <BookOpen size={20} className="group-hover:animate-bounce" />
+            </span>
+          </button>
+        </div>
       </div>
 
       {/* Footer text */}
