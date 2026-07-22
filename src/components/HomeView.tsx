@@ -12,8 +12,9 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-950 dark:to-slate-900 text-slate-900 dark:text-white px-4 relative overflow-hidden font-english animate-gradient-xy">
       {/* Background decorations */}
-      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-400/20 dark:bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/20 dark:bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-400/30 dark:bg-blue-600/20 rounded-full blur-3xl pointer-events-none animate-blob" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-400/30 dark:bg-emerald-600/20 rounded-full blur-3xl pointer-events-none animate-blob animation-delay-2000" />
+      <div className="absolute top-[40%] left-[20%] w-72 h-72 bg-purple-400/20 dark:bg-purple-600/10 rounded-full blur-3xl pointer-events-none animate-blob animation-delay-4000" />
       
       <div className="z-10 mt-24 md:mt-20 text-center max-w-3xl flex flex-col items-center justify-center space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700 w-full px-4">
         
