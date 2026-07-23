@@ -125,30 +125,30 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
                   {(item.singular || item.plural || (item.synonyms && item.synonyms.length > 0) || (item.antonyms && item.antonyms.length > 0)) && (
                     <tr className="bg-slate-50/50 dark:bg-slate-800/20 border-b border-slate-200 dark:border-slate-800">
                       <td colSpan={4} className="p-3 sm:px-4 sm:pb-4 text-left" dir="ltr">
-                        <div className="flex flex-col gap-2 p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm text-xs text-slate-600 dark:text-slate-300">
+                        <div className="flex flex-col gap-2 p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 shadow-sm text-xs text-slate-600 dark:text-slate-300" dir="rtl">
                           {(item.singular || item.plural) && (
-                            <div className="flex items-center flex-wrap gap-3 p-1.5 rounded-lg bg-blue-50/50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30">
+                            <div className="flex items-center flex-wrap gap-4 p-1.5 rounded-lg bg-blue-50/50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30">
                               {item.singular && (
                                 <div className="flex items-center gap-1.5">
-                                  <span className="font-bold text-blue-600 dark:text-blue-400">Singular (مفرد):</span>
-                                  <span className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100" dir="rtl">{item.singular}</span>
+                                  <span className="font-arabic font-bold text-blue-600 dark:text-blue-400">المفرد :</span>
+                                  <span className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">{item.singular}</span>
                                 </div>
                               )}
                               {item.singular && item.plural && <span className="text-blue-300 dark:text-blue-700">|</span>}
                               {item.plural && (
                                 <div className="flex items-center gap-1.5">
-                                  <span className="font-bold text-blue-600 dark:text-blue-400">Plural (جمع):</span>
-                                  <span className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100" dir="rtl">{item.plural}</span>
+                                  <span className="font-arabic font-bold text-blue-600 dark:text-blue-400">الجمع :</span>
+                                  <span className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">{item.plural}</span>
                                 </div>
                               )}
                             </div>
                           )}
                           {item.synonyms && item.synonyms.length > 0 && (
-                            <div className="flex items-center flex-wrap gap-2 p-1.5 rounded-lg bg-emerald-50/50 dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-800/30">
-                              <span className="font-bold text-emerald-600 dark:text-emerald-400 shrink-0">Synonyms (مرادفات):</span>
+                            <div className="flex items-center flex-wrap gap-2 p-1.5 rounded-lg bg-blue-50/50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30">
+                              <span className="font-arabic font-bold text-blue-600 dark:text-blue-400 shrink-0">المرادفات :</span>
                               <div className="flex flex-wrap gap-3">
                                 {item.synonyms.map((s, idx) => (
-                                  <span key={idx} className="font-arabic font-bold text-sm text-emerald-900 dark:text-emerald-100" dir="rtl">
+                                  <span key={idx} className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">
                                     {s.ar}
                                   </span>
                                 ))}
@@ -156,11 +156,11 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
                             </div>
                           )}
                           {item.antonyms && item.antonyms.length > 0 && (
-                            <div className="flex items-center flex-wrap gap-2 p-1.5 rounded-lg bg-rose-50/50 dark:bg-rose-900/20 border border-rose-100 dark:border-rose-800/30">
-                              <span className="font-bold text-rose-600 dark:text-rose-400 shrink-0">Antonyms (أضداد):</span>
+                            <div className="flex items-center flex-wrap gap-2 p-1.5 rounded-lg bg-blue-50/50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/30">
+                              <span className="font-arabic font-bold text-blue-600 dark:text-blue-400 shrink-0">الأضداد :</span>
                               <div className="flex flex-wrap gap-3">
                                 {item.antonyms.map((a, idx) => (
-                                  <span key={idx} className="font-arabic font-bold text-sm text-rose-900 dark:text-rose-100" dir="rtl">
+                                  <span key={idx} className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">
                                     {a.ar}
                                   </span>
                                 ))}

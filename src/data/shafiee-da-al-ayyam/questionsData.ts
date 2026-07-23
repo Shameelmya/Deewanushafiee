@@ -4,304 +4,296 @@ export const questionsData: QuestionItem[] = [
   // SECTION 1: MCQs
   {
     id: 1,
-    qAr: "ماذا يعني مصطلح 'الجزع' المستخدم في البيت الثاني؟",
-    qMl: "രണ്ടാമത്തെ വരിയിൽ ഉപയോഗിച്ചിരിക്കുന്ന 'അൽ-ജസഅ്' (الجزع) എന്ന സാങ്കേതിക പദം കൊണ്ട് അർത്ഥമാക്കുന്നത് എന്ത്?",
-    qEn: "What does the technical term 'Al-Jaza\'' mean as used in the second line?",
+    qAr: "ماذا تعني كلمة \"الجزع\" في القصيدة؟",
+    qMl: "കവിതയിലെ \"അൽ-ജസഅ്\" (الجزع) എന്ന വാക്കിന്റെ അർത്ഥമെന്ത്?",
+    qEn: "What does the word \"Al-Jaza'\" mean in the poem?",
     type: "mcq",
     options: [
-      "الشجاعة / ധൈര്യം / Courage",
-      "فقدان الصبر والانهيار / ക്ഷമ നശിക്കുകയും പരിഭ്രാന്തനാകുകയും ചെയ്യുക / Losing patience and panicking",
-      "التسامح / വിട്ടുവീഴ്ച / Tolerance"
+      "الشجاعة",
+      "الخوف وفقدان الصبر",
+      "الفرح"
     ],
     correctOptionIndex: 1,
-    answerAr: "فقدان الصبر والانهيار",
-    explanationMl: "ദുരന്തങ്ങൾ വരുമ്പോൾ പരിഭ്രമിക്കുകയും ക്ഷമ നശിക്കുകയും ചെയ്യുക എന്നാണ് 'ജസഅ്' എന്നതുകൊണ്ട് അർത്ഥമാക്കുന്നത്.",
-    explanationEn: "It means losing patience and panicking when facing calamities."
+    answerAr: "الخوف وفقدان الصبر"
   },
   {
     id: 2,
-    qAr: "وفقاً للقصيدة، ما هي الصفة التي تعمل كـ 'غطاء سوسيولوجي' لعيوب الإنسان؟",
-    qMl: "കവിതയുടെ അടിസ്ഥാനത്തിൽ, മനുഷ്യന്റെ ന്യൂനതകൾക്ക് ഒരു 'സോഷ്യോളജിക്കൽ കവചമായി' (മറയായി) പ്രവർത്തിക്കുന്ന ഗുണം ഏതാണ്?",
-    qEn: "According to the poem, which trait acts as a 'sociological camouflage' for human faults?",
+    qAr: "حسب القصيدة، ما هو الشيء الذي يغطي عيوب الإنسان؟",
+    qMl: "കവിതയുടെ അടിസ്ഥാനത്തിൽ, മനുഷ്യന്റെ പോരായ്മകളെ മറച്ചുവെക്കുന്ന ഗുണം ഏതാണ്?",
+    qEn: "According to the poem, what covers a person's faults?",
     type: "mcq",
     options: [
-      "الذكاء / ബുദ്ധി / Intelligence",
-      "السخاء / ഔദാര്യം / Generosity",
-      "الشجاعة / ധൈര്യം / Courage"
+      "السخاء",
+      "المال",
+      "الجمال"
     ],
-    correctOptionIndex: 1,
-    answerAr: "السخاء",
-    explanationMl: "കവിതയിൽ ഔദാര്യം (السخاء) മനുഷ്യന്റെ എല്ലാ പോരായ്മകളെയും മറയ്ക്കുന്ന കവചമായി പ്രവർത്തിക്കുന്നു എന്ന് പറയുന്നു.",
-    explanationEn: "Generosity is described as covering all faults, acting as a sociological camouflage."
+    correctOptionIndex: 0,
+    answerAr: "السخاء"
   },
   {
     id: 3,
-    qAr: "ما هو التأثير الاقتصادي لـ 'العناء' (الاحتراق الوظيفي) على الرزق المكتوب؟",
-    qMl: "അമിതമായ കഷ്ടപ്പാടുകൾക്ക് (العناء) മുൻകൂട്ടി നിശ്ചയിക്കപ്പെട്ട ഉപജീവനത്തിന്മേലുള്ള സ്വാധീനം എന്താണ്?",
-    qEn: "What is the economic effect of frantic exhaustion (Al-'Ana') on one's ordained provision?",
+    qAr: "ما هو المعنى الصحيح لكلمة \"البرايا\"؟",
+    qMl: "\"അൽ-ബറായ\" (البرايا) എന്ന വാക്കിന്റെ ശരിയായ അർത്ഥം എന്ത്?",
+    qEn: "What is the correct meaning of the word \"Al-Baraya\"?",
     type: "mcq",
     options: [
-      "يضاعفه / അതിനെ ഇരട്ടിയാക്കും / It doubles it",
-      "لا يزيده / അത് വർദ്ധിപ്പിക്കുകയില്ല / It does not increase it",
-      "يلغيه تماماً / അതിനെ പൂർണ്ണമായും ഇല്ലാതാക്കും / It completely cancels it"
+      "الأيام",
+      "الناس والخلق",
+      "الأعداء"
     ],
     correctOptionIndex: 1,
-    answerAr: "لا يزيده",
-    explanationMl: "അമിതമായി കഷ്ടപ്പെടുന്നത് മുൻനിശ്ചയിക്കപ്പെട്ട സമ്പത്തിനെ വർദ്ധിപ്പിക്കുകയില്ല.",
-    explanationEn: "Frantic exhaustion does not increase the provision that is already ordained."
+    answerAr: "الناس والخلق"
   },
   {
     id: 4,
-    qAr: "كيف يعيد الشاعر تعريف مفهوم 'الثروة' الحقيقية؟",
-    qMl: "യഥാർത്ഥ 'സമ്പത്ത്' എന്ന സങ്കൽപ്പത്തെ കവി എങ്ങനെയാണ് പുനർനിർവചിക്കുന്നത്?",
-    qEn: "How does the poet redefine the concept of true 'wealth'?",
+    qAr: "من هو الشخص الذي يطلب منا الشاعر ألا ننتظر منه السماحة؟",
+    qMl: "ആരോടാണ് നാം ഔദാര്യം (സഹായം) പ്രതീക്ഷിക്കരുത് എന്ന് കവി പറയുന്നത്?",
+    qEn: "Who is the person the poet tells us not to expect generosity from?",
     type: "mcq",
     options: [
-      "بامتلاك الأراضي / ഭൂസ്വത്ത് ഉള്ളത് / Owning lands",
-      "بحالة القناعة الإدراكية / മാനസികമായ പൂർണ്ണ സംതൃപ്തി (القناعة) / The cognitive state of absolute contentment",
-      "بكثرة الأصدقاء / ധാരാളം സുഹൃത്തുക്കൾ ഉള്ളത് / Having many friends"
+      "الصديق",
+      "البخيل",
+      "الفقير"
     ],
     correctOptionIndex: 1,
-    answerAr: "بحالة القناعة الإدراكية",
-    explanationMl: "സമ്പത്ത് എന്നത് പണം കൂട്ടിവെക്കലല്ല, മറിച്ച് പൂർണ്ണമായ മാനസിക സംതൃപ്തിയാണ് (القناعة).",
-    explanationEn: "He redefines wealth as the cognitive state of absolute contentment (Qana'ah)."
+    answerAr: "البخيل"
   },
   {
     id: 5,
-    qAr: "ما هو المعنى الحرفي لمصطلح 'المنايا'؟",
-    qMl: "'അൽ-മനായാ' (المنايا) എന്ന പദത്തിന്റെ അക്ഷരാർത്ഥം എന്ത്?",
-    qEn: "What is the literal meaning of the term 'Al-Manaya'?",
+    qAr: "لماذا يحذر الشاعر من إظهار الضعف أمام الأعداء؟",
+    qMl: "ശത്രുക്കൾക്ക് മുന്നിൽ ദൗർബല്യം കാണിക്കരുത് എന്ന് കവി മുന്നറിയിപ്പ് നൽകാൻ കാരണമെന്ത്?",
+    qEn: "Why does the poet warn against showing weakness to enemies?",
     type: "mcq",
     options: [
-      "الأمنيات / ആഗ്രഹങ്ങൾ / Wishes",
-      "الموت / മരണം / Death",
-      "الأمراض / രോഗങ്ങൾ / Diseases"
+      "لأن شماتتهم مصيبة",
+      "لأنهم أقوياء",
+      "لأنهم سيهاجمون"
     ],
-    correctOptionIndex: 1,
-    answerAr: "الموت",
-    explanationMl: "മരണങ്ങൾ (അല്ലെങ്കിൽ അന്തിമവിധികൾ) എന്നാണ് ഇതിന്റെ അക്ഷരാർത്ഥം.",
-    explanationEn: "It literally means deaths or ultimate fates."
+    correctOptionIndex: 0,
+    answerAr: "لأن شماتتهم مصيبة"
   },
   {
     id: 6,
-    qAr: "إلى ماذا يشير مصطلح 'السجية' (شيمتك) في السياق النفسي للقصيدة؟",
-    qMl: "കവിതയുടെ മനഃശാസ്ത്രപരമായ പശ്ചാത്തലത്തിൽ 'സജിയ്യത്ത്' (شيمتك) എന്ന പദം സൂചിപ്പിക്കുന്നത് എന്തിനെയാണ്?",
-    qEn: "In the psychological context of the poem, what does the term 'Sajiyyah' (Sheematuka) refer to?",
+    qAr: "ماذا تعني كلمة \"المنايا\" في البيت: \"ومن نزلت بساحته المنايا\"؟",
+    qMl: "കവിതയിലെ \"അൽ-മനായാ\" (المنايا) എന്ന വാക്കിന്റെ അർത്ഥമെന്ത്?",
+    qEn: "What does the word \"Al-Manaya\" mean in the poem?",
     type: "mcq",
     options: [
-      "المظهر الخارجي / ബാഹ്യരൂപം / Physical appearance",
-      "الطبع الأصيل المتأصل / ജന്മസിദ്ധവും മാറ്റമില്ലാത്തതുമായ പ്രകൃതം / Innate, deeply ingrained disposition",
-      "الثروة المادية / ഭൗതിക സമ്പത്ത് / Material wealth"
+      "الموت",
+      "الحياة",
+      "الأموال"
     ],
-    correctOptionIndex: 1,
-    answerAr: "الطبع الأصيل المتأصل",
-    explanationMl: "ഒരു മനുഷ്യന്റെ രക്തത്തിൽ അലിഞ്ഞുചേർന്ന, മാറ്റാൻ കഴിയാത്ത യഥാർത്ഥ പ്രകൃതമാണിത്.",
-    explanationEn: "It refers to an innate, deeply ingrained disposition that is natural, not acted."
+    correctOptionIndex: 0,
+    answerAr: "الموت"
   },
   {
     id: 7,
-    qAr: "لماذا يحذر الشاعر بشدة من إظهار الانكسار أمام الأعداء؟",
-    qMl: "ശത്രുക്കൾക്ക് മുന്നിൽ ദൗർബല്യം കാണിക്കുന്നതിനെതിരെ കവി അതിശക്തമായി മുന്നറിയിപ്പ് നൽകാൻ കാരണമെന്ത്?",
-    qEn: "Why does the poet strongly warn against showing vulnerability to enemies?",
+    qAr: "ماذا يقول الشاعر عن الحزن والسرور في هذه الدنيا؟",
+    qMl: "ഈ ലോകത്തെ ദുഃഖത്തെയും സന്തോഷത്തെയും കുറിച്ച് കവി എന്താണ് പറയുന്നത്?",
+    qEn: "What does the poet say about sorrow and joy in this world?",
     type: "mcq",
     options: [
-      "لأن شماتتهم تسبب دماراً نفسياً أشد من المصيبة / അവരുടെ പരിഹാസം (شَمَاتَة) ദുരന്തത്തേക്കാൾ വലിയ മാനസികാഘാതം സൃഷ്ടിക്കും / Because their gloating causes psychological destruction worse than the calamity",
-      "لأنهم سيهاجمون مرة أخرى / അവർ വീണ്ടും ആക്രമിക്കും / Because they will attack again",
-      "لأن ذلك يقلل من الثروة / അത് സമ്പത്ത് കുറയ്ക്കും / Because it reduces wealth"
+      "الحزن يدوم دائماً",
+      "لا حزن يدوم ولا سرور",
+      "السرور يدوم دائماً"
     ],
-    correctOptionIndex: 0,
-    answerAr: "لأن شماتتهم تسبب دماراً نفسياً أشد من المصيبة",
-    explanationMl: "ശത്രുക്കളുടെ പരിഹാസം യഥാർത്ഥ പ്രതിസന്ധിയേക്കാൾ വലിയ മാനസിക തകർച്ചയുണ്ടാക്കും.",
-    explanationEn: "Because the malicious joy of enemies inflicts psychological destruction far worse than the defeat itself."
+    correctOptionIndex: 1,
+    answerAr: "لا حزن يدوم ولا سرور"
   },
   {
     id: 8,
-    qAr: "ما هو العلاج المعرفي (CBT) الذي يقدمه الشاعر لمواجهة حوادث الدنيا؟",
-    qMl: "ഭൗതിക ലോകത്തെ പ്രതിസന്ധികളെ നേരിടാൻ കവി നൽകുന്ന കോഗ്നിറ്റീവ് തെറാപ്പി (CBT) എന്താണ്?",
-    qEn: "What is the Cognitive Therapy (CBT) the poet offers to face worldly incidents?",
+    qAr: "ما هي العلاقة البلاغية بين كلمتي \"واسعة\" و \"ضاق\"؟",
+    qMl: "\"വിശാലമായത്\" (واسعة), \"ഇടുങ്ങിയത്\" (ضاق) എന്നീ വാക്കുകൾ തമ്മിലുള്ള സാഹിത്യപരമായ ബന്ധം എന്ത്?",
+    qEn: "What is the rhetorical relationship between the words \"Wasi'ah\" (vast) and \"Daqa\" (narrow)?",
     type: "mcq",
     options: [
-      "إدراك عدم بقائها المؤقت / ഒന്നിനും ശാശ്വതമായ നിലനിൽപ്പില്ലെന്ന തിരിച്ചറിവ് / Realizing their absolute lack of permanence",
-      "البكاء المستمر / നിരന്തരമായ വിലാപം / Continuous crying",
-      "العزلة المجتمعية / സമൂഹത്തിൽ നിന്നുള്ള ഒറ്റപ്പെടൽ / Social isolation"
+      "ترادف",
+      "طباق",
+      "جناس"
     ],
-    correctOptionIndex: 0,
-    answerAr: "إدراك عدم بقائها المؤقت",
-    explanationMl: "ഈ ലോകത്തെ ഒരു പ്രശ്നത്തിനും ശാശ്വതമായ നിലനിൽപ്പില്ല എന്ന തിരിച്ചറിവാണ് അദ്ദേഹം നൽകുന്നത്.",
-    explanationEn: "Realizing the absolute lack of permanence of all worldly incidents."
+    correctOptionIndex: 1,
+    answerAr: "طباق"
   },
-  
-  // SECTION 2: Grammar & Balagha
   {
     id: 9,
-    qAr: "الإعراب النحوي لكلمة 'رَجُلاً' في قوله: 'وَكُنْ رَجُلاً'.",
-    qMl: "'وَكُنْ رَجُلاً' എന്ന വാചകത്തിലെ 'رَجُلاً' എന്ന പദത്തിന്റെ വ്യാകരണപരമായ സ്ഥാനം (إعراب) എന്താണ്?",
-    qEn: "What is the grammatical parsing (I'rab) of the word 'Rajulan' in the phrase 'Wa kun Rajulan'?",
-    type: "grammar",
-    answerAr: "خبر 'كان' منصوب وعلامة نصبه الفتحة الظاهرة.",
-    answerMl: "ഇത് 'കാന' (كان) എന്ന ക്രിയയുടെ 'ഖബർ' (خبر) ആണ്. അതുകൊണ്ട് ഇതിന് 'നസ്ബ്' (منصوب - ഫത്ഹ്) നൽകപ്പെട്ടിരിക്കുന്നു.",
-    answerEn: "It is the predicate (Khabar) of the verb 'Kana' (to be), making it in the accusative case (Mansub)."
+    qAr: "من هو الشخص الذي يتساوى مع \"مالك الدنيا\" (الملك)؟",
+    qMl: "\"ലോകത്തിന്റെ ഉടമസ്ഥനുമായി\" (രാജാവുമായി) തുല്യനാകുന്ന വ്യക്തി ആര്?",
+    qEn: "Who is the person that is equal to the \"owner of the world\" (the king)?",
+    type: "mcq",
+    options: [
+      "الشخص الذي يملك مالاً كثيراً",
+      "الشخص الذي عنده قلب قنوع",
+      "الشخص القوي"
+    ],
+    correctOptionIndex: 1,
+    answerAr: "الشخص الذي عنده قلب قنوع"
   },
   {
     id: 10,
-    qAr: "لماذا جاء الفعل المضارع 'تَغْدِرْ' مجزوماً بالسكون في البيت الأخير؟",
-    qMl: "അവസാന വരിയിലെ 'تَغْدِرْ' (തഗ്ദിർ) എന്ന ക്രിയയ്ക്ക് 'സുകൂൻ' (مجزوم) വരാനുള്ള വ്യാകരണ നിയമം എന്താണ്?",
-    qEn: "Why is the present tense verb 'Taghdir' jussive (Majzum with Sukoon) in the last line?",
-    type: "grammar",
-    answerAr: "لأنه فعل مضارع واقع في جواب الطلب (فعل الأمر: دَعِ).",
-    answerMl: "'دَعِ' (വിട്ടേക്കുക) എന്ന കൽപനാക്രിയയുടെ (فعل أمر) മറുപടിയായി (جواب الطلب) വന്നതുകൊണ്ടാണ് ഈ ക്രിയയ്ക്ക് സുകൂൻ നൽകിയത്.",
-    answerEn: "Because it falls in the position of response to the imperative request (Jawab al-Talab) originating from the command 'Da\' (Let)."
+    qAr: "ما المقصود بكلمة \"الدواء\" في البيت الأخير؟",
+    qMl: "അവസാന വരിയിലെ \"അദ്ദവാഅ്\" (الدواء) എന്ന വാക്ക് കൊണ്ട് ഉദ്ദേശിക്കുന്നത് എന്ത്?",
+    qEn: "What is meant by the word \"Al-Dawa'\" in the last line?",
+    type: "mcq",
+    options: [
+      "العلاج الطبي",
+      "الطعام",
+      "الأصدقاء"
+    ],
+    correctOptionIndex: 0,
+    answerAr: "العلاج الطبي"
   },
+
+  // SECTION 2: Grammar & Rhetoric Questions
   {
     id: 11,
-    qAr: "ما هي الوظيفة النحوية لظرف الزمان 'قَطُّ'؟",
-    qMl: "'قَطُّ' (ഖത്വ്) എന്ന പദത്തിന്റെ വ്യാകരണ ധർമ്മം (الوظيفة النحوية) എന്ത്?",
-    qEn: "What is the grammatical function of the time adverb 'Qattu'?",
+    qAr: "ما هو الإعراب الصحيح لكلمة \"رَجُلاً\" في جملة \"وَكُنْ رَجُلاً\"؟",
+    qMl: "\"وَكُنْ رَجُلاً\" എന്ന വാചകത്തിൽ \"رَجُلاً\" എന്ന പദത്തിന്റെ വ്യാകരണ നിയമം (I'rab) എന്ത്?",
+    qEn: "What is the correct parsing (I'rab) of the word \"Rajulan\" in \"Wa kun Rajulan\"?",
     type: "grammar",
-    answerAr: "ظرف زمان مبني على الضم يفيد استغراق النفي القطعي.",
-    answerMl: "ഒരു കാര്യത്തെ കർശനമായും പൂർണ്ണമായും നിഷേധിക്കാൻ (استغراق النفي) ഉപയോഗിക്കുന്ന സമയത്തെ കുറിക്കുന്ന പദം (ظرف زمان).",
-    answerEn: "An adverb of time built on Damma, functioning as a particle of absolute, categorical negation for all time."
+    answerAr: "خبر \"كان\" منصوب وعلامة نصبه الفتحة الظاهرة على آخره.",
+    answerMl: "ഇത് 'കാന' (كان) എന്ന ക്രിയയുടെ 'ഖബർ' (خبر) ആണ്. അതുകൊണ്ട് ഇതിന് ഫത്ഹ് (നസ്ബ്) നൽകിയിരിക്കുന്നു.",
+    answerEn: "It is the predicate (Khabar) of the verb \"Kana\" (to be), so it takes the accusative case (Fatha)."
   },
   {
     id: 12,
-    qAr: "الأسلوب البلاغي في قوله 'دَعِ الأَيَّامَ' حيث أسند الفعل للأيام يسمى:",
-    qMl: "'دَعِ الأَيَّامَ' (കാലത്തെ വിട്ടേക്കുക) എന്ന പ്രയോഗത്തിൽ കാലത്തെ ഒരു വ്യക്തിയായി ചിത്രീകരിച്ചിരിക്കുന്ന അലങ്കാരശാസ്ത്രം ഏത്?",
-    qEn: "The rhetorical device in 'Let the days...' where action is attributed to time is called:",
+    qAr: "ما هي فائدة استخدام كلمة \"قَطُّ\" في اللغة العربية؟",
+    qMl: "അറബി ഭാഷയിൽ \"قَطُّ\" (ഖത്വ്) എന്ന വാക്ക് ഉപയോഗിക്കുന്നതിന്റെ വ്യാകരണപരമായ പ്രയോജനം എന്ത്?",
+    qEn: "What is the grammatical purpose of using the word \"Qattu\" in Arabic?",
     type: "grammar",
-    answerAr: "الاستعارة المكنية (التشخيص / Personification) أو مجاز عقلي.",
-    answerMl: "ഇതിനെ 'അൽ-ഇസ്തിആറ അൽ-മക്നിയ്യ' (الاستعارة المكنية) അഥവാ വ്യക്തിവൽക്കരണം (Personification) എന്ന് വിളിക്കുന്നു.",
-    answerEn: "Metaphorical Personification (Al-Isti'arah Al-Makniyyah), granting free will to an abstract concept like time."
+    answerAr: "كلمة \"قط\" هي ظرف زمان تستخدم للنفي المطلق، بمعنى \"أبداً\"، وتؤكد على عدم فعل الشيء نهائياً.",
+    answerMl: "ഒരു കാര്യത്തെ പൂർണ്ണമായി, ഒരിക്കലും പാടില്ല എന്ന് നിഷേധിക്കാൻ (Absolute negation) ഉപയോഗിക്കുന്ന സമയസൂചകമായ പദമാണിത്.",
+    answerEn: "It is an adverb of time used for absolute and categorical negation, meaning \"never\" or \"ever\", emphasizing that an action should not happen under any circumstance."
   },
   {
     id: 13,
-    qAr: "العلاقة اللفظية بين كلمتي 'واسعة' و 'ضاق' تسمى في علم البديع:",
-    qMl: "അലങ്കാരശാസ്ത്രപ്രകാരം 'واسعة' (വിശാലമായ), 'ضاق' (ഇടുങ്ങിയ) എന്നീ വാക്കുകൾ തമ്മിലുള്ള ബന്ധം അറിയപ്പെടുന്നത്:",
-    qEn: "In rhetorical science ('Ilm al-Badi'), the relationship between the words 'Wasi'ah' (vast) and 'Daqa' (narrowed) is called:",
+    qAr: "ما هو الأسلوب البلاغي في قوله: \"دَعِ الأَيَّامَ تَفْعَل مَا تَشَاءُ\"؟",
+    qMl: "\"കാലം അതിനിഷ്ടമുള്ളത് ചെയ്യട്ടെ\" എന്ന് പറയുന്നതിലെ സാഹിത്യ പ്രയോഗം (Rhetoric) ഏതാണ്?",
+    qEn: "What is the rhetorical device in the phrase: \"Let the days do as they please\"?",
     type: "grammar",
-    answerAr: "الطباق الإيجابي (Antithesis).",
-    answerMl: "'അത്ത്വിബാഖ്' (الطباق). വിപരീതാർത്ഥമുള്ള വാക്കുകൾ ഉപയോഗിച്ച് ആശയത്തിന് ശക്തി നൽകുന്ന രീതി.",
-    answerEn: "Al-Tibaq (Antithesis), the deliberate juxtaposition of opposite concepts."
+    answerAr: "الأسلوب هو \"التشخيص\" (الاستعارة المكنية)، حيث أعطى الشاعر صفة الإنسان العاقل للأيام.",
+    answerMl: "ഇതിനെ 'വ്യക്തിവൽക്കരണം' (Personification) അഥവാ ഇസ്തിആറ മക്നിയ്യ എന്ന് വിളിക്കുന്നു. കാലത്തിന് ഒരു മനുഷ്യനെപ്പോലെ സ്വതന്ത്രമായി പ്രവർത്തിക്കാനുള്ള കഴിവ് നൽകിയതിനാലാണിത്.",
+    answerEn: "The device is \"Personification\" (Metaphor). The poet gives the abstract concept of \"days\" the human ability to act freely."
   },
   {
     id: 14,
-    qAr: "طلب العون من شخص بخيل يمثل أسلوب:",
-    qMl: "പിശുക്കനായ ഒരാളോട് സഹായം ചോദിക്കുന്നതിനെ തീയിൽ വെള്ളം അന്വേഷിക്കുന്നതിനോട് ഉപമിച്ച കാവ്യ സങ്കേതം ഏതാണ്?",
-    qEn: "Comparing asking a miser for help to seeking water in fire represents which rhetorical style?",
+    qAr: "ما هو إعراب كلمة \"الدَّوَاءُ\" في جملة \"فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ\"؟",
+    qMl: "\"فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ\" എന്ന വാചകത്തിലെ \"الدَّوَاءُ\" എന്ന പദത്തിന്റെ ഇഅ്റാബ് (വ്യാകരണ സ്ഥാനം) എന്ത്?",
+    qEn: "What is the I'rab of the word \"Al-Dawa'u\" in \"Fama yughni 'ani al-mawti al-dawa'u\"?",
     type: "grammar",
-    answerAr: "التشبيه الضمني (Implicit Simile).",
-    answerMl: "'അത്തശ്ബീഹ് അദ്ദിമ്നി' (التشبيه الضمني) അഥവാ മറഞ്ഞിരിക്കുന്ന ഉപമ.",
-    answerEn: "Al-Tashbeeh Al-Dhimni (Implicit Simile), drawing a parallel without using direct comparative particles."
+    answerAr: "فاعل مرفوع وعلامة رفعه الضمة. (للفعل: يغني).",
+    answerMl: "ഇത് \"يُغْنِي\" (ഫലം ചെയ്യുക) എന്ന ക്രിയയുടെ കർത്താവ് അഥവാ 'ഫാഇൽ' (فاعل) ആണ്. അതിനാൽ ദമ്മ (ضمة) നൽകിയിരിക്കുന്നു.",
+    answerEn: "It is the subject (Fa'il) of the verb \"Yughni\", so it is in the nominative case with a Damma."
   },
   {
     id: 15,
-    qAr: "ما الإعراب النحوي لكلمة 'دَوَاءُ' في عبارة 'فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ'؟",
-    qMl: "'فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ' എന്ന വാചകത്തിലെ 'دَوَاءُ' എന്ന പദത്തിന്റെ ഇഅ്റാബ് എന്താണ്?",
-    qEn: "What is the I'rab of the word 'Dawa'u' in the phrase 'Fama yughni \'ani al-mawti al-dawa'u'?",
+    qAr: "ما هو الأسلوب البلاغي في إنهاء القصيدة بعبارة \"دع الأيام\" وهي نفس الفكرة التي بدأت بها؟",
+    qMl: "കവിത ആരംഭിച്ച അതേ ആശയത്തിൽ (\"دع الأيام\") തന്നെ അവസാനിപ്പിക്കുന്ന കാവ്യ സങ്കേതത്തിന് പറയുന്ന പേര് എന്ത്?",
+    qEn: "What is the rhetorical term for ending the poem with the exact same idea it started with (\"Let the days\")?",
     type: "grammar",
-    answerAr: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة للفعل 'يغني'.",
-    answerMl: "ഇത് 'يُغْنِي' (ഫലം ചെയ്യുക) എന്ന ക്രിയയുടെ 'ഫാഇൽ' (فاعل - Subject) ആണ്. അതിനാൽ ദമ്മ (ضمة) നൽകിയിരിക്കുന്നു.",
-    answerEn: "It is the nominative subject (Fa'il, Marfu') of the verb 'Yughni'."
-  },
-  {
-    id: 16,
-    qAr: "إنهاء القصيدة بالرجوع إلى نفس فكرة البداية ('دع الأيام') يسمى بلاغياً بـ:",
-    qMl: "കവിതയുടെ അവസാന വരിയെ ആദ്യ വരിയുമായി ബന്ധിപ്പിച്ച് അവസാനിപ്പിക്കുന്ന കാവ്യ സങ്കേതത്തിന് പറയുന്ന പേര്:",
-    qEn: "Ending the poem by structurally looping back to the exact opening phrase is rhetorically called:",
-    type: "grammar",
-    answerAr: "رد العجز على الصدر (Structural Symmetry).",
-    answerMl: "'റദ്ദുൽ അജ്സ് അല സ്വദ്ർ' (رد العجز على الصدر). കവിതയ്ക്ക് പൂർണ്ണമായ ഒരു സമമിതി (Symmetry) നൽകുന്ന രീതി.",
-    answerEn: "Radd al-A'jaz 'ala al-Sadr, a technique establishing perfect cyclical symmetry."
+    answerAr: "يسمى هذا الأسلوب \"رد العجز على الصدر\" ليعطي القصيدة شكلاً دائرياً متكاملاً.",
+    answerMl: "ഈ സാഹിത്യ സങ്കേതത്തെ 'റദ്ദുൽ അജ്സ് അല സ്വദ്ർ' (رد العجز على الصدر) എന്ന് വിളിക്കുന്നു. കവിതയ്ക്ക് പൂർണ്ണമായ ഒരു സമമിതി (Symmetry) നൽകാൻ വേണ്ടിയാണിത്.",
+    answerEn: "This is called \"Radd al-A'jaz 'ala al-Sadr\" (Structural Symmetry). It loops the end of the poem directly back to the beginning to create a perfect circle."
   },
 
-  // SECTION 3: Descriptive & Deep Analytical
+  // SECTION 3: Detailed Paragraph Questions
+  {
+    id: 16,
+    qAr: "كيف يعلمنا الإمام الشافعي التعامل مع مصائب الدنيا وحوادثها؟ اشرح بالتفصيل.",
+    qMl: "ഭൗതിക ലോകത്തെ പ്രതിസന്ധികളോടും ദുരന്തങ്ങളോടും മനുഷ്യൻ എങ്ങനെ പ്രതികരിക്കണമെന്നാണ് ഇമാം ശാഫി (റ) പഠിപ്പിക്കുന്നത്? വിശദമാക്കുക.",
+    qEn: "How does Imam Al-Shafi'i teach us to deal with the calamities and incidents of the world? Explain in detail.",
+    type: "descriptive",
+    answerAr: "يبين الإمام الشافعي أن الدنيا مليئة بالمشاكل، ولكن يجب على الإنسان العاقل ألا يخاف أو يفقد الأمل (لا يجزع). السبب هو أن كل شيء مؤقت ولن يدوم أبداً. لذلك، يجب على الإنسان أن يرضى بقضاء الله، وأن يجعل نفسه هادئة.",
+    answerMl: "ഈ ഭൗതിക ലോകം പ്രതിസന്ധികൾ നിറഞ്ഞതാണെങ്കിലും, മനുഷ്യൻ ഒരിക്കലും അതിൽ പരിഭ്രാന്തനാകുകയോ ഭയപ്പെടുകയോ ചെയ്യരുത് (الجزع) എന്ന് ഇമാം വ്യക്തമാക്കുന്നു. കാരണം, ഈ ലോകത്തെ എല്ലാ പ്രശ്നങ്ങളും താൽക്കാലികമാണ്; ഒന്നിനും ശാശ്വതമായ നിലനിൽപ്പില്ല. അതിനാൽ, അല്ലാഹുവിന്റെ വിധിയിൽ പൂർണ്ണമായും തൃപ്തിപ്പെടാനും മനസ്സിനെ ശാന്തമാക്കി നിർത്താനും നാം ശീലിക്കണം.",
+    answerEn: "Imam Al-Shafi'i explains that while the world has problems, a wise person must never panic or lose hope (Jaza'). The reason is that everything in this world is temporary. Therefore, a person must be completely satisfied with God's destiny and keep their soul calm and at peace."
+  },
   {
     id: 17,
-    qAr: "اشرح التوازن القيادي الدقيق المذكور في البيت: 'وَكُنْ رَجُلاً عَلَى الأَهْوَالِ جَلْداً...'.",
-    qMl: "'وَكُنْ رَجُلاً عَلَى الأَهْوَالِ جَلْداً' എന്ന വരിയിൽ പറയുന്ന കൃത്യമായ നേതൃത്വ സന്തുലിതാവസ്ഥ (Leadership Balance) വിശദമാക്കുക.",
-    qEn: "Explain the precise leadership balance mentioned in the line: 'And be a man, totally unyielding against terrors...'.",
+    qAr: "ما هي المواصفات الدقيقة لـ \"الرجل القوي\" كما رسمها الشاعر في البيت الخامس والسادس؟",
+    qMl: "അഞ്ച്, ആറ് വരികളിൽ കവി വരച്ചുകാട്ടുന്ന 'കരുത്തനായ മനുഷ്യന്റെ' കൃത്യമായ സവിശേഷതകൾ എന്തൊക്കെയാണ്?",
+    qEn: "What are the precise characteristics of the \"strong man\" as portrayed by the poet in the 5th and 6th lines?",
     type: "descriptive",
-    answerAr: "يطالب الشاعر بموازنة الذكاء العاطفي؛ صلابة داخلية مفرطة (الجلد) لمواجهة الكوارث، مقترنة بلين متناهٍ وتسامح (السماحة) مع المجتمع، لمنع الصلابة من التحول إلى قسوة وطغيان. مفهوم 'رجل' هنا يعني (المروءة).",
-    answerMl: "ഒരു പ്രതിഭയുടെ വൈകാരിക സന്തുലിതാവസ്ഥയാണ് കവി ആവശ്യപ്പെടുന്നത്; ദുരന്തങ്ങളെ നേരിടാൻ പാറപോലുള്ള ആന്തരിക കരുത്തും (الجلد), ആ കരുത്ത് ക്രൂരതയായി മാറാതിരിക്കാൻ സമൂഹത്തോട് തികഞ്ഞ കാരുണ്യവും വിട്ടുവീഴ്ചയും (السماحة). ഇവിടെ 'പുരുഷൻ' (رجل) എന്നത് ഉന്നതമായ മനുഷ്യത്വത്തെയും (المروءة) ധീരതയെയുമാണ് കുറിക്കുന്നത്.",
-    answerEn: "The poet demands emotional intelligence balance: extreme internal fortitude (Al-Jald) to absorb crises, counterbalanced by hyper-empathetic external social grace (Al-Samahah) to prevent toughness from becoming cruelty. 'Man' here denotes classical Chivalry (Muru'ah)."
+    answerAr: "الشاعر يطلب توازناً دقيقاً. في الداخل، يجب أن يكون الإنسان قوياً وصابراً (جلداً) أمام الكوارث. ولكن في نفس الوقت، يجب أن يكون طبعه الأصلي (سجيته) مع الناس مليئاً باللين والتسامح (السماحة) والوفاء.",
+    answerMl: "ഒരു മനുഷ്യന്റെ വ്യക്തിത്വത്തിൽ കൃത്യമായ ഒരു സന്തുലിതാവസ്ഥയാണ് കവി ആവശ്യപ്പെടുന്നത്. ദുരന്തങ്ങൾ വരുമ്പോൾ അവൻ ഉറച്ചുനിൽക്കുന്നവനും പതറാത്തവനും (الجلد) ആയിരിക്കണം. എന്നാൽ സമൂഹത്തോടുള്ള അവന്റെ അടിസ്ഥാന പ്രകൃതം (السجية) എപ്പോഴും കാരുണ്യവും വിട്ടുവീഴ്ചയും (السماحة), അതുപോലെ തികഞ്ഞ വിശ്വസ്തതയും നിറഞ്ഞതായിരിക്കണം.",
+    answerEn: "The poet demands a precise balance. Internally, a person must be extremely strong and patient (Jald) facing disasters. However, his innate disposition (Sajiyyah) towards society must be full of gentleness, tolerance (Samahah), and unbreakable loyalty (Wafa')."
   },
   {
     id: 18,
-    qAr: "كيف يعمل 'السخاء' كجهاز مناعي اجتماعي (تأثير الهالة) حسب القصيدة؟",
-    qMl: "കവിതയുടെ അടിസ്ഥാനത്തിൽ, 'ഔദാര്യം' എങ്ങനെയാണ് ഒരു സാമൂഹിക പ്രതിരോധ കവചമായി (ഹാലോ ഇഫക്റ്റ്) പ്രവർത്തിക്കുന്നത്?",
-    qEn: "How does 'Generosity' act as a social immune system (Halo Effect) according to the poem?",
+    qAr: "اشرح بالتفصيل الصورة البلاغية في قوله: \"فما في النار للظمآن ماء\".",
+    qMl: "\"ദാഹിക്കുന്നവന് തീയിൽ വെള്ളമില്ല\" എന്ന വരിയിലെ സാഹിത്യപരമായ ഉപമ (Simile) വിശദമാക്കുക.",
+    qEn: "Explain in detail the rhetorical image in the phrase: \"For there is no water in the fire for the thirsty\".",
     type: "descriptive",
-    answerAr: "الكرم يخلق نقطة عمياء في الإدراك المجتمعي؛ فالمجتمع يميل إلى غض الطرف عن العيوب الشخصية للشخص المعطاء، مما يغطي النقص البشري الحتمي بطريقة سوسيولوجية ذكية.",
-    answerMl: "ഔദാര്യം സമൂഹത്തിന്റെ കാഴ്ചയിൽ ഒരു വലിയ ബ്ലൈൻഡ് സ്പോട്ട് സൃഷ്ടിക്കുന്നു; ഒരു ഉദാരമനസ്കനായ വ്യക്തിയുടെ വ്യക്തിപരമായ കുറവുകൾ കണ്ടെത്താൻ സമൂഹം ശ്രമിക്കില്ല. അത് മനുഷ്യസഹജമായ പോരായ്മകളെ പൂർണ്ണമായും മറയ്ക്കുന്നു.",
-    answerEn: "Generosity creates a cognitive blind spot in society; the public inherently overlooks the structural personal flaws of a major benefactor, acting as a flawless sociological camouflage for human imperfection."
+    answerAr: "هذه صورة تسمى (التشبيه الضمني). الشاعر يشبه الشخص الذي يطلب المساعدة من إنسان بخيل، برجل يموت من العطش ويبحث عن الماء داخل نار مشتعلة. النار لا يمكن أن تعطيه الماء بل ستحرقه، وكذلك البخيل لن يساعدك بل سيهينك.",
+    answerMl: "ഇതൊരു അതിമനോഹരമായ സാഹിത്യ ഉപമയാണ് (التشبيه الضمني). സാമ്പത്തികമായി ബുദ്ധിമുട്ടുന്ന ഒരാൾ ഒരു പിശുക്കന്റെ അടുത്ത് പോയി സഹായം ചോദിക്കുന്നതിനെ, ദാഹിച്ചു വലഞ്ഞ ഒരാൾ തീക്കുണ്ഡത്തിൽ വെള്ളം അന്വേഷിക്കുന്നതിനോടാണ് കവി ഉപമിച്ചിരിക്കുന്നത്. തീ ഒരിക്കലും ദാഹം തീർക്കില്ല, അത് മനുഷ്യനെ ചുട്ടെരിക്കുകയേ ഉള്ളൂ. അതുപോലെയാണ് പിശുക്കനിൽ നിന്നുള്ള സഹായപ്രതീക്ഷയും.",
+    answerEn: "This is an implicit simile (Tashbeeh Dhimni). The poet compares a person asking a miser for help to a desperately thirsty man looking for water inside a blazing fire. Fire will never quench thirst, it will only burn the person. Similarly, a miser will not help you; he will only humiliate you."
   },
   {
     id: 19,
-    qAr: "ما هي الفلسفة الاقتصادية (التوازن المهني) التي يطرحها الشاعر حول 'التأني' و 'العناء'؟",
-    qMl: "'التأني' (ശാന്തത), 'العناء' (അമിതാധ്വാനം) എന്നിവയെക്കുറിച്ച് കവി മുന്നോട്ടുവെക്കുന്ന സാമ്പത്തിക തത്വശാസ്ത്രം (പ്രൊഫഷണൽ ബാലൻസ്) എന്താണ്?",
-    qEn: "What is the economic philosophy (Professional Balance) the poet proposes regarding 'Ta\'anni' (deliberation) and '\'Ana' (burnout)?",
+    qAr: "هل يؤثر الركض المستمر والعمل الشاق بشكل مفرط (العناء) على زيادة الرزق المكتوب؟ وضح بناء على القصيدة.",
+    qMl: "വിശ്രമമില്ലാതെയുള്ള അമിതമായ കഷ്ടപ്പാടും അധ്വാനവും (العناء) മുൻകൂട്ടി നിശ്ചയിക്കപ്പെട്ട ഉപജീവനം വർദ്ധിപ്പിക്കുമോ? കവിതയുടെ അടിസ്ഥാനത്തിൽ വ്യക്തമാക്കുക.",
+    qEn: "Does continuous running and excessive hard work ('Ana) affect the increase of destined provision? Explain based on the poem.",
     type: "descriptive",
-    answerAr: "العمل الهادئ والمخطط (التأني) لن ينقص الرزق المكتوب، والركض الجنوني والاحتراق الوظيفي (العناء) لن يكسر سقف الرزق الإلهي. إنها دعوة للإنتاجية المستدامة.",
-    answerMl: "കൃത്യമായ പ്ലാനിങ്ങോടെ ശാന്തമായി ജോലി ചെയ്യുന്നത് (التأني) നിങ്ങളുടെ ഉപജീവനം കുറയ്ക്കില്ല, അതുപോലെ പരിഭ്രാന്തിയോടെ അമിതമായി കഷ്ടപ്പെടുന്നത് (العناء) നിങ്ങളുടെ മുൻനിശ്ചയിക്കപ്പെട്ട സമ്പത്തിന്റെ പരിധി വർദ്ധിപ്പിക്കുകയുമില്ല. മാനസിക സമാധാനത്തോടെയുള്ള പ്രൊഫഷണലിസമാണിത്.",
-    answerEn: "Calm, strategic execution (Ta'anni) mathematically will not decrease destined outcomes, and toxic, frantic overexertion ('Ana) will not artificially break the algorithmic ceiling of ordained provision. It advocates for sustainable, anxiety-free productivity."
+    answerAr: "لا، يقول الشاعر إن العمل بهدوء (التأني) لن يقلل من الرزق. وفي نفس الوقت، العمل بتعب شديد وهلع مستمر (العناء) لن يجعلك تحصل على أكثر مما هو مكتوب لك. الرزق محدد من الله.",
+    answerMl: "ഇല്ല, കൃത്യമായ പ്ലാനിങ്ങോടെ ശാന്തമായി ജോലി ചെയ്യുന്നത് (التأني) നിങ്ങളുടെ ഉപജീവനം ഒട്ടും കുറയ്ക്കില്ല. മറുവശത്ത്, സ്വന്തം ആരോഗ്യവും സമാധാനവും നശിപ്പിച്ച് അമിതമായി കഷ്ടപ്പെടുന്നത് (العناء) മുൻനിശ്ചയിക്കപ്പെട്ട സമ്പത്തിന്റെ പരിധി വർദ്ധിപ്പിക്കുകയുമില്ല. സമ്പത്ത് അല്ലാഹു മുൻകൂട്ടി നിശ്ചയിച്ചതാണ്.",
+    answerEn: "No, the poet states that working calmly (Ta'anni) will never decrease your provision. At the same time, frantic running and working with excessive exhaustion ('Ana) will not make you earn more than what is already written for you. Provision is fixed by God."
   },
   {
     id: 20,
-    qAr: "لماذا تعتبر الشماتة (Schadenfreude) أسوأ من المصيبة ذاتها في علم النفس الإداري للشاعر؟",
-    qMl: "കവിയുടെ കാഴ്ചപ്പാടിൽ ശമാതത്ത് അഥവാ ശത്രുക്കളുടെ പരിഹാസം (Schadenfreude), യഥാർത്ഥ ദുരന്തത്തേക്കാൾ വലിയ വിപത്തായി കണക്കാക്കപ്പെടുന്നത് എന്തുകൊണ്ട്?",
-    qEn: "Why is Shamatah (Schadenfreude) considered worse than the calamity itself in the poet's psychological management?",
+    qAr: "اشرح بعمق معنى البيت: \"إذا ما كنت ذا قلب قنوع / فأنت ومالك الدنيا سواء\".",
+    qMl: "\"നിനക്ക് സംതൃപ്തിയുള്ള ഒരു ഹൃദയമുണ്ടെങ്കിൽ, നീയും ലോകത്തിന്റെ ഉടമസ്ഥനും തുല്യരാണ്\" എന്ന വരിയുടെ അർത്ഥം വിശദമാക്കുക.",
+    qEn: "Explain deeply the meaning of the line: \"If you have a contented heart, then you and the owner of the world are equal.\"",
     type: "descriptive",
-    answerAr: "لأن رؤية نشوة العدو بسقوطك تمثل حرباً نفسية تمزق الكرامة وتدمر (عزة النفس)، وهو جرح نرجسي أشد إيلاماً من الخسارة المادية المجردة.",
-    answerMl: "സ്വന്തം പരാജയം കണ്ട് ശത്രുക്കൾക്കുണ്ടാകുന്ന ആനന്ദം ഒരു മനുഷ്യന്റെ ആത്മാഭിമാനത്തെ പൂർണ്ണമായും തകർക്കുന്ന ഒരു മാനസിക യുദ്ധമാണ്. സാമ്പത്തികമോ പദവിയോ നഷ്ടപ്പെടുന്നതിനേക്കാൾ വലിയ മാനസികാഘാതമാണ് ഇത് സൃഷ്ടിക്കുന്നത്.",
-    answerEn: "Because witnessing an adversary's malicious joy at your downfall is psychological warfare that shatters ego integrity and dignity, inflicting trauma far more devastating than the objective material loss itself."
+    answerAr: "يعيد الشافعي تعريف \"الثروة\"؛ فالغنى ليس بكثرة الأموال، بل هو في القناعة. إذا كان الإنسان يرضى بما يملك، فإنه يصل إلى راحة نفسية تجعله متساوياً تماماً في السعادة مع الملك الذي يملك العالم كله.",
+    answerMl: "സമ്പത്ത് എന്ന സങ്കൽപ്പത്തെ ഇമാം ശാഫി (റ) ഇവിടെ തിരുത്തിയെഴുതുകയാണ്. യഥാർത്ഥ സമ്പത്ത് എന്നത് മാനസികാവസ്ഥയാണ് (القناعة). തനിക്ക് ലഭിച്ചത് കൊണ്ട് സംതൃപ്തനായ ഒരു സാധാരണക്കാരന്, ഈ ലോകം മുഴുവൻ വെട്ടിപ്പിടിച്ച വലിയൊരു ചക്രവർത്തിക്ക് ലഭിക്കുന്ന അതേ മാനസിക സമാധാനവും പൂർണ്ണതയും ലഭിക്കുന്നു.",
+    answerEn: "Al-Shafi'i redefines \"wealth\"; true richness is not an abundance of money, but absolute contentment (Qana'ah). If a person is satisfied with what they have, they achieve a psychological peace that makes them perfectly equal in happiness to a king who owns the entire world."
   },
   {
     id: 21,
-    qAr: "حلل الاستخدام الأدبي لكلمة 'الليالي' بدلاً من 'الأيام' في التعبير عن الحوادث والمصائب.",
-    qMl: "പ്രതിസന്ധികളെയും ദുരന്തങ്ങളെയും കുറിക്കാൻ കവി 'പകലുകൾ' എന്നതിന് പകരം 'രാത്രികൾ' (الليالي) എന്ന് സാഹിത്യപരമായി പ്രയോഗിച്ചതിന്റെ സവിശേഷത വിശകലനം ചെയ്യുക.",
-    qEn: "Analyze the literary usage of the word 'Nights' (Al-Layali) instead of 'Days' in expressing calamities.",
+    qAr: "في إدارة الأزمات، لماذا يعتبر فرح الأعداء (الشماتة) أسوأ وأقسى من المصيبة نفسها؟",
+    qMl: "പ്രതിസന്ധികളുടെ സമയത്ത്, ശത്രുക്കളുടെ പരിഹാസം (الشماتة) യഥാർത്ഥ ദുരന്തത്തേക്കാൾ കഠിനമായ വിപത്തായി കണക്കാക്കപ്പെടുന്നത് എന്തുകൊണ്ട്?",
+    qEn: "In crisis management, why is the gloating of enemies (Shamatah) considered worse and harsher than the calamity itself?",
     type: "descriptive",
-    answerAr: "الليل في الأدب الكلاسيكي هو استعارة للوحشة، الغموض، والخطر غير المرئي. الحوادث التي تقع ليلاً تكون أشد وقعاً على النفس البشرية بسبب العزلة والضعف البشري.",
-    answerMl: "ക്ലാസിക്കൽ സാഹിത്യത്തിൽ രാത്രി എന്നത് ഏകാന്തതയുടെയും, അനിശ്ചിതത്വത്തിന്റെയും, കാണാത്ത അപകടങ്ങളുടെയും രൂപകമാണ് (Metaphor). ഇരുട്ടിലെ ദുരന്തങ്ങൾ മനുഷ്യന്റെ നിസ്സഹായത വർദ്ധിപ്പിക്കുകയും മാനസികമായി കൂടുതൽ ഭയപ്പെടുത്തുകയും ചെയ്യുന്നു.",
-    answerEn: "In classical literature, night is a powerful metaphor for isolation, ambiguity, and unseen danger. Calamities occurring at night inflict deeper psychological trauma due to heightened human vulnerability in darkness."
+    answerAr: "المصيبة العادية يمكن للإنسان تعويضها. ولكن، عندما تظهر ضعفك أمام أعدائك وترى في عيونهم الفرح بسقوطك (الشماتة)، فإن هذا يجرح الكرامة ويكسر عزة النفس، ويترك ألماً نفسياً كبيراً.",
+    answerMl: "സാധാരണ ദുരന്തങ്ങൾ കാലക്രമേണ മനുഷ്യന് പരിഹരിക്കാൻ കഴിഞ്ഞേക്കാം. എന്നാൽ, സ്വന്തം പരാജയഘട്ടത്തിൽ ശത്രുക്കൾ നിങ്ങളുടെ വീഴ്ച കണ്ട് സന്തോഷിക്കുകയും പരിഹസിക്കുകയും (الشماتة) ചെയ്യുന്നത് ഒരു മനുഷ്യന്റെ ആത്മാഭിമാനത്തെ പൂർണ്ണമായും തകർക്കുന്ന ഒന്നാണ്. ഇത് വലിയ മാനസികാഘാതമാണ് സൃഷ്ടിക്കുന്നത്.",
+    answerEn: "A normal calamity can eventually be recovered from. However, when you show vulnerability to your enemies and see the joy in their eyes at your downfall (Shamatah), it deeply wounds your dignity, breaks your self-respect, and leaves immense psychological pain."
   },
   {
     id: 22,
-    qAr: "كيف وظف الشاعر أسلوب 'التضمين' (الاقتباس) لتعزيز نظريته السوسيولوجية؟",
-    qMl: "തന്റെ സോഷ്യോളജിക്കൽ തിയറിക്ക് കൂടുതൽ ബലം നൽകാൻ കവി 'തദ്മീൻ' (التضمين - നിലവിലുള്ള ഒരു ചൊല്ല് ഉപയോഗിക്കൽ) എന്ന ശൈലി എങ്ങനെയാണ് പ്രയോജനപ്പെടുത്തിയത്?",
-    qEn: "How did the poet utilize the technique of 'Tadmin' (Incorporation) to reinforce his sociological theory?",
+    qAr: "كيف يصف الشاعر التغير في إدراك الإنسان للمكان وللأرض عندما يأتي الموت (ينزل القضاء)؟",
+    qMl: "മരണം (വിധി) വന്നെത്തുമ്പോൾ മനുഷ്യന്റെ സ്ഥലകാല ബോധത്തിന് സംഭവിക്കുന്ന മാറ്റത്തെ കവി എങ്ങനെയാണ് വിവരിക്കുന്നത്?",
+    qEn: "How does the poet describe the change in a person's perception of space and the earth when death (destiny) arrives?",
     type: "descriptive",
-    answerAr: "باستخدام عبارة 'كما قيل'، لم يقدم الشاعر فكرة 'السخاء يغطي العيوب' كرأي شخصي، بل استدعى الحكمة البشرية المتراكمة، مما يعطي حجته سلطة مطلقة ومصداقية مجتمعية.",
-    answerMl: "'പറയപ്പെട്ടതുപോലെ' (كما قيل) എന്ന് ഉപയോഗിച്ചതിലൂടെ, 'ഔദാര്യം ന്യൂനതകളെ മറയ്ക്കും' എന്ന ആശയത്തെ സ്വന്തം അഭിപ്രായമായിട്ടല്ല, മറിച്ച് നൂറ്റാണ്ടുകളുടെ മനുഷ്യാനുഭവത്തിൽ നിന്ന് തെളിയിക്കപ്പെട്ട മാറ്റമില്ലാത്ത സത്യമായിട്ടാണ് അദ്ദേഹം അവതരിപ്പിച്ചത്.",
-    answerEn: "By utilizing the phrase 'as it was said,' the poet doesn't present the idea as a personal opinion. He invokes universally validated, historical human wisdom, lending absolute, indisputable authority to his argument."
+    answerAr: "يقول إن أرض الله واسعة جداً. ولكن، عندما تأتي لحظة الموت، تتغير نفسية الإنسان ويشعر أن هذا الكون الواسع قد انكمش وأصبح ضيقاً جداً، لأنه لا يوجد أي مكان يختبئ فيه من الموت.",
+    answerMl: "സാധാരണ സമയങ്ങളിൽ ഈ പ്രപഞ്ചം അനന്തവും അതിവിശാലവുമാണ് (واسعة). എന്നാൽ, അന്തിമവിധി (മരണം) വന്നെത്തുമ്പോൾ മനുഷ്യന്റെ മാനസികാവസ്ഥ പൂർണ്ണമായും മാറുന്നു. ആ അതിവിശാലമായ ലോകം അവന് മുന്നിൽ ശ്വാസംമുട്ടിക്കുന്ന ഒരിടമായി ഇടുങ്ങിയതായി (ضاق) മാറുന്നു. ഓടിയൊളിക്കാൻ ഒരിടവും അവന് കാണാൻ കഴിയില്ല.",
+    answerEn: "He says that God's earth is infinitely vast. However, when the moment of death arrives, a person's psychology shifts and they feel that this entire vast universe has constricted and become incredibly narrow, because there is nowhere to hide from death."
   },
   {
     id: 23,
-    qAr: "استنتج العلاقة بين 'القناعة' والمساواة مع 'مالك الدنيا' في فلسفة الزهد الشافعية.",
-    qMl: "ശാഫീ തത്വചിന്തയിലെ (സൂഫിസം) 'ഖനാഅത്ത്' (സംതൃപ്തി), 'ലോകത്തിന്റെ ഉടമസ്ഥനുമായുള്ള തുല്യത' എന്നിവ തമ്മിലുള്ള ബന്ധം അപഗ്രഥിക്കുക.",
-    qEn: "Deduce the relationship between 'Contentment' (Qana'ah) and equality with the 'Owner of the World' in Al-Shafi'i's ascetic philosophy.",
+    qAr: "ما هي النظرة الفلسفية للشاعر تجاه التغيرات وتقلبات الحياة (الحزن، السرور، البؤس، الرخاء)؟",
+    qMl: "മനുഷ്യജീവിതത്തിലെ മാറ്റങ്ങളെയും ഏറ്റക്കുറച്ചിലുകളെയും (ദുഃഖം, സന്തോഷം, ദാരിദ്ര്യം, സമൃദ്ധി) കവി ഏത് ദാർശനിക തലത്തിലാണ് നോക്കിക്കാണുന്നത്?",
+    qEn: "What is the poet's philosophical view regarding the changes and fluctuations of life (sorrow, joy, misery, prosperity)?",
     type: "descriptive",
-    answerAr: "الشافعي يفكك ارتباط الثروة بالمادة، ويربطها بالحالة الإدراكية. الإمبراطور والفقير القنوع متساويان سيكولوجياً لأن كليهما وصل إلى نقطة 'انعدام الرغبة في المزيد'، فالتفاوت المادي يتبخر.",
-    answerMl: "സമ്പത്തിനെ ഭൗതികവസ്തുക്കളിൽ നിന്ന് വേർപെടുത്തി മാനസികാവസ്ഥയായി കവി നിർവചിക്കുന്നു. ഒരു ചക്രവർത്തിക്കും സംതൃപ്തനായ സാധാരണക്കാരനും ഇനി 'ഒന്നും ആവശ്യമില്ല' (Zero desires) എന്ന തോന്നലാണുള്ളത്. ആന്തരിക സംതൃപ്തിക്ക് മുന്നിൽ ഭൗതികമായ ഏറ്റക്കുറച്ചിലുകൾ അപ്രസക്തമാകുന്നു.",
-    answerEn: "He decouples wealth from materialism, strictly defining it as a cognitive state. The emperor and the contented ascetic are psychologically equal because both have eliminated the friction of desire. Material disparity collapses before internal self-sufficiency."
+    answerAr: "يرى الشاعر أن القاعدة الأساسية في الدنيا هي \"التغير\". لا يوجد شيء يستمر إلى الأبد. الحزن ينتهي ويأتي السرور، والسرور أيضاً لا يدوم. هذا الفهم العميق لتقلبات الحياة يحمي الإنسان من الاكتئاب والغرور.",
+    answerMl: "ഈ ഭൗതിക ലോകത്തെ ഏറ്റവും വലിയ അടിസ്ഥാന നിയമം 'മാറ്റം' ആണെന്നാണ് കവി വിശ്വസിക്കുന്നത്. ജീവിതത്തിലെ ഒരു അവസ്ഥയും ശാശ്വതമല്ല. ദുഃഖവും സന്തോഷവും ദാരിദ്ര്യവും സമൃദ്ധിയുമെല്ലാം മാറിമറിയും എന്ന ഈ തിരിച്ചറിവ്, സങ്കടങ്ങളിൽ തളർന്നുപോകാതിരിക്കാനും സന്തോഷങ്ങളിൽ അഹങ്കരിക്കാതിരിക്കാനും സഹായിക്കുന്നു.",
+    answerEn: "The poet believes that the fundamental rule of worldly life is \"constant change\". Nothing lasts forever. Sorrow ends and joy comes, and joy also does not last. This deep understanding of life's fluctuations protects a person from depression and arrogance."
   },
   {
     id: 24,
-    qAr: "وضح 'المفارقة المكانية' (الطباق) في حالة نزول القضاء المذكورة في القصيدة.",
-    qMl: "ദൈവവിധി (മരണം) സംഭവിക്കുന്ന സമയത്തെ കവിതയിൽ പറയുന്ന 'സ്പേഷ്യൽ പാരഡോക്സ്' (സ്ഥല-കാല വൈരുദ്ധ്യം) വ്യക്തമാക്കുക.",
-    qEn: "Clarify the 'Spatial Paradox' (Antithesis) regarding the descent of destiny mentioned in the poem.",
+    qAr: "ما هي الحقيقة القاطعة التي يختم بها الشاعر قصيدته بخصوص الطب والموت؟",
+    qMl: "വൈദ്യശാസ്ത്രത്തെയും മരണത്തെയും കുറിച്ച് കവിതയുടെ അവസാനത്തിൽ കവി നൽകുന്ന അനിഷേധ്യമായ യാഥാർത്ഥ്യം എന്താണ്?",
+    qEn: "What is the absolute truth with which the poet concludes his poem regarding medicine and death?",
     type: "descriptive",
-    answerAr: "رغم أن الكون ماديًا لا متناهي الاتساع (واسعة)، إلا أنه ينكمش سيكولوجياً ويتحول إلى زنزانة خانقة (ضاق) عندما يحين الأجل، مما يدل على انهيار الإدراك المكاني للميت.",
-    answerMl: "ഭൗതികമായി ഈ പ്രപഞ്ചം അനന്തവും വിശാലവുമാണെങ്കിലും (واسعة), അന്തിമവിധി വന്നെത്തുമ്പോൾ അത് മാനസികമായി ശ്വാസംമുട്ടിക്കുന്ന ഒരു ചെറിയ ഇടമായി (ضاق) ചുരുങ്ങുന്നു. മനുഷ്യന്റെ ഭൗതിക സുരക്ഷാ സംവിധാനങ്ങൾ അവിടെ പൂർണ്ണമായും തകർന്നുവീഴുന്നു.",
-    answerEn: "Although the universe is physically infinite and expansive (Wasi'ah), it psychologically constricts into severe claustrophobia (Daqa) when ultimate destiny arrives, illustrating the absolute collapse of physical defenses."
+    answerAr: "يختم الشاعر بحقيقة حتمية: مهما تقدم العلم والأدوية، فإنها تقف عاجزة تماماً أمام الموت. عندما ينتهي العمر المكتوب، فلا يوجد أي دواء في العالم يمكنه أن يوقف الموت.",
+    answerMl: "മനുഷ്യന്റെ സാങ്കേതികവും വൈദ്യശാസ്ത്രപരവുമായ അഹങ്കാരങ്ങളെ തകർക്കുന്ന ഒരു പ്രഖ്യാപനമാണിത്. ശാസ്ത്രം എത്ര വളർന്നാലും, ഒരാളുടെ മുൻനിശ്ചയിക്കപ്പെട്ട സമയം കഴിഞ്ഞാൽ, മരണത്തെ ഒരു സെക്കൻഡ് നേരത്തേക്ക് പോലും പിടിച്ചുനിർത്താൻ ഈ ലോകത്തെ ഒരു മരുന്നിനും കഴിയില്ല.",
+    answerEn: "The poet concludes with an inevitable truth: no matter how advanced science and medicines become, they stand completely powerless against death. When a person's decreed lifespan ends, absolutely no medicine in the world can stop death."
   },
   {
     id: 25,
-    qAr: "ناقش كيف تواجه هذه القصيدة وهم 'السيطرة التكنولوجية والطبية' الحديثة، مستنداً إلى البيت الأخير.",
-    qMl: "അവസാന വരിയുടെ അടിസ്ഥാനത്തിൽ, ആധുനിക മനുഷ്യന്റെ 'സാങ്കേതിക-വൈദ്യശാസ്ത്ര നിയന്ത്രണങ്ങൾ' എന്ന അഹങ്കാരത്തെ ഈ കവിത എങ്ങനെയാണ് നേരിടുന്നത് എന്ന് ചർച്ച ചെയ്യുക.",
-    qEn: "Discuss how this poem confronts the modern illusion of 'technological and medical control,' based on the final line.",
+    qAr: "لخص الرسالة الأساسية (الفكرة العامة) التي أراد الإمام الشافعي إيصالها من خلال هذه القصيدة.",
+    qMl: "ഈ കവിതയിലൂടെ ഇമാം ശാഫി (റ) നൽകാൻ ഉദ്ദേശിച്ച അടിസ്ഥാന സന്ദേശം (General Idea) ചുരുക്കത്തിൽ വിവരിക്കുക.",
+    qEn: "Summarize the main message (General Idea) that Imam Al-Shafi'i wanted to convey through this poem.",
     type: "descriptive",
-    answerAr: "يحطم البيت الأخير ('فما يغني عن الموت الدواء') الغطرسة البشرية؛ فرغم التقدم التكنولوجي أو الطبي، يبقى الإنسان عاجزاً تماماً أمام الحتمية البيولوجية (الموت). إنها تصفية قاسية لوهم السيطرة على الوجود.",
-    answerMl: "'മരണത്തിന് പകരമായി യാതൊരു മരുന്നും ഫലം ചെയ്യുകയില്ല' എന്ന പ്രഖ്യാപനം മനുഷ്യന്റെ സാങ്കേതിക അഹങ്കാരങ്ങളെ തകർക്കുന്നു. ശാസ്ത്രം എത്ര വളർന്നാലും മനുഷ്യന്റെ അന്തിമവിധിയെ തടഞ്ഞു നിർത്താൻ കഴിയില്ല എന്ന യാഥാർത്ഥ്യം ബോധ്യപ്പെടുത്തി, ഭൗതികതയിലുള്ള അമിത ആശ്രിതത്വം ഒഴിവാക്കാൻ ഇത് ആവശ്യപ്പെടുന്നു.",
-    answerEn: "The final decree ('For medicine absolutely does not avail against death') shatters human arrogance. Despite advanced pharmacological interventions, humanity remains powerless against biological determinism, brutally dismantling the illusion of micro-managing existence."
+    answerAr: "الرسالة الأساسية هي ضرورة الرضا بقضاء الله، وعدم التعلق بالدنيا لأنها متغيرة. يعلمنا الشاعر أن نواجه الصعاب بشجاعة، مع الحفاظ على الكرم والتسامح مع الناس وعزة النفس أمام الأعداء، وتذكر حتمية الموت دائماً.",
+    answerMl: "അല്ലാഹുവിന്റെ വിധിയിൽ പൂർണ്ണമായി തൃപ്തിപ്പെട്ടുകൊണ്ട് മാനസിക സമാധാനം കണ്ടെത്തുക എന്നതാണ് പ്രധാന സന്ദേശം. പ്രതിസന്ധികളെ വലിയ ആത്മധൈര്യത്തോടെ നേരിടണം; അതോടൊപ്പം സമൂഹത്തോട് കാരുണ്യവും ഉദാരതയും കാണിക്കുകയും, ശത്രുക്കൾക്ക് മുന്നിൽ ആത്മാഭിമാനം സംരക്ഷിക്കുകയും വേണം. അവസാനം, മരണം അനിവാര്യമാണെന്ന യാഥാർത്ഥ്യം കവി ഓർമ്മിപ്പിക്കുന്നു.",
+    answerEn: "The main message is the necessity of being content with God's destiny and not overly attaching to the changing world. The poet teaches us to face hardships with courage, maintain generosity towards people and dignity in front of enemies, and always remember the inevitability of death."
   }
 ];
