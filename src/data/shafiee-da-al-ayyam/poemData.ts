@@ -118,11 +118,11 @@ export const poemData: Poem = {
       words: [
         { ar: "يُغَطِّيهِ", ml: "അതിനെ മറയ്ക്കും", en: "it covers it", irab: "فعل مضارع مرفوع بالضمة المقدرة، والهاء مفعول به مقدم، والجملة خبر المبتدأ", root: "غ ط و" },
         { ar: "كَمَا", ml: "പോലെ", en: "as", irab: "الكاف حرف جر، وما مصدرية" },
-        { ar: "قِيلَ", ml: "പറയപ്പെട്ടു", en: "it was said", irab: "فعل ماض مبني للمجهول", root: "ق و ل" },
+        { ar: "قِيلَ", ml: "പൊതുവെ പറയപ്പെടുന്നത്", en: "it is generally said", irab: "فعل ماض مبني للمجهول", root: "ق و ل" },
         { ar: "السَّخَاءُ", ml: "ഔദാര്യം", en: "generosity", irab: "فاعل لـ (يغطيه) مؤخر مرفوع وعلامة رفعه الضمة", root: "س خ و" }
       ],
-      noteMl: "كَمَا قِيلَ (Kama Qeela): \"പറയപ്പെട്ടതുപോലെ\". സമൂഹത്തിൽ പരമ്പരാഗതമായി നിലനിൽക്കുന്ന ഒരു തത്വത്തെ കാവ്യഘടനയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അറബി സാഹിത്യത്തിൽ ഇതിനെ 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് വിളിക്കുന്നു.",
-      noteEn: "كَمَا قِيلَ (Kama Qeela): \"As it was said.\" The classical rhetorical technique of Tadmin (Incorporation), seamlessly weaving existing universal wisdom or proverbs into the poem's structural meter."
+      noteMl: "كَمَا قِيلَ (Kama Qeela): \"പൊതുവെ പറയപ്പെടുന്നത് പോലെ\". സമൂഹത്തിൽ പരമ്പരാഗതമായി നിലനിൽക്കുന്ന ഒരു തത്വത്തെ കാവ്യഘടനയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അറബി സാഹിത്യത്തിൽ ഇതിനെ 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് വിളിക്കുന്നു.",
+      noteEn: "كَمَا قِيلَ (Kama Qeela): \"As it is generally said.\" The classical rhetorical technique of Tadmin (Incorporation), seamlessly weaving existing universal wisdom or proverbs into the poem's structural meter."
     },
     {
       id: 11,
@@ -144,8 +144,8 @@ export const poemData: Poem = {
         { ar: "الأَعْدَا", ml: "ശത്രുക്കളുടെ", en: "of the enemies", irab: "مضاف إليه مجرور وعلامة جره الكسرة المقدرة (حذفت الهمزة للضرورة الشعرية)", root: "ع د و" },
         { ar: "بَلاءُ", ml: "വലിയൊരു പരീക്ഷണമാണ്", en: "is an affliction", irab: "خبر إن مرفوع وعلامة رفعه الضمة الظاهرة", root: "ب ل و" }
       ],
-      noteMl: "كَمَا قِيلَ (Kama Qeela): \"പറയപ്പെട്ടതുപോലെ\". കാലാകാലങ്ങളായി സമൂഹത്തിൽ നിലനിൽക്കുന്ന ഒരു തത്വത്തെയോ പഴഞ്ചൊല്ലിനെയോ സ്വന്തം കവിതയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അലങ്കാരശാസ്ത്രത്തിൽ ഇതിന് 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് പറയുന്നു.",
-      noteEn: "كَمَا قِيلَ (Kama Qeela): \"As it was said.\" The poet is quoting an ancient, universally accepted proverb and weaving it into his poetry. In Arabic rhetoric, this technique of embedding existing wisdom is known as 'Tadmin'."
+      noteMl: "شَمَاتَةَ الأَعْدَا (Shamatat Al-A'da): 'ശത്രുക്കളുടെ പരിഹാസം' (Schadenfreude/Gloating of enemies). ശത്രുക്കൾ നമ്മുടെ തകർച്ചയിൽ സന്തോഷിക്കുന്ന അവസ്ഥയാണിത്. പ്രവാചകൻ (സ) അല്ലാഹുവിനോട് കാവൽ ചോദിച്ച കാര്യങ്ങളിൽ ഒന്നാണിത് (اللهم إني أعوذ بك من شماتة الأعداء).",
+      noteEn: "شَمَاتَةَ الأَعْدَا (Shamatat Al-A'da): The malicious joy or gloating of enemies over one's misfortune. Prophet Muhammad (PBUH) specifically sought refuge in Allah from this severe psychological affliction."
     },
     {
       id: 13,
@@ -361,8 +361,8 @@ export const poemData: Poem = {
             8,
             9
         ],
-        "mlMeaning": "നിസ്സീമമായ ഔദാര്യം കൊണ്ട് നീ അതിനെ മറയ്ക്കുക. കാരണം പറയപ്പെടുന്നതുപോലെ, ഔദാര്യം എല്ലാ ന്യൂനതകളെയും മറച്ചുകൊള്ളും.",
-        "enMeaning": "Cover yourself with generosity. For generosity covers every fault, just as it was said.",
+        "mlMeaning": "നിസ്സീമമായ ഔദാര്യം കൊണ്ട് നീ അതിനെ മറയ്ക്കുക. കാരണം പൊതുവെ പറയപ്പെടുന്നത് പോലെ, ഔദാര്യം എല്ലാ ന്യൂനതകളെയും മറച്ചുകൊള്ളും.",
+        "enMeaning": "Cover yourself with generosity. For generosity covers every fault, just as it is generally said.",
         "arSharah": "يبين الشاعر أن الكرم والسخاء هو أفضل غطاء لعيوب الإنسان؛ فالناس تتغاضى عن زلات الشخص الكريم لحسن صنيعه، وكما قيل قديماً: الكرم يستر العيوب."
     },
     {

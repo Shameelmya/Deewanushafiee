@@ -70,9 +70,9 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang, i
             className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs hover:shadow-sm transition-all space-y-4"
           >
             {/* Header / Category Badge */}
-            <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-              <div className="w-full">
-                <h3 className="text-lg sm:text-xl font-arabic amiri-bold text-purple-800 dark:text-purple-300" dir="rtl">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3 gap-3" dir="rtl">
+              <div className="flex-1 text-right">
+                <h3 className="text-lg sm:text-xl font-arabic amiri-bold text-purple-800 dark:text-purple-300">
                   {item.titleAr}
                 </h3>
                 {!isHideMeaning && (
@@ -82,13 +82,13 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang, i
                 )}
               </div>
 
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-2 shrink-0">
                 {item.lineNumber && (
-                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded-full font-bold">
+                  <span className="text-[11px] bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 px-2.5 py-1 rounded-full font-bold whitespace-nowrap" dir="ltr">
                     {interfaceLang === 'ml' ? `വരി ${item.lineNumber}` : `Line ${item.lineNumber}`}
                   </span>
                 )}
-                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300 font-arabic">
+                <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300 font-arabic whitespace-nowrap">
                   {item.category}
                 </span>
               </div>
