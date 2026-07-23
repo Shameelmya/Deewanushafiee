@@ -30,7 +30,9 @@ export const poemData: Poem = {
         { ar: "إِذَا", ml: "എപ്പോഴാണോ (അപ്പോൾ)", en: "when", irab: "ظرف لما يستقبل من الزمان خافض لشرطه متعلق بجوابه" },
         { ar: "حَكَمَ", ml: "വിധിച്ചു", en: "decrees / rules", irab: "فعل ماض مبني على الفتح", root: "ح ك م" },
         { ar: "القَضَاءُ", ml: "ദൈവവിധി", en: "the destiny / decree", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "ق ض ي" }
-      ]
+      ],
+      noteMl: "**الأَيَّامَ (Al-Ayyam):** 'ദിവസങ്ങൾ' എന്ന് പദാർത്ഥം. അലങ്കാരശാസ്ത്രത്തിലെ 'മജാസ് മുർസൽ' (مجاز مرسل - Synecdoche) പ്രയോഗമാണിത്. ചരിത്രമുഹൂർത്തങ്ങളെയും സാഹചര്യങ്ങളെയും മൊത്തത്തിൽ പ്രതിനിധീകരിക്കാനാണ് ഈ പദം ഉപയോഗിച്ചിരിക്കുന്നത്.",
+      noteEn: "**الأَيَّامَ (Al-Ayyam):** This employs the rhetorical device *Majaz Mursal* (Synecdoche). By mentioning \"the days,\" the poet is referencing the totality of uncontrollable circumstances."
     },
     {
       id: 3,
@@ -50,7 +52,9 @@ export const poemData: Poem = {
         { ar: "لِحَوَادِثِ", ml: "ദുരന്തങ്ങൾക്ക്", en: "for the incidents / tragedies", irab: "اللام حرف جر، حوادث: اسم مجرور وعلامة جره الكسرة، وشبه الجملة خبر مقدم", root: "ح د ث" },
         { ar: "الدُّنْيَا", ml: "ഈ ലോകത്തെ", en: "of the world", irab: "مضاف إليه مجرور وعلامة جره الكسرة المقدرة للتعذر", root: "د ن و" },
         { ar: "بَقَاءُ", ml: "നിലനിൽപ്പ്", en: "permanence / lasting", irab: "مبتدأ مؤخر مرفوع وعلامة رفعه الضمة الظاهرة", root: "ب ق ي" }
-      ]
+      ],
+      noteMl: "**اللَّيَالِي (Al-Layali - രാത്രികൾ):** കാവ്യശാസ്ത്രത്തിൽ ഇരുട്ടിന്റെയും, അപ്രതീക്ഷിതമായി കടന്നുവരുന്ന പ്രതിസന്ധികളുടെയും പ്രതീകമായാണ് 'രാത്രികളെ' ഉപയോഗിക്കാറുള്ളത് (الاستعارة - Metaphor).\n**حَادِثَةِ / حَوَادِثِ (Haditha / Hawadith):** ഒരേ ധാതുവിൽ നിന്നുള്ള പദങ്ങളുടെ ആവർത്തനം (الجناس الاشتقاقي - Al-Jinas Al-Ishtiqaqi).",
+      noteEn: "**اللَّيَالِي (Al-Layali - രാത്രികൾ):** \"Nights\" are utilized as a classic literary metaphor symbolizing unforeseen darkness, uncertainty, and psychological terror.\n**حَادِثَةِ / حَوَادِثِ (Haditha / Hawadith):** (Al-Jinas Al-Ishtiqaqi)."
     },
     {
       id: 5,
@@ -70,7 +74,9 @@ export const poemData: Poem = {
         { ar: "وَشِيمَتُكَ", ml: "നിന്റെ സ്വഭാവം", en: "And your character", irab: "الواو استئنافية، شيمة: مبتدأ مرفوع بالضمة، والكاف مضاف إليه", root: "ش ي م" },
         { ar: "السَّمَاحَةُ", ml: "വിട്ടുവീഴ്ച", en: "magnanimity / tolerance", irab: "خبر المبتدأ مرفوع وعلامة رفعه الضمة الظاهرة", root: "س م ح" },
         { ar: "وَالوَفَاءُ", ml: "വിശ്വസ്തതയും", en: "and loyalty", irab: "الواو حرف عطف، الوفاء: معطوف على السماحة مرفوع مثله", root: "و ف ي" }
-      ]
+      ],
+      noteMl: "**رَجُلاً (Rajulan - ഒരു പുരുഷൻ / A man):** അറബി കാവ്യശാസ്ത്രത്തിൽ ഇതൊരു കേവല ലിംഗസൂചകമല്ല (Not merely a biological gender). മറിച്ച്, ക്ലാസിക്കൽ അറബി സാഹിത്യത്തിലെ ഏറ്റവും ഉന്നതമായ മാനുഷിക ഗുണമായ 'മുറൂഅത്ത്' (المروءة - Chivalry / Magnanimity / Fortitude) ആണ് ഇതിലൂടെ വിവക്ഷിക്കുന്നത്. കടുത്ത പ്രതിസന്ധികളിൽ ഉത്തരവാദിത്തം ഏറ്റെടുക്കാനും, പരാതികളില്ലാതെ പതറാതെ നിൽക്കാനുമുള്ള ഉന്നത വ്യക്തിത്വത്തെയും ആത്മധൈര്യത്തെയുമാണ് സാഹിത്യത്തിൽ 'റജുൽ' എന്ന് വിളിക്കുന്നത്.\n**شِيمَتُكَ (Sheematuka):** ഒരാളുടെ ജന്മസിദ്ധവും മാറ്റമില്ലാത്തതുമായ പ്രകൃതം. ഇതിനെ അറബി സാങ്കേതിക പദപ്രയോഗത്തിൽ 'അസ്സജിയ്യത്ത്' (السجية) എന്ന് വിളിക്കുന്നു. കൃത്രിമമായി ഉണ്ടാക്കിയെടുക്കുന്ന മുഖംമൂടിയല്ല, മറിച്ച് ജീനുകളിൽ അലിഞ്ഞുചേർന്ന സ്വഭാവമാണിത്.",
+      noteEn: "**رَجُلاً (Rajulan - ഒരു പുരുഷൻ / A man):** In classical Arabic literature, *Rajulan* does not denote mere biological gender. It invokes the supreme concept of *Muru'ah* (المروءة - Chivalry, unyielding fortitude, and absolute reliability during crises). It is the archetype of perfect character, responsibility, and emotional maturity.\n**شِيمَتُكَ (Sheematuka):** Refers to an intrinsic, genetically embedded behavioral baseline. In Arabic technical terminology, this is known as *Al-Sajiyyah* (السجية - innate disposition)."
     },
     {
       id: 7,
@@ -92,7 +98,9 @@ export const poemData: Poem = {
         { ar: "يَكُونَ", ml: "ഉണ്ടാകൽ", en: "there is / will be", irab: "فعل مضارع ناقص منصوب بأن وعلامة نصبه الفتحة", root: "ك و ن" },
         { ar: "لَهَا", ml: "അതിന്", en: "for it (faults)", irab: "اللام حرف جر، وها ضمير متصل مجرور، وشبه الجملة خبر مقدم لـ يكون" },
         { ar: "غِطَاءُ", ml: "ഒരു മറ", en: "a cover", irab: "اسم يكون مؤخر مرفوع وعلامة رفعه الضمة", root: "غ ط و" }
-      ]
+      ],
+      noteMl: "**البَرَايَا (Al-Baraya):** സൃഷ്ടികൾ (The creations). അനേകം മനുഷ്യർ അടങ്ങുന്ന വിശാലമായ സമൂഹത്തെയും അവരുടെ നിരന്തരമായ നിരീക്ഷണങ്ങളെയും സൂചിപ്പിക്കുന്നു. മനുഷ്യൻ എപ്പോഴും നിരീക്ഷിക്കപ്പെടുന്ന ഒരു വ്യവസ്ഥയുടെ (Social Panopticon) ഭാഗമാണെന്ന് ഈ വാക്ക് ദ്യോതിപ്പിക്കുന്നു.",
+      noteEn: "**البَرَايَا (Al-Baraya):** Derived from the root Bara'a (to create), highlighting the universal scale of social observation and scrutiny."
     },
     {
       id: 9,
@@ -112,7 +120,9 @@ export const poemData: Poem = {
         { ar: "كَمَا", ml: "പോലെ", en: "as", irab: "الكاف حرف جر، وما مصدرية" },
         { ar: "قِيلَ", ml: "പറയപ്പെട്ടു", en: "it was said", irab: "فعل ماض مبني للمجهول", root: "ق و ل" },
         { ar: "السَّخَاءُ", ml: "ഔദാര്യം", en: "generosity", irab: "فاعل لـ (يغطيه) مؤخر مرفوع وعلامة رفعه الضمة", root: "س خ و" }
-      ]
+      ],
+      noteMl: "**كَمَا قِيلَ (Kama Qeela):** \"പറയപ്പെട്ടതുപോലെ\". സമൂഹത്തിൽ പരമ്പരാഗതമായി നിലനിൽക്കുന്ന ഒരു തത്വത്തെ കാവ്യഘടനയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അറബി സാഹിത്യത്തിൽ ഇതിനെ 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് വിളിക്കുന്നു.",
+      noteEn: "**كَمَا قِيلَ (Kama Qeela):** \"As it was said.\" The classical rhetorical technique of Tadmin (Incorporation), seamlessly weaving existing universal wisdom or proverbs into the poem's structural meter."
     },
     {
       id: 11,
@@ -133,7 +143,9 @@ export const poemData: Poem = {
         { ar: "شَمَاتَةَ", ml: "പരിഹാസം / ദുരന്തത്തിലുള്ള സന്തോഷം", en: "malicious joy (schadenfreude)", irab: "اسم إن منصوب وعلامة نصبه الفتحة، وهو مضاف", root: "ش م ت" },
         { ar: "الأَعْدَا", ml: "ശത്രുക്കളുടെ", en: "of the enemies", irab: "مضاف إليه مجرور وعلامة جره الكسرة المقدرة (حذفت الهمزة للضرورة الشعرية)", root: "ع د و" },
         { ar: "بَلاءُ", ml: "വലിയൊരു പരീക്ഷണമാണ്", en: "is an affliction", irab: "خبر إن مرفوع وعلامة رفعه الضمة الظاهرة", root: "ب ل و" }
-      ]
+      ],
+      noteMl: "**قَطُّ (Qattu):** ഒരിക്കലും (Never / Ever). ഭാഷാശാസ്ത്രത്തിൽ ഒരു പ്രവൃത്തിയെ പൂർണ്ണമായും നിഷേധിക്കാൻ ഉപയോഗിക്കുന്ന പദമാണിത് (ظرف زمان لاستغراق النفي). ശത്രുവിന് മുന്നിലെ കീഴടങ്ങലിനെ ഇത് അസന്ദിഗ്ധമായി വിലക്കുന്നു.\n**شَمَاتَةَ (Shamatah):** ശത്രുക്കളുടെ വീഴ്ചയിലുള്ള ആനന്ദം (Schadenfreude). മാനസികമായി ഒരു മനുഷ്യനെ തകർക്കുന്ന ഏറ്റവും മൂർച്ചയേറിയ ആയുധമാണിത്.",
+      noteEn: "**قَطُّ (Qattu):** A highly specialized linguistic particle (Zarf Zaman) used for absolute, categorical negation.\n**شَمَاتَةَ (Shamatah):** Schadenfreude (malicious joy derived from an adversary's total misfortune)."
     },
     {
       id: 13,
@@ -155,7 +167,9 @@ export const poemData: Poem = {
         { ar: "النَّارِ", ml: "തീയിൽ", en: "the fire", irab: "اسم مجرور بفي وعلامة جره الكسرة، وشبه الجملة خبر مقدم", root: "ن و ر" },
         { ar: "لِلظَّمْآنِ", ml: "ദാഹിക്കുന്നവന്", en: "for the thirsty", irab: "اللام حرف جر، ظمآن: اسم مجرور وعلامة جره الكسرة", root: "ظ م أ" },
         { ar: "مَاءُ", ml: "വെള്ളം", en: "water", irab: "مبتدأ مؤخر مرفوع وعلامة رفعه الضمة الظاهرة", root: "م و ه" }
-      ]
+      ],
+      noteMl: "**التشبيه الضمني (Tashbeeh Dhimni):** മറഞ്ഞിരിക്കുന്ന ഉപമ (Implicit Simile). രണ്ട് വ്യത്യസ്ത കാര്യങ്ങളെ ഉപമാവാചകങ്ങളില്ലാതെ ലയിപ്പിച്ച് അവതരിപ്പിക്കുന്ന അലങ്കാര പ്രയോഗം. പിശുക്കനിൽ നിന്ന് സഹായം ചോദിക്കുന്നത് ഫലം തരില്ല എന്ന് മാത്രമല്ല, അത് തീ പോലെ നിങ്ങളെ അപമാനത്തിൽ ചുട്ടെരിക്കുകയും ചെയ്യും.",
+      noteEn: "**التشبيه الضمني (Tashbeeh Dhimni):** A master-level rhetorical construct (Implicit Simile) paralleling the futility of seeking charity from a miser with plunging into fire for hydration."
     },
     {
       id: 15,
@@ -176,7 +190,9 @@ export const poemData: Poem = {
         { ar: "فِي", ml: "ഇൽ", en: "in", irab: "حرف جر مبني على السكون" },
         { ar: "الرِّزْقِ", ml: "ഉപജീവനത്തിൽ", en: "the provision", irab: "اسم مجرور بفي وعلامة جره الكسرة", root: "ر ز ق" },
         { ar: "العَنَاءُ", ml: "കഷ്ടപ്പാട് / ആയാസം", en: "hardship / exhaustion", irab: "فاعل لـ (يزيد) مرفوع وعلامة رفعه الضمة الظاهرة", root: "ع ن و" }
-      ]
+      ],
+      noteMl: "**المقابلة (Al-Muqabalah):** 'അത്തഅന്നി' (التَّأَنِّي - കൃത്യമായ പ്ലാനിങ്ങോടെയുള്ള ശാന്തമായ പ്രവർത്തനം) എന്ന പദവും 'അൽ-അനാഅ്' (العَنَاءُ - പരിഭ്രാന്തിയോടെയുള്ള അമിതാധ്വാനവും കഷ്ടപ്പാടും) എന്ന പദവും തമ്മിലുള്ള വിപരീതാർത്ഥം പ്രൊഫഷണൽ ജീവിതത്തിലെ സന്തുലിതാവസ്ഥയെ വരച്ചുകാട്ടുന്നു.",
+      noteEn: "**المقابلة (Al-Muqabalah):** The precise semantic contrast (Al-Muqabalah) between calm deliberation and frantic exhaustion."
     },
     {
       id: 17,
@@ -198,7 +214,9 @@ export const poemData: Poem = {
         { ar: "عَلَيْكَ", ml: "നിന്റെ മേൽ", en: "upon you", irab: "على حرف جر، والكاف ضمير مجرور، وشبه الجملة خبر" },
         { ar: "وَلا", ml: "അതുപോലെ ഇല്ല", en: "and no", irab: "الواو حرف عطف، لا: نافية" },
         { ar: "رَخَاءُ", ml: "സമൃദ്ധി / സുഖം", en: "prosperity / ease", irab: "معطوف على بؤس مرفوع وعلامة رفعه الضمة", root: "ر خ و" }
-      ]
+      ],
+      noteMl: "**الطباق (Tibaq - Antithesis):** പരസ്പരം വിപരീതാർത്ഥമുള്ള പദങ്ങൾ ഒരുമിച്ചു കൊണ്ടുവരുന്ന കാവ്യതന്ത്രം (ദുഃഖം/സന്തോഷം, ദാരിദ്ര്യം/സമൃദ്ധി). പ്രപഞ്ചത്തിന്റെ ദ്വന്ദ്വാത്മക സ്വഭാവത്തെ (Dualistic nature) ഇത് അടയാളപ്പെടുത്തുന്നു.",
+      noteEn: "**الطباق (Tibaq - Antithesis):** Employing Tibaq (Antithesis) by structuring opposite conceptual binaries together to highlight reality's dualistic nature."
     },
     {
       id: 19,
@@ -220,7 +238,9 @@ export const poemData: Poem = {
         { ar: "وَمَالِكُ", ml: "ഉടമസ്ഥനും", en: "and the king / owner", irab: "الواو للمعية أو حرف عطف، مالك: معطوف مرفوع أو مفعول معه منصوب (وهنا الأفضل عطف)", root: "م ل ك" },
         { ar: "الدُّنْيَا", ml: "ലോകത്തിന്റെ", en: "of the world", irab: "مضاف إليه مجرور بالكسرة المقدرة للتعذر", root: "د ن و" },
         { ar: "سَوَاءُ", ml: "തുല്യരാണ്", en: "are equal", irab: "خبر المبتدأ مرفوع وعلامة رفعه الضمة الظاهرة", root: "س و ي" }
-      ]
+      ],
+      noteMl: "**قَنُوعٍ (Qanu'):** തികഞ്ഞ സംതൃപ്തി. സമ്പത്തിനെ ബാഹ്യമായ കൂട്ടിവെക്കലുകൾക്ക് പകരം ആന്തരികമായ മാനസികാവസ്ഥയായി (Cognitive state) നിർവചിക്കുന്ന സൂഫിസത്തിലെ ശക്തമായ ആശയം (القناعة).",
+      noteEn: "**قَنُوعٍ (Qanu'):** Derived from absolute contentment. Redefining wealth purely as an internal cognitive state rather than external accumulation."
     },
     {
       id: 21,
@@ -241,7 +261,9 @@ export const poemData: Poem = {
         { ar: "تَقِيهِ", ml: "അവനെ രക്ഷിക്കും", en: "protects him", irab: "فعل مضارع مرفوع بالضمة المقدرة، والهاء مفعول به، والفاعل هي يعود على أرض، والجملة خبر", root: "و ق ي" },
         { ar: "وَلا", ml: "അതുപോലെ ഇല്ല", en: "and nor", irab: "الواو حرف عطف، لا: نافية" },
         { ar: "سَمَاءُ", ml: "ആകാശവും", en: "sky", irab: "معطوف على أرض مرفوع وعلامة رفعه الضمة", root: "س م و" }
-      ]
+      ],
+      noteMl: "**بِسَاحَتِهِ (Bisahatihi):** മുറ്റത്ത് (In his courtyard). മരണം അനിവാര്യമായി പടിക്കൽ വന്നെത്തുന്നതിനെ കുറിക്കുന്ന മൂർച്ചയേറിയ രൂപകം (الاستعارة).",
+      noteEn: "**بِسَاحَتِهِ (Bisahatihi):** A highly tangible spatial metaphor denoting the unescapable, physical arrival of mortality at one's personal threshold."
     },
     {
       id: 23,
@@ -262,7 +284,9 @@ export const poemData: Poem = {
         { ar: "القَضَا", ml: "വിധി", en: "the decree", irab: "فاعل مرفوع وعلامة رفعه الضمة المقدرة للتعذر (أصله القضاء وحذفت الهمزة للضرورة)", root: "ق ض ي" },
         { ar: "ضَاقَ", ml: "ഇടുങ്ങിയതാകും", en: "narrows", irab: "فعل ماض مبني على الفتح، وهو جواب الشرط", root: "ض ي ق" },
         { ar: "الفَضَاءُ", ml: "ബഹിരാകാശം / ഇടം", en: "the space", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "ف ض و" }
-      ]
+      ],
+      noteMl: "**وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa):** വിശാലമായതും ഇടുങ്ങിയതും തമ്മിലുള്ള വൈരുദ്ധ്യം (Spatial Paradox - الطباق). മരണസമയത്തെ മനുഷ്യന്റെ ശ്വാസംമുട്ടലിനെ ദൃശ്യവൽക്കരിക്കുന്നു.",
+      noteEn: "**وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa):** The masterful spatial juxtaposition (Tibaq) of infinite expansiveness against claustrophobic constriction, illustrating ultimate psychological collapse."
     },
     {
       id: 25,
@@ -284,148 +308,176 @@ export const poemData: Poem = {
         { ar: "عَنِ", ml: "നിന്ന്", en: "from / against", irab: "حرف جر مبني على السكون وحرك بالكسر لالتقاء الساكنين" },
         { ar: "المَوْتِ", ml: "മരണത്തിൽ", en: "death", irab: "اسم مجرور بعن وعلامة جره الكسرة", root: "م و ت" },
         { ar: "الدَّوَاءُ", ml: "മരുന്ന്", en: "the medicine", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "د و ي" }
-      ]
+      ],
+      noteMl: "**رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr):** അവസാന വരിയെ ആദ്യ വരിയുമായി (\"دع الأيام\") ബന്ധിപ്പിച്ച് കവിതയ്ക്ക് പൂർണ്ണത നൽകുന്ന കാവ്യ സമമിതി.",
+      noteEn: "**رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr):** A masterclass in structural poetic symmetry, looping the conclusion directly back to the opening command."
     }
   ],
   couplets: [
     {
-      id: 1,
-      lineIndices: [0, 1],
-      mlMeaning: "കാലത്തിന്റെ മാറ്റങ്ങളെയും സംഭവവികാസങ്ങളെയും അതിന്റെ വഴിക്ക് വിടുക. അല്ലാഹുവിന്റെ വിധി വന്നുഭവിക്കുമ്പോൾ അതിൽ പൂർണ്ണമായി സംതൃപ്തി അടയുക. അനാവശ്യമായ ഉത്കണ്ഠകൾ ഉപേക്ഷിച്ച് മനഃശാന്തി നേടുക എന്നതാണ് ജീവിതത്തിലെ ഏറ്റവും വലിയ വിജയം.",
-      enMeaning: "Allow the days to do exactly as they please without resistance, and cultivate a deeply contented soul whenever destiny dictates its ruling. Do not torment yourself over matters completely outside your control; true peace lies in unconditional surrender to the Divine Will.",
-      arSharah: "يستهل الإمام الشافعي قصيدته العظيمة بدعوة حاسمة وعميقة إلى التسليم المطلق لقضاء الله وقدره. يأمرنا بأن نترك الأيام والمقادير تجري في مجاريها الطبيعية التي رسمها الخالق عز وجل، دون أن نكلف أنفسنا عناء الاعتراض أو التذمر. فمهما حاول الإنسان جاهداً أن يغير مسار الأحداث التي كتبت عليه، فإنه لن ينجح وسينتهي به الأمر إلى استنزاف طاقته الروحية والجسدية. الملاذ الآمن الوحيد والبلسم الشافي هو أن 'تطيب نفساً'، أي أن تملأ قلبك بالرضا والسكينة والطمأنينة عندما ينزل قضاء الله وحكمه. الرضا هنا ليس ضعفاً أو استسلاماً سلبياً، بل هو أعلى درجات القوة الإيمانية واليقين بأن ما أخطأك لم يكن ليصيبك، وما أصابك لم يكن ليخطئك. بهذه الفلسفة المتينة، يتحرر الإنسان من قيود القلق الدائم على المستقبل ومن حسرات الماضي، ليعيش يومه بسلام داخلي لا تزعزعه عواصف الحياة."
+        "id": 1,
+        "lineIndices": [
+            0,
+            1
+        ],
+        "mlMeaning": "കാലം അതിനിഷ്ടമുള്ളത് ചെയ്യാൻ നീ അനുവദിക്കുക. വിധി നിർണ്ണയിക്കപ്പെടുമ്പോൾ നീ മനസ്സുകൊണ്ട് പൂർണ്ണസംതൃപ്തനാവുക.",
+        "enMeaning": "Let the days do as they please. And be completely pleased in soul when the decree is ordained."
     },
     {
-      id: 2,
-      lineIndices: [2, 3],
-      mlMeaning: "രാത്രികളുടെ അപ്രതീക്ഷിത ദുരന്തങ്ങളിൽ ഒരിക്കലും ഭയപ്പെടുകയോ പരിഭ്രാന്തരാകുകയോ അരുത്. കാരണം, ഈ ഐഹിക ലോകത്തിലെ ഒരു ദുരന്തത്തിനും അല്ലെങ്കിൽ സംഭവങ്ങൾക്കും യാതൊരുവിധ ശാശ്വതമായ നിലനിൽപ്പുമില്ല. അവ ഒരു ദിവസം അവസാനിക്കുക തന്നെ ചെയ്യും.",
-      enMeaning: "Do not fall into crippling panic or grief over the sudden, dark calamities of the nights (time), for absolutely none of the tragedies of this transient world possess any permanence. Everything in this life, including its most terrifying trials, is fundamentally temporary and destined to fade.",
-      arSharah: "في هذا المقطع، يقدم الشافعي علاجاً نفسياً إيمانياً لمواجهة المصائب المفاجئة. ينهى بشدة عن 'الجزع'، وهو الهلع والخوف الشديد والانهيار العاطفي الذي قد يصيب الإنسان عندما تباغته 'حادثة الليالي' (أي مصائب الدهر ونوائبه التي غالباً ما ترمز لها الليالي لظلمتها وقسوتها). الجزع لا يغير من الواقع شيئاً بل يضاعف الألم ويذهب الأجر. ثم يعلل هذا النهي بحقيقة كونية كبرى: 'فما لحوادث الدنيا بقاء'. هذه الدنيا بطبيعتها وتكوينها هي دار زوال وفناء، ومصائبها مهما بدت طويلة ومظلمة، فإنها حتماً ستنقشع وتزول. هذه النظرة الفلسفية العميقة تمنح الإنسان أملاً جباراً وقدرة فائقة على التحمل، فالمصيبة عندما تُعرف نهايتها يسهل احتمالها. إن إدراك قانون 'التغير المستمر' وأنه لا شيء يدوم على حال، يزرع في النفس الصبر والسلوان."
+        "id": 2,
+        "lineIndices": [
+            2,
+            3
+        ],
+        "mlMeaning": "രാത്രികളിലെ ദുരന്തങ്ങളിൽ നീ ഒരിക്കലും പരിഭ്രാന്തനാകരുത്. കാരണം, ഈ ലോകത്തെ പ്രതിസന്ധികൾക്ക് ശാശ്വതമായ നിലനിൽപ്പില്ല.",
+        "enMeaning": "And do not panic over the calamities of the nights. For the incidents of the world have no permanence."
     },
     {
-      id: 3,
-      lineIndices: [4, 5],
-      mlMeaning: "ഭയാനകമായ പ്രതിസന്ധികൾക്ക് മുന്നിൽ പതറാത്ത, കരുത്തുറ്റ ഒരു വ്യക്തിയായി നീ മാറുക. അത്തരം കാഠിന്യമുള്ള സാഹചര്യങ്ങളിലും വിട്ടുവീഴ്ചാമനോഭാവവും മറ്റുള്ളവരോടുള്ള വിശ്വസ്തതയുമായിരിക്കണം നിന്റെ ഏറ്റവും മികച്ച സ്വഭാവഗുണങ്ങൾ.",
-      enMeaning: "Forge yourself into a remarkably steadfast and resilient person in the face of terrifying hardships and insurmountable odds. Yet, simultaneously, ensure that your intrinsic character is heavily adorned with immense magnanimity, forgiveness, and unbreakable loyalty.",
-      arSharah: "ينتقل الإمام الشافعي إلى رسم المعالم الأساسية للشخصية الإسلامية المتكاملة والقوية. يطالب الإنسان بأن يكون 'جلداً' أمام 'الأهوال' (المخاوف والمصائب العظام). الجلد هنا يعني الصلابة، قوة الاحتمال، الشجاعة، والتماسك النفسي الذي لا ينهار أمام الضربات القاسية. هذا هو الجانب الدفاعي والقوي في الشخصية. ولكي لا تتحول هذه الصلابة إلى قسوة وجفاء، يسارع الشافعي بوضع الموازنة الأخلاقية الدقيقة: 'وشيمتك السماحة والوفاء'. الشيمة هي الطبع والخلق المتأصل في النفس. يوصي بأن يكون طبعك السائد هو 'السماحة' (لين الجانب، العفو، الكرم، والتساهل في حقوق النفس) و'الوفاء' (حفظ العهود، وصدق الوعود، وعدم التنكر للمعروف). هذا المزيج الفريد بين 'الصلابة في مواجهة الخطوب' و'الرقة والوفاء في التعامل مع الناس' يمثل قمة النضج الإنساني والكمال الأخلاقي."
+        "id": 3,
+        "lineIndices": [
+            4,
+            5
+        ],
+        "mlMeaning": "ഭയാനകമായ പ്രതിസന്ധികൾക്ക് മുന്നിൽ പതറാത്ത ഒരു പുരുഷനാകുക നീ. വിട്ടുവീഴ്ചയും വിശ്വസ്തതയുമായിരിക്കണം നിന്റെ പ്രകൃതം.",
+        "enMeaning": "And be a man, totally unyielding against terrors. And let your intrinsic nature be tolerance and loyalty."
     },
     {
-      id: 4,
-      lineIndices: [6, 7],
-      mlMeaning: "സൃഷ്ടികൾക്കിടയിൽ നിന്റെ ന്യൂനതകൾ വളരെ കൂടുതലാണെന്ന് നിനക്ക് തോന്നുകയും, ആ ന്യൂനതകൾക്ക് മികച്ച ഒരു മറ ഉണ്ടായിരിക്കുന്നത് നിന്നെ സന്തോഷിപ്പിക്കുകയും ചെയ്യുന്നുവെങ്കിൽ...",
-      enMeaning: "And if your personal faults and shortcomings happen to be exceptionally numerous among people, and it earnestly pleases you that there should be an impenetrable cover to conceal them all...",
-      arSharah: "يعالج الإمام الشافعي في هذا المقطع الطبيعة البشرية بصدق وشفافية متناهية. لا يوجد إنسان معصوم أو خالٍ من العيوب والأخطاء والنواقص. يطرح الشافعي فرضية واقعية جداً: 'وإن كثرت عيوبك في البرايا'، أي إذا كانت زلاتك ونقائصك واضحة وكثيرة أمام الناس (البرايا). ومن الفطرة البشرية السليمة أن الإنسان يكره أن تفتضح عيوبه أو أن يصبح حديثاً على ألسنة الناس بالسوء، بل يسره ويتمناه 'أن يكون لها غطاء' يسترها عن الأعين ويحفظ كرامته وصورته المجتمعية. هذا المقطع يمثل التمهيد (الشرط) الذي يصف الحالة النفسية للإنسان المحرج من عيوبه والطامح في الستر، ليهيئ المتلقي لاستقبال الحل السحري والجواب الشافي في البيت الذي يليه. إنه إدراك عميق لحاجة الإنسان النفسية العميقة للستر والاحترام."
+        "id": 4,
+        "lineIndices": [
+            6,
+            7
+        ],
+        "mlMeaning": "സൃഷ്ടികൾക്കിടയിൽ നിന്റെ ന്യൂനതകൾ വർദ്ധിക്കുകയും, അതിനൊരു മറ ഉണ്ടായിരിക്കാൻ നീ ആഗ്രഹിക്കുകയും ചെയ്യുന്നുവെങ്കിൽ.",
+        "enMeaning": "And if your faults become numerous among the creations. And it pleases you that there is a cover for them."
     },
     {
-      id: 5,
-      lineIndices: [8, 9],
-      mlMeaning: "...എങ്കിൽ നീ ഔദാര്യം (സഖാഅ്) കൊണ്ട് ആ ന്യൂനതകളെ മറയ്ക്കുക. കാരണം, ജനങ്ങൾ പറയുന്നതുപോലെ, ഏതൊരു ന്യൂനതയെയും മായ്ച്ചുകളയാൻ കഴിവുള്ള അതിവിശിഷ്ടമായ ഒരു ഗുണമാണ് ഔദാര്യം.",
-      enMeaning: "...then actively conceal them through the practice of profound generosity (Sakhaa). For, as it has been wisely said since ancient times, absolute generosity acts as an infallible cloak that thoroughly completely covers every single flaw.",
-      arSharah: "هذا هو جواب الشرط والحل العبقري الذي يقدمه الشافعي لمعضلة العيوب البشرية. الوصفة بسيطة ولكنها ذات مفعول سحري: 'تستر بالسخاء'. السخاء ليس مجرد بذل المال، بل هو الكرم الشامل: كرم النفس، سعة الصدر، البشاشة، المبادرة بالخير، وتجاوز زلات الآخرين. لماذا السخاء تحديداً؟ لأن الطبيعة البشرية مجبولة على حب من يحسن إليها. الكرم يلامس القلوب، يأسر الأرواح، ويغض الأبصار عن النقائص. يؤكد الشافعي هذه الحقيقة بأسلوب جازم: 'فكُل عيب يغطيه كما قيل السخاء'. الكرم كفيل بأن يطمس عيوبك في عيون الناس، فمهما كانت نواقصك، فإن كرمك ومروءتك ستشفع لك وتجعل الناس يركزون على محاسنك ويتغاضون عن سيئاتك. هذه حكمة اجتماعية مجربة تناقلتها الأجيال (كما قيل)، وتعد من أرقى أساليب كسب القلوب وبناء السمعة الطيبة وحماية النفس من النقد اللاذع."
+        "id": 5,
+        "lineIndices": [
+            8,
+            9
+        ],
+        "mlMeaning": "നിസ്സീമമായ ഔദാര്യം കൊണ്ട് നീ അതിനെ മറയ്ക്കുക. കാരണം പറയപ്പെടുന്നതുപോലെ, ഔദാര്യം എല്ലാ ന്യൂനതകളെയും മറച്ചുകൊള്ളും.",
+        "enMeaning": "Cover yourself with generosity. For generosity covers every fault, just as it was said."
     },
     {
-      id: 6,
-      lineIndices: [10, 11],
-      mlMeaning: "നിന്റെ ശത്രുക്കളുടെ മുന്നിൽ ഒരു കാരണവശാലും നീ നിന്റെ നിസ്സഹായതയോ ബലഹീനതയോ പ്രകടിപ്പിക്കരുത്. കാരണം, ശത്രുക്കളുടെ പരിഹാസം ഏത് വലിയ ദുരന്തത്തെക്കാളും വേദനിപ്പിക്കുന്ന അതികഠിനമായ ഒരു പരീക്ഷണമാണ്.",
-      enMeaning: "And never, under any circumstances, show even the slightest hint of humiliation or weakness to your enemies. For indeed, the malicious, gloating joy of enemies over your suffering is an excruciatingly painful affliction.",
-      arSharah: "يبرز الإمام الشافعي في هذا المقطع مبدأ 'العزة والكرامة' كخط أحمر لا ينبغي تجاوزه أبداً، خاصة في أوقات الضعف أو الانكسار. ينهى بشدة وبشكل قاطع (استخدام كلمة 'قط' للتأكيد المطلق) عن إظهار أي شكل من أشكال 'الذل'، الضعف، الخنوع، أو حتى الشكوى والتوجع أمام 'الأعادي' (الأعداء والخصوم). لماذا هذا التحذير الشديد؟ التعليل يأتي مدوياً: 'فإن شماتة الأعدا بلاء'. الشماتة هي فرح العدو بمصيبتك، وهي تقع في النفس موقعاً أشد قسوة وألماً من المصيبة ذاتها. رؤية ابتسامة التشفي في وجه الخصم تمزق القلب وتكسر الروح. لذلك، يطالبك الشافعي بأن تتجلد، وتتصنع القوة، وتبتسم في وجه العواصف متى ما كانت عين العدو ترمقك. هذا السلوك ليس نفاقاً، بل هو حفاظ على الكبرياء الإنساني وقطع للطريق على الحاقدين لكي لا يتلذذوا بجراحك."
+        "id": 6,
+        "lineIndices": [
+            10,
+            11
+        ],
+        "mlMeaning": "ശത്രുക്കൾക്ക് മുന്നിൽ നീ ഒരിക്കലും നിസ്സഹായത കാണിക്കരുത്. കാരണം ശത്രുക്കളുടെ പരിഹാസം വലിയൊരു ദുരന്തമാണ്.",
+        "enMeaning": "And absolutely never show the enemies any humiliation. For indeed, the gloating of the enemies is a devastating affliction."
     },
     {
-      id: 7,
-      lineIndices: [12, 13],
-      mlMeaning: "ഒട്ടും നന്മയില്ലാത്ത ഒരു പിശുക്കനിൽ നിന്ന് നീ ഒരിക്കലും വിട്ടുവീഴ്ചയോ ഔദാര്യമോ പ്രതീക്ഷിക്കരുത്. അങ്ങനെയുള്ളവനിൽ നിന്ന് സഹായം പ്രതീക്ഷിക്കുന്നത് ദാഹിക്കുന്നവൻ തീയിൽ നിന്ന് വെള്ളം ചോദിക്കുന്നതിന് തുല്യമാണ്.",
-      enMeaning: "And do not ever hope for magnanimity, grace, or generosity from a deeply miserly and ignoble person. Searching for goodness in them is as impossibly futile as a fiercely thirsty person seeking water within a blazing fire.",
-      arSharah: "في هذا البيت، يوجه الشافعي نصيحة ذهبية تتعلق بحفظ ماء الوجه وتوجيه الآمال نحو وجهتها الصحيحة. ينهى عن 'رجاء السماحة'، أي طلب العون أو الكرم أو حتى حسن المعاملة، من الشخص 'البخيل' (والبخل هنا لا يقتصر على المال، بل يشمل بخل المشاعر وبخل المروءة ولؤم الطبع). طلب الحاجة من لئيم هو إراقة لماء الوجه وتذلل في غير محله. ولتعميق هذه الفكرة، يضرب الشافعي مثلاً تصويرياً في غاية البلاغة والروعة: 'فما في النار للظمآن ماء'. تخيل شخصاً يكاد يهلك من العطش (الظمآن)، هل يعقل أن يمد يده إلى كتلة من النار المشتعلة بحثاً عن الماء ليرتوي؟ هذا مستحيل عقلاً وواقعاً. كذلك هو الحال تماماً عند طلب الخير ممن طبع على الشح واللؤم، فإنك لن تجد عنده إلا الجفاف القلبي والاحتراق النفسي المتمثل في الإهانة والخذلان."
+        "id": 7,
+        "lineIndices": [
+            12,
+            13
+        ],
+        "mlMeaning": "ഒരു പിശുക്കനിൽ നിന്നും നീ ഔദാര്യം പ്രതീക്ഷിക്കരുത്. കാരണം തീയിൽ ദാഹിക്കുന്നവന് യാതൊരു വെള്ളവുമില്ല.",
+        "enMeaning": "And do not expect generosity from a miser. For there is no water in the fire for the thirsty."
     },
     {
-      id: 8,
-      lineIndices: [14, 15],
-      mlMeaning: "സാവകാശം കാണിക്കുന്നതുകൊണ്ട് ഒരിക്കലും നിനക്ക് നിശ്ചയിക്കപ്പെട്ട ഉപജീവനം കുറഞ്ഞുപോകില്ല. അതുപോലെ തന്നെ, അമിതമായ ആയാസവും കഷ്ടപ്പാടും ഒരിക്കലും നിന്റെ ഉപജീവനത്തിൽ യാതൊരു വർദ്ധനവും വരുത്തുകയുമില്ല.",
-      enMeaning: "Your pre-decreed provision is never decreased by taking things slowly with deliberation, nor is your sustenance ever miraculously increased by engaging in exhausting, frantic toil and endless hardship.",
-      arSharah: "يتطرق الشافعي هنا إلى قضية جوهرية تشغل بال كل إنسان وتسبب له الكثير من القلق: قضية 'الرزق'. يعيد صياغة المفهوم الإسلامي العميق للرزق بأسلوب مبسط ومقنع. القاعدة الأولى: 'ورزقك ليس ينقصه التأني'. التأني هو الهدوء، الأخذ بالأسباب بسكينة، وعدم التهور أو القفز على المراحل. لا تظن أن هدوءك وعدم تهافتك سيؤديان إلى ضياع فرصتك أو نقصان رزقك المكتوب لك. القاعدة الثانية والمكملة: 'وليس يزيد في الرزق العناء'. العناء هو التعب المفرط، الشقاء المستمر، واللهاث المحموم خلف الدنيا الذي يرهق الجسد ويشغل الروح. هذا الركض الهستيري لن يضيف درهماً واحداً إلى ما قدره الله لك في الأزل. هذه الرؤية المتوازنة لا تدعو للكسل أو ترك العمل (فالأخذ بالأسباب واجب)، بل تدعو إلى التحرر من 'عبودية الرزق' والهلع الدائم، والعمل باعتدال وثقة تامة وتوكل حقيقي على الرزاق سبحانه."
+        "id": 8,
+        "lineIndices": [
+            14,
+            15
+        ],
+        "mlMeaning": "നിന്റെ ഉപജീവനം, സാവധാനം പ്രവർത്തിക്കുന്നത് അതിനെ കുറയ്ക്കുകയില്ല. കഷ്ടപ്പാടുകൾ ഉപജീവനത്തിൽ വർദ്ധനവ് ഉണ്ടാക്കുകയുമില്ല.",
+        "enMeaning": "And your provision, deliberation does not decrease it. And hardship does not increase the provision."
     },
     {
-      id: 9,
-      lineIndices: [16, 17],
-      mlMeaning: "ഈ ലോകത്ത് ദുഃഖം ശാശ്വതമല്ല, സന്തോഷവും ശാശ്വതമല്ല. അതുപോലെ, നിങ്ങൾ അനുഭവിക്കുന്ന കഷ്ടപ്പാടുകളും ദാരിദ്ര്യവും നിത്യമായിരിക്കില്ല, നിങ്ങൾ അനുഭവിക്കുന്ന സുഖസൗകര്യങ്ങളും നിലനിൽക്കുന്നതല്ല.",
-      enMeaning: "In this existence, no sorrow is eternal, nor does any joy last forever. Similarly, no state of misery and hardship will endlessly remain upon you, just as no state of prosperity and utter ease is permanently guaranteed.",
-      arSharah: "يقرر الشافعي في هذا المقطع قانون 'التغير الكوني الحتمي' الذي يحكم الحياة الدنيا بأسرها. لا يوجد شيء ثابت، وكل الأحوال إلى زوال. 'ولا حزن يدوم ولا سرور'؛ هذه حقيقة مطلقة ومريحة في نفس الوقت. إذا كنت تمر بفترة من الحزن العميق والابتلاء القاسي، فتذكر أنه لن يدوم وسينتهي عاجلاً أم آجلاً. وإذا كنت في قمة السعادة والسرور، فلا تغتر لأن هذه اللحظات ستنقضي أيضاً لتبدأ دورة جديدة. ويؤكد المعنى في الشطر الثاني: 'ولا بؤس عليك ولا رخاء'. البؤس (الفقر والشدة) والرخاء (الغنى والسعة) هما حالتان مؤقتتان يتداولهما البشر. هذا الفهم العميق لطبيعة الدنيا يكسب الإنسان 'التوازن الانفعالي' العظيم؛ فلا يطير فرحاً وبطراً عند النعمة والرخاء، ولا ينهار يأساً وقنوطاً عند المصيبة والبؤس. إنه منهج روحي رفيع يجعل القلب متصلاً بخالق الأسباب المتغيرات، لا بالأسباب المتغيرة ذاتها."
+        "id": 9,
+        "lineIndices": [
+            16,
+            17
+        ],
+        "mlMeaning": "ഒരു ദുഃഖവും ശാശ്വതമല്ല, ഒരു സന്തോഷവും. നിന്റെ മേലുള്ള ഒരു ദാരിദ്ര്യവും, ഒരു സമൃദ്ധിയും.",
+        "enMeaning": "And no sorrow lasts, and no joy. And no misery upon you, and no prosperity."
     },
     {
-      id: 10,
-      lineIndices: [18, 19],
-      mlMeaning: "എപ്പോഴും തന്നിലുള്ളതിൽ പൂർണ്ണമായ സംതൃപ്തിയുള്ള (ഖനാഅത്ത്) ഒരു ഹൃദയത്തിന്റെ ഉടമയാണ് നിങ്ങളെങ്കിൽ, യഥാർത്ഥത്തിൽ നിങ്ങളും ഈ ലോകം മുഴുവൻ സ്വന്തമാക്കിയ രാജാവും എല്ലാ അർത്ഥത്തിലും തുല്യരാണ്.",
-      enMeaning: "If you happen to be the possessor of a truly and deeply contented heart (Qanaa'a), then in reality, you and the supreme monarch who owns the entirety of this world are absolutely equal in wealth.",
-      arSharah: "هنا نصل إلى واحدة من أعظم الحكم الشافعية وأكثرها تأثيراً، حيث يعيد تعريف مفهوم 'الغنى' الحقيقي. الغنى في نظر الشافعي ليس بكثرة الممتلكات والقصور والأموال، بل هو حالة نفسية تنبع من الداخل. 'إذا ما كنت ذا قلب قنوع'؛ القناعة هي الرضا التام بما قسمه الله، والاكتفاء بما في اليد دون التطلع بشرهٍ وحسد إلى ما في أيدي الآخرين. القلب القنوع هو قلب غني وشبعان بطبيعته. النتيجة المذهلة لهذه الحالة هي: 'فأنت ومالك الدنيا سواء'. فكر فيها بعمق: ما الذي يبحث عنه ملك الدنيا بكل أمواله وسلطانه؟ إنه يبحث عن الراحة، السعادة، والإحساس بالاكتفاء. فإذا وصلت أنت إلى هذا الإحساس الصافي (الراحة والاكتفاء) من خلال قناعتك الداخلية وبأقل الإمكانيات، فقد تساويت تماماً مع الملك في المحصلة النهائية والهدف الأسمى، بل ربما تفوقت عليه لأنك تخلصت من أعباء الملك وحساباته وقلقه الدائم."
+        "id": 10,
+        "lineIndices": [
+            18,
+            19
+        ],
+        "mlMeaning": "നീ സംതൃപ്തിയുള്ള ഒരു ഹൃദയത്തിന്റെ ഉടമയാണെങ്കിൽ. അപ്പോൾ നീയും ഈ ലോകത്തിന്റെ ഉടമസ്ഥനും തുല്യരാണ്.",
+        "enMeaning": "If you are the possessor of a contented heart. Then you and the owner of the world are completely equal."
     },
     {
-      id: 11,
-      lineIndices: [20, 21],
-      mlMeaning: "ഒരാളുടെ മുറ്റത്ത് മരണങ്ങൾ വന്നിറങ്ങിയാൽ, പിന്നെ അവനെ അതിൽ നിന്ന് സംരക്ഷിക്കാൻ ഈ ഭൂമിക്കോ ആകാശത്തിനോ ഒരിക്കലും സാധിക്കുകയില്ല.",
-      enMeaning: "And whoever has the ultimate destinies (deaths) descend relentlessly into his very courtyard, then no earth can ever protect him, nor can any sky offer him sanctuary from it.",
-      arSharah: "ينقلنا الإمام الشافعي في هذا المقطع إلى الحقيقة المطلقة والنهاية الحتمية لكل مخلوق: 'الموت'. يصور الموت كضيف ثقيل، أو كجيش قاهر، 'ينزل بساحة' الإنسان. الساحة هنا ترمز للحيز الخاص، للبيت، للحياة الشخصية، للحصون التي يبنيها الإنسان حول نفسه. عندما تصدر الإرادة الإلهية بانتهاء الأجل وتتنزل 'المنايا' (جمع منية وهي الموت)، فإن كل القوى المادية تقف عاجزة مشلولة. 'فلا أرض تقيه ولا سماء'؛ لن تجد مخبأً في باطن الأرض يحميك، ولن تستطيع الطيران في السماء للفرار. التكنولوجيا، الطب المتقدم، الحراس الشداد، والقصور المشيدة، كلها تسقط أمام هيبة الموت. هذا التذكير القوي بحتمية الموت ليس لإحباط العزائم، بل هو تدمير لكبرياء الإنسان الزائف، ودعوة ملحة للاستيقاظ من غفلة الدنيا الفانية، والاستعداد الجاد بالعمل الصالح للقاء الله تعالى."
+        "id": 11,
+        "lineIndices": [
+            20,
+            21
+        ],
+        "mlMeaning": "ഏതൊരാളുടെ മുറ്റത്താണോ മരണം വന്നിറങ്ങിയത്. അപ്പോൾ ഒരു ഭൂമിക്കും അവനെ രക്ഷിക്കാനാകില്ല, ഒരു ആകാശത്തിനും.",
+        "enMeaning": "And whoever deaths descend into his courtyard. Then no earth protects him, nor any sky."
     },
     {
-      id: 12,
-      lineIndices: [22, 23],
-      mlMeaning: "അല്ലാഹുവിന്റെ ഈ ഭൂമി വളരെ വിശാലമാണ് എന്നത് ശരിതന്നെ. പക്ഷേ, അല്ലാഹുവിന്റെ ഒരു വിധി വന്നുഭവിക്കുന്ന സമയത്ത് ഈ വിശാലമായ ബഹിരാകാശം പോലും ഒരാൾക്ക് വളരെ ഇടുങ്ങിയതായി അനുഭവപ്പെടും.",
-      enMeaning: "The earth of Allah is undeniably vast and infinitely spacious, but when the divine decree of destiny inescapably descends, even the most expansive space becomes suffocatingly narrow.",
-      arSharah: "يواصل الشافعي تأمله في قدرة الله العظمى ومحدودية حيلة الإنسان وضعفه الشديد. يعترف في البداية بحقيقة بديهية: 'وأرض الله واسعة'. الكون فسيح، والخيارات في الحالة الطبيعية تبدو كثيرة، ومجالات الهروب أو التحرك واسعة جداً. الإنسان في لحظات قوته يشعر أنه قادر على السفر، وتغيير الأماكن، والمناورة بكل حرية في هذا الفضاء الفسيح. ولكن المعادلة تتغير جذرياً بكلمة 'ولكن'. 'إذا نزل القضا (القضاء)'، أي عندما يحل الأمر الإلهي الحاسم (سواء كان بالموت، أو بمصيبة لا راد لها، أو بأزمة خانقة مفاجئة)، ماذا يحدث؟ 'ضاق الفضاء'؛ هذا الكون الواسع كله ينكمش في عين المخضوب ويصبح كأنه ثقب إبرة. تضيق عليه الأرض بما رحبت وتضيق عليه نفسه، ويدرك تمام الإدراك أنه لا ملجأ ولا منجا من الله إلا إليه. إنها لوحة بلاغية مذهلة تصور الانتقال العنيف من وهم 'السعة والقدرة الذاتية' إلى حقيقة 'العجز والانقياد التام للقضاء الإلهي'."
+        "id": 12,
+        "lineIndices": [
+            22,
+            23
+        ],
+        "mlMeaning": "അല്ലാഹുവിന്റെ ഭൂമി വിശാലമാണ്, എങ്കിലും. വിധി വന്നിറങ്ങിയാൽ ആ വിശാലമായ ഇടം ഇടുങ്ങിയതാകും.",
+        "enMeaning": "And the earth of Allah is vast, but. When the decree descends, the space significantly narrows."
     },
     {
-      id: 13,
-      lineIndices: [24, 25],
-      mlMeaning: "അതുകൊണ്ട് കാലത്തെ അതിന്റെ വഴിക്ക് വിടുക, അത് ഏത് നിമിഷവും അപ്രതീക്ഷിതമായി ചതിച്ചേക്കാം. കാരണം, മരണം വന്നെത്തുമ്പോൾ ഏത് വലിയ മരുന്നും അതിനെ പ്രതിരോധിക്കാൻ ഫലപ്രദമാകുകയില്ല.",
-      enMeaning: "Therefore, simply let the days be, for they act treacherously and unexpectedly at every single moment. And when death finally comes, absolutely no medicine or worldly remedy will ever avail against it.",
-      arSharah: "يختتم الإمام الشافعي قصيدته الرائعة بعودة أسلوبية رائعة إلى نقطة البداية، مؤكداً نفس الأمر (دع الأيام) ولكنه يضيف تعليلاً جديداً وخاتمة مدوية. يقول: 'دع الأيام تغدر كل حين'. يصف طبيعة الأيام والزمن بـ 'الغدر'، وهو كناية عن التقلب السريع والمفاجآت غير السارة والانقلاب من السعادة إلى الحزن دون سابق إنذار. لا تركن إلى استقرار الدنيا لأن من طبعها التغير المستمر والابتلاء المباغت 'كل حين'. ثم يوجه الضربة القاضية لكل التعلقات المادية والطبية: 'فما يغني عن الموت الدواء'. قد تبحث عن أرقى المستشفيات وأغلى الأدوية وأمهر الأطباء لدفع المرض وتمديد الحياة، وهذا مطلوب شرعاً من باب الأخذ بالأسباب، ولكنه يؤكد لك أن كل هذا الدواء يفقد مفعوله تماماً ويقف عاجزاً عندما تحين لحظة 'الموت' الحقيقية التي قدرها الله. الخاتمة هي دعوة صريحة للتحرر التام من الخوف، والاستعداد الأبدي، والتعلق برب الأسباب وترك الانشغال العقيم بمواجهة حتميات القدر التي لا تتغير."
+        "id": 13,
+        "lineIndices": [
+            24,
+            25
+        ],
+        "mlMeaning": "എല്ലാ സമയത്തും കാലം ചതിക്കാൻ നീ വിട്ടേക്കുക. കാരണം മരണത്തിന് പകരമായി യാതൊരു മരുന്നും ഫലം ചെയ്യുകയില്ല.",
+        "enMeaning": "Let the days betray at every moment. For medicine absolutely does not avail against death."
     }
-  ],
+],
   sections: [
     {
-      id: 1,
-      titleMl: "വിധിയോടുള്ള പൊരുത്തപ്പെടൽ",
-      titleEn: "Contentment with Destiny",
-      titleAr: "التسليم للقضاء",
-      startLine: 1,
-      endLine: 4,
-      mlSummary: "കാലത്തിന്റെ മാറ്റങ്ങളെ സ്വീകരിക്കാനും അല്ലാഹുവിന്റെ വിധിയിൽ സംതൃപ്തി കണ്ടെത്താനുമുള്ള ഉപദേശം.",
-      enSummary: "Advice to embrace the changes of time and find deep contentment in the divine decree.",
-      arSummary: "دعوة للتسليم المطلق لقضاء الله وقدره، والرضا بالواقع، والتذكير بأن مصائب الدنيا زائلة ولا دوام لها."
+        "id": 1,
+        "titleMl": "ഭാഗം 1 (വരികൾ 1-6)",
+        "titleEn": "Section 1 (Lines 1-6)",
+        "titleAr": "المقطع الأول (١-٦)",
+        "startLine": 1,
+        "endLine": 6,
+        "mlSummary": "മനുഷ്യന്റെ വൈകാരിക നിയന്ത്രണത്തെക്കുറിച്ചുള്ള അതിഗഹനമായ ഒരു അക്കാദമിക് തത്വചിന്തയാണ് ഈ ആറ് വരികളിലുള്ളത്. കാലത്തെയും സാഹചര്യങ്ങളെയും സ്വതന്ത്രമായി പ്രവർത്തിക്കാൻ അനുവദിക്കുക എന്ന കാവ്യാത്മകമായ പ്രയോഗത്തിലൂടെ, നമ്മുടെ നിയന്ത്രണത്തിന് അതീതമായ കാര്യങ്ങളെച്ചൊല്ലി ഉത്കണ്ഠപ്പെടുന്നത് അവസാനിപ്പിക്കാൻ ഇമാം ആവശ്യപ്പെടുന്നു. ഈ ലോകത്തെ ഒരു സംഭവത്തിനും ശാശ്വതമായ നിലനിൽപ്പില്ല (عدم البقاء) എന്ന തിരിച്ചറിവാണ് ഉത്കണ്ഠകൾക്കും ഭയത്തിനും എതിരെയുള്ള ഏറ്റവും മികച്ച കോഗ്നിറ്റീവ് തെറാപ്പി. മനുഷ്യന്റെ ഏകാന്തതയെയും അപ്രതീക്ഷിതമായി കടന്നുവരുന്ന ദുരന്തങ്ങളെയും കുറിക്കാൻ സാഹിത്യത്തിൽ എപ്പോഴും 'രാത്രികളെ' (اللَّيَالِي) ആണ് ഉപയോഗിക്കുന്നത്.\nതുടർന്ന്, അഞ്ചാമത്തെ വരിയിൽ 'നീയൊരു പുരുഷനാകുക' (رَجُلاً) എന്ന് കവി ആവശ്യപ്പെടുന്നു. അറബി സാഹിത്യത്തിൽ ഇതൊരു പുരുഷമേധാവിത്വ പ്രയോഗമോ കേവലം ഒരു ലിംഗത്തെയോ (Gender) കുറിക്കുന്ന പദമല്ല; മറിച്ച് അറബികളുടെ ഏറ്റവും ഉയർന്ന മൂല്യമായ 'മുറൂഅത്ത്' (المروءة) അഥവാ അചഞ്ചലമായ ധീരത, ഉത്തരവാദിത്തബോധം, പ്രതിസന്ധികളിൽ തളരാത്ത മനസ്സ് എന്നിവയെയാണ് ഇതിലൂടെ അർത്ഥമാക്കുന്നത്. ലോകം മുഴുവൻ തകർന്നുവീണാലും പരാതികളില്ലാതെ ഉറച്ചുനിൽക്കുന്ന ഒരുവനെ മാത്രമേ കാവ്യശാസ്ത്രത്തിൽ 'റജുൽ' എന്ന് വിളിക്കൂ. എന്നാൽ ആ കാഠിന്യം ഒരു മനുഷ്യനെ ക്രൂരനാക്കാതിരിക്കാൻ, അവനിലുള്ള ജന്മസിദ്ധമായ പ്രകൃതം അഥവാ 'സജിയ്യത്ത്' (السجية) എപ്പോഴും കാരുണ്യവും വിട്ടുവീഴ്ചയും (السماحة) നിറഞ്ഞതായിരിക്കണം എന്ന് കവി കൃത്യമായി നിർദ്ദേശിക്കുന്നു. അചഞ്ചലമായ കരുത്തും (Resilience) തികഞ്ഞ വിട്ടുവീഴ്ചാ മനോഭാവവും (Empathy) സമന്വയിപ്പിച്ച ഉത്തമ വ്യക്തിത്വത്തിന്റെ ബ്ലൂപ്രിന്റാണിത്.",
+        "enSummary": "In this breathtaking opening movement, Imam Al-Shafi'i lays down a masterclass in psychological resilience and cognitive reframing. By employing dynamic personification—instructing the reader to \"let the days do what they please\"—he advocates for radical existential acceptance. He addresses human anxiety by dismantling the logic of panic (Jaza') through the fundamental thesis of temporality: no worldly crisis possesses the structural integrity for permanence (Baqa').\nIn the third couplet, he constructs the ultimate blueprint for a premium executive persona using the highly charged term Rajulan (\"a man\"). In classical Arabic literary theory, this is not a biological gender marker. It represents the pinnacle of Muru'ah (المروءة)—the ancient Arabian code of chivalry, absolute reliability, and unbreakable fortitude in the face of systemic collapse. A true Rajul absorbs existential terrors (Ahwal) without complaint. However, to prevent this immense internal toughness (Jald) from calcifying into toxicity or cruelty, the poet meticulously demands that the individual's Sajiyyah (السجية - deep, genetically encoded innate disposition) must strictly consist of profound tolerance (Samahah) and unbreakable loyalty (Wafa'). This creates an elite, academically perfect equilibrium between impenetrable internal armor and hyper-empathetic external social grace.",
+        "arSummary": "يفتتح الإمام الشافعي هذه المنظومة الفلسفية بتأسيس \"الصلابة النفسية\" (Psychological Resilience). يستخدم تقنية (التشخيص - Personification) في قوله \"دَعِ الأَيَّامَ\"، حيث يمنح الزمن إرادة حرة ليفعل ما يشاء، وهذا يمثل أعلى درجات التسليم الوجودي. من منظور (علم المعاني)، يأتي النهي في \"لا تجزع\" مدعوماً بتعليل منطقي قاطع: \"فما لحوادث الدنيا بقاء\". استخدام \"الليالي\" توظيف للرموز؛ فالليل يعكس وحشة المجهول.\nثم يرتقي الشاعر إلى رسم النموذج الأرقى للكمال البشري، مستخدماً لفظة \"رَجُلاً\". في القاموس الأدبي العربي، الرجولة هنا لا تعني الذكورة البيولوجية، بل هي تجسيد لمفهوم (المروءة)، وهي القدرة على تحمل الصدمات (الأهوال) بثبات (جلداً) دون شكوى أو انهيار. ولكي لا يتحول هذا الثبات إلى قسوة وجفاء، اشترط الشاعر أن تكون (السجية) الأصيلة والعميقة لهذا الإنسان هي (السماحة والوفاء). إنه التوازن الأكاديمي الدقيق بين القوة الباطنية المطلقة والرحمة الظاهرية."
     },
     {
-      id: 2,
-      titleMl: "കരുത്തുറ്റ വ്യക്തിത്വവും ഔദാര്യവും",
-      titleEn: "Strong Character and Generosity",
-      titleAr: "صلابة الشخصية وكرم الأخلاق",
-      startLine: 5,
-      endLine: 10,
-      mlSummary: "പ്രതിസന്ധികളിൽ ധീരത കാണിക്കാനും, ഒപ്പം ഔദാര്യം കൊണ്ട് സ്വന്തം ന്യൂനതകളെ മറയ്ക്കാനുമുള്ള ആഹ്വാനം.",
-      enSummary: "A call to exhibit courage during crises, and simultaneously use sheer generosity to cover personal flaws.",
-      arSummary: "توجيه لبناء شخصية قوية أمام الصعاب، ومزينة بالسماحة والوفاء، مع التأكيد على دور الكرم في ستر عيوب الإنسان."
+        "id": 2,
+        "titleMl": "ഭാഗം 2 (വരികൾ 7-12)",
+        "titleEn": "Section 2 (Lines 7-12)",
+        "titleAr": "المقطع الثاني (٧-١٢)",
+        "startLine": 7,
+        "endLine": 12,
+        "mlSummary": "മനുഷ്യന്റെ വ്യക്തിത്വത്തിലെ പോരായ്മകളെ സമൂഹത്തിൽ എങ്ങനെ തന്ത്രപരമായി കൈകാര്യം ചെയ്യാം എന്നതിന്റെ ഒരു സോഷ്യോളജിക്കൽ മാസ്റ്റർ ക്ലാസ്സാണിത് (Sociological Camouflage). സമൂഹമധ്യത്തിൽ ഒരാളുടെ പ്രതിച്ഛായ (Public Image) സംരക്ഷിക്കാനുള്ള ഏറ്റവും വലിയ ആയുധം 'ഔദാര്യം' (Generosity) ആണെന്ന് ഇമാം വ്യക്തമാക്കുന്നു. മനഃശാസ്ത്രത്തിൽ ഇതിനെ 'ഹാലോ ഇഫക്റ്റ്' (Halo Effect) എന്ന് വിളിക്കുന്നു. ഔദാര്യം എന്ന ഒറ്റ സവിശേഷത ഒരാളുടെ ബാക്കിയുള്ള വ്യക്തിത്വ ദോഷങ്ങളെ പൂർണ്ണമായും മറച്ചുവെക്കുന്ന സ്ക്രീനായി പ്രവർത്തിക്കുന്നു. നൂറ്റാണ്ടുകളായി മനുഷ്യസമൂഹത്തിൽ നിലനിൽക്കുന്ന ഈ തത്വത്തെ 'പറയപ്പെടുന്നതുപോലെ' (كَمَا قِيلَ) എന്ന 'തദ്മീൻ' (التضمين) പ്രയോഗത്തിലൂടെ കവിതയിലേക്ക് അദ്ദേഹം മനോഹരമായി സന്നിവേശിപ്പിച്ചിരിക്കുന്നു. തുടർന്ന്, സ്വന്തം ആത്മാഭിമാനം (Ego Integrity) എന്ത് വിലകൊടുത്തും സംരക്ഷിക്കപ്പെടേണ്ടതിന്റെ ആവശ്യകതയാണ് പറയുന്നത്. ജീവിതത്തിൽ എന്ത് തകർച്ച നേരിട്ടാലും ശത്രുക്കൾക്ക് മുന്നിൽ ദൗർബല്യം കാണിക്കരുത് (عزة النفس). കാരണം, നിങ്ങളുടെ വീഴ്ച കണ്ട് ശത്രുക്കൾക്കുണ്ടാകുന്ന ആനന്ദവും പരിഹാസവും (الشماتة) സാമ്പത്തിക നഷ്ടത്തേക്കാൾ വലുതും, ഒരു മനുഷ്യന്റെ മാനസികാവസ്ഥയെ പൂർണ്ണമായും തകർക്കുന്നതുമായ മാനസിക യുദ്ധമാണ് (Psychological Warfare).",
+        "enSummary": "In this highly narrative section, Al-Shafi'i transitions from internal psychology to elite Reputation Management and external social dynamics. Acknowledging human imperfection as an empirical reality, he prescribes a tactical sociological camouflage: Generosity (Sakha'). He expertly leverages the psychological phenomenon of the \"Halo Effect,\" noting that grand-scale benevolence creates a cognitive blind spot in the public's perception, effectively masking structural personal flaws. He brilliantly authenticates this by using Tadmin (\"as it was said\"), invoking ancient social wisdom. He then abruptly shifts gears to address the brutal mechanics of psychological warfare and ego preservation. With surgical precision, using the absolute negation particle Qattu, he categorically outlaws the display of any vulnerability, distress, or defeat before adversaries. The rationale is profound: Shamatah (Schadenfreude). The psychological trauma inflicted by witnessing an adversary derive pleasure from your structural failure is infinitely more devastating than the objective failure itself.",
+        "arSummary": "ينتقل الشاعر من البناء النفسي الداخلي إلى (الديناميكية الاجتماعية - Social Dynamics) وإدارة السمعة (Reputation Management). يقدم استراتيجية (التمويه السوسيولوجي - Sociological Camouflage) من خلال التأكيد على أن \"السخاء\" هو أقوى جهاز مناعي اجتماعي للعيوب. الكرم يخلق ما يعرف في علم النفس بـ (تأثير الهالة - Halo Effect)، حيث أن نور العطاء الإنساني يمنع المجتمع من التدقيق في العيوب الشخصية. يستخدم تقنية (التضمين) في \"كما قيل\" ليثبت أن هذه حقيقة مجتمعية مطلقة. وفي البيتين الأخيرين، يقدم درساً نقدياً في الدفاع النفسي و(عزة النفس). يحرّم الشافعي تحريماً قاطعاً (باستخدام ظرف النفي \"قط\") إظهار الانكسار أمام الخصم، مبرراً ذلك سيكولوجياً بأن (الشماتة) تمثل (حرباً نفسية - Psychological Warfare) مدمرة، وألمها الوجداني يفوق حجم الخسارة الهيكلية ذاتها."
     },
     {
-      id: 3,
-      titleMl: "അന്തസ്സും ഉപജീവനവും",
-      titleEn: "Dignity and Provision",
-      titleAr: "العزة والرزق",
-      startLine: 11,
-      endLine: 16,
-      mlSummary: "ശത്രുക്കൾക്ക് മുന്നിൽ ബലഹീനത കാണിക്കാതിരിക്കാനും, അർഹതയില്ലാത്തവരിൽ നിന്ന് ഔദാര്യം പ്രതീക്ഷിക്കാതിരിക്കാനും, ഉപജീവന കാര്യത്തിൽ മിതത്വം പാലിക്കാനുമുള്ള നിർദ്ദേശം.",
-      enSummary: "Instructions to maintain unyielding dignity before enemies, never seek favors from misers, and adopt a balanced approach towards pursuing sustenance.",
-      arSummary: "التحذير من إظهار الضعف للأعداء، والنهي عن طلب المعروف من البخلاء، والتأكيد على أن الرزق مقدر لا يزيده التعب ولا ينقصه الهدوء."
+        "id": 3,
+        "titleMl": "ഭാഗം 3 (വരികൾ 13-18)",
+        "titleEn": "Section 3 (Lines 13-18)",
+        "titleAr": "المقطع الثالث (١٣-١٨)",
+        "startLine": 13,
+        "endLine": 18,
+        "mlSummary": "മനുഷ്യന്റെ സാമ്പത്തിക വ്യവഹാരങ്ങളെക്കുറിച്ചുള്ള വളരെ അഡ്വാൻസ്ഡ് ആയ നിരീക്ഷണമാണിത്. അതിമനോഹരമായ ഒരു സാഹിത്യ ഉപമയിലൂടെ (التشبيه الضمني - Implicit Simile), അടിസ്ഥാനപരമായി പിശുക്കനായ ഒരാളോട് സാമ്പത്തിക സഹായം ചോദിക്കുന്നത്, ദാഹിച്ചു വലഞ്ഞ ഒരാൾ തീക്കുണ്ഡത്തിലേക്ക് എടുത്തുചാടുന്നതിന് തുല്യമാണെന്ന് അദ്ദേഹം സമർത്ഥിക്കുന്നു. തീ ഒരിക്കലും ദാഹം തീർക്കില്ല എന്ന് മാത്രമല്ല, അത് ആ മനുഷ്യനെ പൂർണ്ണമായും നശിപ്പിക്കുകയും ചെയ്യും. അതുപോലെയാണ് പിശുക്കനിൽ നിന്നുള്ള സഹായപ്രതീക്ഷയും. തുടർന്ന്, ആധുനിക മനുഷ്യനെ വേട്ടയാടുന്ന കരിയർ ഉത്കണ്ഠകളെയും അമിതാധ്വാനത്തെയും (Burnout) അദ്ദേഹം അഭിസംബോധന ചെയ്യുന്നു. കൃത്യമായ പ്ലാനിങ്ങോടെ ശാന്തമായി ജോലി ചെയ്യുന്നത് (التأني) ഒരു മനുഷ്യന്റെയും പ്രതിഫലം കുറയ്ക്കില്ല. മറുവശത്ത്, സ്വന്തം ആരോഗ്യം നശിപ്പിച്ച് പരിഭ്രാന്തിയോടെ അമിതമായി കഷ്ടപ്പെടുന്നത് (العناء) നിങ്ങളുടെ സമ്പത്ത് അസാധാരണമായി വർദ്ധിപ്പിക്കുകയുമില്ല. അധ്വാനവും മാനസിക സമാധാനവും തമ്മിലുള്ള ഒരു 'പ്രൊഫഷണൽ ബാലൻസിങ് ആക്ട്' ആണിത്. അവസാന വരികളിൽ പ്രപഞ്ചത്തിന്റെ മാറ്റത്തിന്റെ നിയമം (Fluctuation) ഓർമ്മിപ്പിക്കുന്നു. വിപരീതാർത്ഥമുള്ള പദങ്ങൾ (الطباق) അടുത്തടുത്ത് പ്രയോഗിച്ചുകൊണ്ട്, വൈകാരികമായോ (സന്തോഷം/ദുഃഖം), ഭൗതികമായോ (സമ്പത്ത്/ദാരിദ്ര്യം) ഇവിടെ ഒരു അവസ്ഥയും ശാശ്വതമല്ലെന്ന് അദ്ദേഹം അടിവരയിടുന്നു. ഈ യാഥാർത്ഥ്യം ഉൾക്കൊള്ളുന്നതാണ് മനുഷ്യന്റെ ഏറ്റവും വലിയ മാനസിക സമാധാനം.",
+        "enSummary": "These verses function as a sophisticated theoretical framework for navigating socio-economic limitations. Al-Shafi'i deploys a master-level literary device (Tashbeeh Dhimni—implicit simile) to illustrate the absolute paradox of seeking capital from a fundamentally miserly entity, paralleling it with the suicidal absurdity of plunging into fire for hydration. Fire destroys rather than sustains; exactly like begging from a miser destroys dignity. He then brilliantly addresses modern economic anxiety and destructive burnout culture. He establishes a profound law of equilibrium using semantic contrast (Muqabalah): operating with calm, calculated execution (Ta'anni) mathematically will not decrease your destined outcomes, and frantic, toxic overexertion ('Ana') will not artificially break the algorithmic ceiling of your ordained metrics. Finally, he outlines the fundamental physical law of worldly existence using direct antithesis (Tibaq). By cementing the reality of constant fluctuation—that joy, sorrow, absolute misery, and immense prosperity are inherently volatile, temporary states—he provides a premium emotional stabilizer anchoring the mind in objective reality.",
+        "arSummary": "يغوص الشاعر في أعماق (الاقتصاد السلوكي - Behavioral Economics). يستخدم تقنية (التشبيه الضمني) المذهلة ليرسم غباء الموقف لمن يطلب الفضل من البخيل؛ فالنار التي تناقض طبيعة الماء، لا تروي الظمأ بل تحرق، وكذلك البخيل يهين كرامتك ولا يعطيك شيئاً. ثم يعالج أزمة (الاحتراق الوظيفي - Burnout) والقلق المهني، مقدراً قانوناً حتمياً من خلال (المقابلة) بين التأني والعناء: (التأني) والتنفيذ الاستراتيجي الهادئ لا يُنقص الفرص، و(العناء) والهلع الجنوني لا يكسر سقف الرزق المحدد سلفاً. إنها دعوة رياضية واضحة للإنتاجية المستدامة التي تحافظ على توازن الإنسان. ويختتم الفقرة بقانون (التداول والنسبية - Fluctuation) في العالم المادي، مستخدماً (الطباق) بين الحزن والسرور، والبؤس والرخاء، ليؤكد أن الديناميكية الكونية لا تسمح بثبات أي حالة شعورية أو مادية، وهذا الإدراك يشكل دفاعاً نفسياً ممتازاً."
     },
     {
-      id: 4,
-      titleMl: "സംതൃപ്തിയും മരണത്തിന്റെ യാഥാർത്ഥ്യവും",
-      titleEn: "Contentment and the Reality of Death",
-      titleAr: "القناعة وحتمية الموت",
-      startLine: 17,
-      endLine: 26,
-      mlSummary: "ദുഃഖവും സന്തോഷവും ശാശ്വതമല്ലെന്ന ഓർമ്മപ്പെടുത്തൽ, യഥാർത്ഥ സമ്പത്ത് സംതൃപ്തിയാണെന്ന തത്ത്വം, ഒപ്പം ഏത് നിമിഷവും വന്നെത്താവുന്ന മരണമെന്ന ഒഴിവാക്കാനാവാത്ത യാഥാർത്ഥ്യത്തെക്കുറിച്ചുള്ള ചിന്തകൾ.",
-      enSummary: "A profound reminder that both sorrow and joy are fleeting, that true wealth lies solely in contentment, and deep reflections on the inescapable, absolute reality of death.",
-      arSummary: "بيان لتقلب أحوال الدنيا بين الحزن والفرح، وتأكيد على أن القناعة هي الغنى الحقيقي، وختام بالتذكير القوي بحتمية الموت الذي لا يدفعه دواء ولا واسطة."
+        "id": 4,
+        "titleMl": "ഭാഗം 4 (വരികൾ 19-26)",
+        "titleEn": "Section 4 (Lines 19-26)",
+        "titleAr": "المقطع الرابع (١٩-٢٦)",
+        "startLine": 19,
+        "endLine": 26,
+        "mlSummary": "കവിതയുടെ ഉപസംഹാരത്തിൽ ഇമാം ശാഫി (റ) മിനിമലിസത്തിന്റെ (Minimalism / الزهد) ഏറ്റവും ഉയർന്ന തലമാണ് ആവിഷ്കരിക്കുന്നത്. സമ്പത്ത് എന്നത് ബാഹ്യമായ കൂട്ടിവെക്കലുകളല്ല, മറിച്ച് അത് മാനസികമായ ഒരു അവസ്ഥയാണ് (Cognitive State). ഈ ലോകം മുഴുവൻ വെട്ടിപ്പിടിച്ച വലിയൊരു ചക്രവർത്തിക്കും, തനിക്ക് ലഭിച്ചത് കൊണ്ട് മാത്രം സംതൃപ്തനായ ഒരു സാധാരണക്കാരനും ലഭിക്കുന്ന ആന്തരിക സമാധാനം തികച്ചും തുല്യമാണ്; കാരണം രണ്ടുപേരുടെയും ഹൃദയത്തിൽ 'ഇനി വേറെയൊന്നും ആവശ്യമില്ല' (القناعة) എന്ന പൂർണ്ണതയാണുള്ളത്. തുടർന്ന്, മനുഷ്യന്റെ എല്ലാ അഹങ്കാരങ്ങളെയും ഇല്ലാതാക്കുന്ന മരണമെന്ന പരമമായ യാഥാർത്ഥ്യത്തെ (Existential Reality) അദ്ദേഹം അവതരിപ്പിക്കുന്നു. അന്തിമവിധി വന്നെത്തിയാൽ ഭൗമശാസ്ത്രപരമായോ സാങ്കേതികമായോ ഉള്ള ഒരു സുരക്ഷാ സംവിധാനങ്ങൾക്കും അവനെ രക്ഷിക്കാൻ കഴിയില്ല. അതിവിശാലമായ ഈ പ്രപഞ്ചം മുഴുവൻ (وَاسِعَةٌ) അവന് മുന്നിൽ ഒരു ഇരുട്ടുമുറിപോലെ ശ്വാസംമുട്ടിക്കുന്നതായി (ضَاقَ) മാറും. സ്ഥലവും കാലവും തമ്മിലുള്ള മനുഷ്യന്റെ ബോധം അവിടെ പൂർണ്ണമായും തകർന്നുവീഴുന്നു. കവിതയുടെ തുടക്കത്തിൽ പറഞ്ഞതുപോലെ കാലം അതിന്റെ രീതിയിൽ മാറിക്കോട്ടെ, കാരണം എത്ര വലിയ മെഡിക്കൽ സയൻസിനും മരണത്തിന് മുന്നിൽ മറുപടിയില്ല എന്ന യാഥാർത്ഥ്യം ഉൾക്കൊണ്ട്, ഭൗതിക ലോകത്തോടുള്ള അമിതമായ ആശ്രിതത്വം ഒഴിവാക്കി മാനസികമായ പൂർണ്ണ സ്വാതന്ത്ര്യം (Absolute liberation) നേടാനാണ് ഈ കാവ്യം ആഹ്വാനം ചെയ്യുന്നത്.",
+        "enSummary": "In this grand conclusion, Al-Shafi'i executes a complete structural teardown of the concept of \"wealth,\" attaching it strictly to cognitive framing: absolute contentment (Qana'ah). A person completely saturated with their baseline lot achieves a state of internal equilibrium mathematically identical to that of an emperor—material disparity is entirely neutralized by cognitive equality. He then shifts the analytical lens to Existential Determinism (Al-Manaya). When the ultimate decree touches down, all spatial, technological, and defensive infrastructures instantaneously collapse. He constructs a brilliant spatial paradox (Tibaq): the infinite vastness of the universe psychologically constricts into severe claustrophobia. Bringing the narrative full circle with flawless structural symmetry (Radd al-A'jaz 'ala al-Sadr), he seamlessly echoes the opening line. Let the unpredictable algorithms of time operate as they will, for ultimately, absolutely no advanced medical intervention or pharmacology can cure mortality. This is a highly sophisticated, premium academic mandate to unshackle oneself from the futile obsession with micro-managing a fundamentally temporary existence, achieving true spiritual liberation.",
+        "arSummary": "يصل الشاعر في هذه الخاتمة الملحمية إلى قمة (فلسفة الزهد - Spiritual Asceticism). يقوم بهندسة عكسية لمفهوم \"الثروة\"؛ فالغنى ليس تراكماً مادياً، بل هو (حالة إدراكية - Cognitive State) تسمى القناعة. عندما يمتلك الإنسان قلباً قنوعاً (Zero Desires)، يصل إلى نفس الإشباع النفسي والراحة لإمبراطور يحكم العالم بأكمله. التفاوت المادي يسقط تماماً أمام التساوي الشعوري. ثم يحول العدسة نحو (الحتمية الوجودية - Existential Determinism): الموت. عندما تحين النهاية، تتهاوى كل الأنظمة الدفاعية الجغرافية والفضائية. يصور ببراعة (المفارقة المكانية - Spatial Paradox) المذهلة بتقنية (الطباق) بين السعة والضيق؛ فالأرض الواسعة تنكمش سيكولوجياً وتتحول إلى زنزانة خانقة عندما ينفذ القضاء. يختتم المنظومة بعودة هيكلية متقنة (رد العجز على الصدر) إلى نقطة البداية \"دع الأيام\"، ليقرر في النهاية أن لا تكنولوجيا طبية أو دواء قادر على اختراق قانون الموت. إنها دعوة للتحرر المطلق من وهم السيطرة على الحياة وتفويض الأمر للخالق."
     }
-  ],
+],
   quatrains: [
     {
       id: 1,
