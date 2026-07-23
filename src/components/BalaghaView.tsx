@@ -16,6 +16,7 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang })
     { id: 'طباق', labelMl: 'الطباق (Antithesis)', labelEn: 'Antithesis' },
     { id: 'تشبيه', labelMl: 'التشبيه (Simile)', labelEn: 'Simile' },
     { id: 'أسلوب', labelMl: 'أسلوب الأمر (Imperative)', labelEn: 'Imperatives' },
+    { id: 'نحو', labelMl: 'النحو (Grammar)', labelEn: 'Grammar (Nahu)' },
   ];
 
   const filteredItems = data.filter((b) => {
@@ -68,12 +69,12 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang })
           >
             {/* Header / Category Badge */}
             <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-              <div>
-                <h3 className="text-sm sm:text-base font-bold text-slate-800 dark:text-slate-100" dir="ltr">
-                  {interfaceLang === 'ml' ? item.titleMl : (item.titleEn || item.titleMl)}
-                </h3>
-                <p className="text-xs font-arabic amiri-bold text-purple-600 dark:text-purple-400 text-right mt-0.5" dir="rtl">
+              <div className="w-full">
+                <h3 className="text-lg sm:text-xl font-arabic amiri-bold text-purple-800 dark:text-purple-300" dir="rtl">
                   {item.titleAr}
+                </h3>
+                <p className="text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-400 mt-1" dir="ltr">
+                  {interfaceLang === 'ml' ? item.titleMl : (item.titleEn || item.titleMl)}
                 </p>
               </div>
 

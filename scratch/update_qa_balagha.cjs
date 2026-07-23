@@ -1,4 +1,10 @@
-import { QuestionItem } from '../../types';
+const fs = require('fs');
+const path = require('path');
+
+// 1. Update questionsData.ts
+const questionsPath = path.join(process.cwd(), 'src', 'data', 'shafiee-da-al-ayyam', 'questionsData.ts');
+
+const newQuestionsData = `import { QuestionItem } from '../../types';
 
 export const questionsData: QuestionItem[] = [
   // SECTION 1: MCQs
@@ -6,7 +12,7 @@ export const questionsData: QuestionItem[] = [
     id: 1,
     qAr: "ماذا يعني مصطلح 'الجزع' المستخدم في البيت الثاني؟",
     qMl: "രണ്ടാമത്തെ വരിയിൽ ഉപയോഗിച്ചിരിക്കുന്ന 'അൽ-ജസഅ്' (الجزع) എന്ന സാങ്കേതിക പദം കൊണ്ട് അർത്ഥമാക്കുന്നത് എന്ത്?",
-    qEn: "What does the technical term 'Al-Jaza\'' mean as used in the second line?",
+    qEn: "What does the technical term 'Al-Jaza\\'' mean as used in the second line?",
     type: "mcq",
     options: [
       "الشجاعة / ധൈര്യം / Courage",
@@ -150,7 +156,7 @@ export const questionsData: QuestionItem[] = [
     type: "grammar",
     answerAr: "لأنه فعل مضارع واقع في جواب الطلب (فعل الأمر: دَعِ).",
     answerMl: "'دَعِ' (വിട്ടേക്കുക) എന്ന കൽപനാക്രിയയുടെ (فعل أمر) മറുപടിയായി (جواب الطلب) വന്നതുകൊണ്ടാണ് ഈ ക്രിയയ്ക്ക് സുകൂൻ നൽകിയത്.",
-    answerEn: "Because it falls in the position of response to the imperative request (Jawab al-Talab) originating from the command 'Da\' (Let)."
+    answerEn: "Because it falls in the position of response to the imperative request (Jawab al-Talab) originating from the command 'Da\\' (Let)."
   },
   {
     id: 11,
@@ -196,7 +202,7 @@ export const questionsData: QuestionItem[] = [
     id: 15,
     qAr: "ما الإعراب النحوي لكلمة 'دَوَاءُ' في عبارة 'فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ'؟",
     qMl: "'فَمَا يُغْنِي عَنِ المَوْتِ الدَّوَاءُ' എന്ന വാചകത്തിലെ 'دَوَاءُ' എന്ന പദത്തിന്റെ ഇഅ്റാബ് എന്താണ്?",
-    qEn: "What is the I'rab of the word 'Dawa'u' in the phrase 'Fama yughni \'ani al-mawti al-dawa'u'?",
+    qEn: "What is the I'rab of the word 'Dawa'u' in the phrase 'Fama yughni \\'ani al-mawti al-dawa'u'?",
     type: "grammar",
     answerAr: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة للفعل 'يغني'.",
     answerMl: "ഇത് 'يُغْنِي' (ഫലം ചെയ്യുക) എന്ന ക്രിയയുടെ 'ഫാഇൽ' (فاعل - Subject) ആണ്. അതിനാൽ ദമ്മ (ضمة) നൽകിയിരിക്കുന്നു.",
@@ -238,7 +244,7 @@ export const questionsData: QuestionItem[] = [
     id: 19,
     qAr: "ما هي الفلسفة الاقتصادية (التوازن المهني) التي يطرحها الشاعر حول 'التأني' و 'العناء'؟",
     qMl: "'التأني' (ശാന്തത), 'العناء' (അമിതാധ്വാനം) എന്നിവയെക്കുറിച്ച് കവി മുന്നോട്ടുവെക്കുന്ന സാമ്പത്തിക തത്വശാസ്ത്രം (പ്രൊഫഷണൽ ബാലൻസ്) എന്താണ്?",
-    qEn: "What is the economic philosophy (Professional Balance) the poet proposes regarding 'Ta\'anni' (deliberation) and '\'Ana' (burnout)?",
+    qEn: "What is the economic philosophy (Professional Balance) the poet proposes regarding 'Ta\\'anni' (deliberation) and '\\'Ana' (burnout)?",
     type: "descriptive",
     answerAr: "العمل الهادئ والمخطط (التأني) لن ينقص الرزق المكتوب، والركض الجنوني والاحتراق الوظيفي (العناء) لن يكسر سقف الرزق الإلهي. إنها دعوة للإنتاجية المستدامة.",
     answerMl: "കൃത്യമായ പ്ലാനിങ്ങോടെ ശാന്തമായി ജോലി ചെയ്യുന്നത് (التأني) നിങ്ങളുടെ ഉപജീവനം കുറയ്ക്കില്ല, അതുപോലെ പരിഭ്രാന്തിയോടെ അമിതമായി കഷ്ടപ്പെടുന്നത് (العناء) നിങ്ങളുടെ മുൻനിശ്ചയിക്കപ്പെട്ട സമ്പത്തിന്റെ പരിധി വർദ്ധിപ്പിക്കുകയുമില്ല. മാനസിക സമാധാനത്തോടെയുള്ള പ്രൊഫഷണലിസമാണിത്.",
@@ -305,3 +311,150 @@ export const questionsData: QuestionItem[] = [
     answerEn: "The final decree ('For medicine absolutely does not avail against death') shatters human arrogance. Despite advanced pharmacological interventions, humanity remains powerless against biological determinism, brutally dismantling the illusion of micro-managing existence."
   }
 ];
+`;
+fs.writeFileSync(questionsPath, newQuestionsData);
+
+
+// 2. Update balaghaData.ts
+const balaghaPath = path.join(process.cwd(), 'src', 'data', 'shafiee-da-al-ayyam', 'balaghaData.ts');
+
+const newBalaghaData = `import { BalaghaItem } from '../../types';
+
+export const balaghaData: BalaghaItem[] = [
+  {
+    id: 1,
+    titleMl: "രൂപകവൽക്കരണം (മജാസ് മുർസൽ)",
+    titleEn: "Synecdoche (Majaz Mursal)",
+    titleAr: "مَجَازٌ مُرْسَلٌ",
+    category: "مجاز",
+    exampleAr: "الأَيَّامَ",
+    explanationMl: "'ദിവസങ്ങൾ' എന്ന് പറയുകയും കാലത്തെ മുഴുവൻ ഉദ്ദേശിക്കുകയും ചെയ്യുന്ന ശൈലി. ഒരു വലിയ കാലയളവിന്റെ ഒരു ചെറിയ ഭാഗം മാത്രം പറഞ്ഞ് മുഴുവൻ കാര്യത്തെയും പ്രതിനിധീകരിക്കുന്നു.",
+    explanationEn: "Using a part ('days') to represent the whole ('time/destiny'). This rhetorical device elegantly points to all uncontrollable events of time.",
+    explanationAr: "إطلاق الجزء (الأيام) وإرادة الكل (الزمن أو الدهر). وهذا من باب المجاز المرسل بعلاقة الجزئية، للتعبير عن تقلبات الزمان الشاملة.",
+    lineNumber: 1
+  },
+  {
+    id: 2,
+    titleMl: "വ്യക്തിവൽക്കരണം (ഇസ്തിആറ മക്നിയ്യ)",
+    titleEn: "Personification (Isti'arah Makniyyah)",
+    titleAr: "اِسْتِعَارَةٌ مَكْنِيَّةٌ",
+    category: "استعارة",
+    exampleAr: "دَعِ الأَيَّامَ تَفْعَل مَا تَشَاءُ",
+    explanationMl: "കാലത്തിന് ജീവനും ബുദ്ധിയുമുള്ള ഒരു മനുഷ്യന്റെ സ്വഭാവം (ഇഷ്ടമുള്ളത് ചെയ്യുക) നൽകിയിരിക്കുന്നു. ഉപമേയമായ മനുഷ്യനെ മറച്ചുവെച്ചതിനാൽ ഇത് ഇസ്തിആറ മക്നിയ്യ ആണ്.",
+    explanationEn: "Personifying 'time' by giving it a human will ('do as they please'). The poet omitted the human being but kept a human attribute.",
+    explanationAr: "شبه الأيام بإنسان له إرادة ويفعل ما يشاء، وحذف المشبه به (الإنسان) وأبقى شيئاً من لوازمه (تفعل ما تشاء) على سبيل الاستعارة المكنية.",
+    lineNumber: 1
+  },
+  {
+    id: 3,
+    titleMl: "രൂപകം (ഇസ്തിആറ തസ്വ്‌രീഹിയ്യ)",
+    titleEn: "Explicit Metaphor (Isti'arah)",
+    titleAr: "اِسْتِعَارَةٌ",
+    category: "استعارة",
+    exampleAr: "حَادِثَةِ اللَّيَالِي",
+    explanationMl: "പ്രതിസന്ധികളെയും ദുരന്തങ്ങളെയും ഭയപ്പെടുത്തുന്ന 'രാത്രികൾ' എന്ന് ഉപമിച്ചിരിക്കുന്നു. പ്രതിസന്ധികളിലെ അനിശ്ചിതത്വത്തെ സൂചിപ്പിക്കാനാണിത്.",
+    explanationEn: "Metaphorically using 'Nights' to represent terrifying calamities, as darkness traditionally conceals unknown dangers.",
+    explanationAr: "استعارة حيث عبر بكلمة (الليالي) لتدل على المصائب المجهولة والمخيفة، لأن الليل بطبيعته يوحي بالوحشة وانعدام الرؤية الواضحة.",
+    lineNumber: 3
+  },
+  {
+    id: 4,
+    titleMl: "ശബ്ദാലങ്കാരം (ജിനാസ് ഇശ്തിഖാഖി)",
+    titleEn: "Derivational Paronomasia (Jinas Ishtiqaqi)",
+    titleAr: "جِنَاسٌ اِشْتِقَاقِيٌّ",
+    category: "جناس",
+    exampleAr: "حَادِثَةِ / حَوَادِثِ",
+    explanationMl: "ഒരേ അടിസ്ഥാനത്തിൽ (Root) നിന്നുണ്ടായ രണ്ട് പദങ്ങൾ അടുത്തടുത്ത് വന്നത് കവിതയ്ക്ക് പ്രത്യേക സംഗീതാത്മകത നൽകുന്നു.",
+    explanationEn: "Using two words derived from the exact same root creates a beautiful phonetic harmony and rhythm in the poetry.",
+    explanationAr: "اتفاق الكلمتين (حادثة) و (حوادث) في حروف الجذر (ح د ث)، مما يعطي جرساً موسيقياً يطرب الأذن ويلفت الانتباه.",
+    lineNumber: 3
+  },
+  {
+    id: 5,
+    titleMl: "ഉദ്ധരണി (തദ്മീൻ)",
+    titleEn: "Incorporation (Tadmin)",
+    titleAr: "تَضْمِينٌ",
+    category: "بديع",
+    exampleAr: "كَمَا قِيلَ السَّخَاءُ",
+    explanationMl: "കാലാകാലങ്ങളായി സമൂഹത്തിൽ നിലനിൽക്കുന്ന ഒരു തത്വത്തെയോ പഴഞ്ചൊല്ലിനെയോ സ്വന്തം കവിതയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്.",
+    explanationEn: "The technique of embedding an ancient, universally accepted proverb into the poet's own verses to reinforce his argument.",
+    explanationAr: "استدعاء حكمة مأثورة أو مثل سائر ودمجه في أبيات القصيدة (تغطية العيوب بالسخاء) لتعزيز الفكرة وإعطائها سلطة مجتمعية.",
+    lineNumber: 10
+  },
+  {
+    id: 6,
+    titleMl: "മറഞ്ഞിരിക്കുന്ന ഉപമ (തശ്ബീഹ് ളിമ്നി)",
+    titleEn: "Implicit Simile (Tashbeeh Dhimni)",
+    titleAr: "تَشْبِيهٌ ضِمْنِيٌّ",
+    category: "تشبيه",
+    exampleAr: "وَلا تَرْجُ السَّمَاحَةَ مِنْ بَخِيلٍ / فَمَا فِي النَّارِ لِلظَّمْآنِ مَاءُ",
+    explanationMl: "ഉപമാവാചകങ്ങൾ ഉപയോഗിക്കാതെ, പിശുക്കനിൽ നിന്ന് ഔദാര്യം പ്രതീക്ഷിക്കുന്നതിനെ തീയിൽ നിന്ന് വെള്ളം അന്വേഷിക്കുന്നതിനോട് യുക്തിഭദ്രമായി ഉപമിച്ചിരിക്കുന്നു.",
+    explanationEn: "An implicit comparison that doesn't use 'like' or 'as'. Expecting generosity from a miser is paralleled to seeking water in a fire.",
+    explanationAr: "تشبيه خفي لا يصرح فيه بأركان التشبيه. فقد شبه الشاعر حالة من يرجو الكرم من البخيل بحالة العطشان الذي يبحث عن الماء في النار المشتعلة، والنتيجة في الحالتين: الخيبة التامة.",
+    lineNumber: 13
+  },
+  {
+    id: 7,
+    titleMl: "സമാന്തര വിപരീതം (അൽ-മുഖാബല)",
+    titleEn: "Juxtaposition (Al-Muqabalah)",
+    titleAr: "المُقَابَلَةُ",
+    category: "طباق",
+    exampleAr: "يُنْقِصُهُ التَّأَنِّي / يَزِيدُ فِي الرِّزْقِ العَنَاءُ",
+    explanationMl: "'കുറയുക/കൂടുക', 'ശാന്തത/അമിതാധ്വാനം' എന്നീ വിപരീതാശയങ്ങളുടെ ജോഡികളെ ഒരുമിച്ചു കൊണ്ടുവന്ന് ആശയത്തിന് കരുത്തുപകരുന്നു.",
+    explanationEn: "Contrasting two pairs of opposites (decrease/increase, calmness/hardship) in a parallel structure to solidify the truth about destiny.",
+    explanationAr: "الجمع بين معنيين (ينقص / التأني) والإتيان بما يقابلهما على الترتيب (يزيد / العناء) لتأكيد حتمية الرزق مهما اختلفت أسباب السعي.",
+    lineNumber: 15
+  },
+  {
+    id: 8,
+    titleMl: "വിപരീതാർത്ഥ പ്രയോഗം (തിബാഖ്)",
+    titleEn: "Antithesis (Tibaq)",
+    titleAr: "طِبَاقٌ",
+    category: "طباق",
+    exampleAr: "حُزْنٌ × سُرُورٌ / بُؤْسٌ × رَخَاءُ",
+    explanationMl: "ദുഃഖം-സന്തോഷം, ദാരിദ്ര്യം-സമൃദ്ധി എന്നിങ്ങനെ വിപരീത പദങ്ങൾ അടുത്തടുത്ത് പ്രയോഗിച്ച് ലോകത്തിന്റെ മാറ്റങ്ങളെ അടയാളപ്പെടുത്തുന്നു.",
+    explanationEn: "Bringing words of exact opposite meanings together to beautifully illustrate that nothing in this world is permanent.",
+    explanationAr: "الجمع بين المتضادات اللفظية في بيت واحد لتأكيد قانون التقلب وعدم ثبات أحوال الدنيا.",
+    lineNumber: 17
+  },
+  {
+    id: 9,
+    titleMl: "കരുതൽ പ്രയോഗം (കിനായത്ത്)",
+    titleEn: "Metonymy (Kinayah)",
+    titleAr: "كِنَايَةٌ",
+    category: "كناية",
+    exampleAr: "ضَاقَ الفَضَاءُ",
+    explanationMl: "മനുഷ്യന്റെ നിസ്സഹായതയെയും രക്ഷപ്പെടാൻ ഒരിടത്തുമില്ല എന്ന അവസ്ഥയെയും 'ഇടം ഇടുങ്ങിയതാകും' എന്ന പ്രയോഗത്തിലൂടെ അർത്ഥമാക്കുന്നു.",
+    explanationEn: "Using 'the space narrows' as a metonymy to express extreme human helplessness and the impossibility of escaping death.",
+    explanationAr: "كناية عن العجز التام وانقطاع الحيل عند نزول قضاء الله المبرم.",
+    lineNumber: 24
+  },
+  {
+    id: 10,
+    titleMl: "വിപരീതാർത്ഥ പ്രയോഗം (തിബാഖ്)",
+    titleEn: "Antithesis (Tibaq)",
+    titleAr: "طِبَاقٌ",
+    category: "طباق",
+    exampleAr: "وَاسِعَةٌ / ضَاقَ",
+    explanationMl: "ഭൂമിയുടെ 'വിശാലതയും', വിധി വരുമ്പോഴുണ്ടാകുന്ന 'ഇടുക്കവും' തമ്മിലുള്ള വൈരുദ്ധ്യം മനുഷ്യന്റെ നിസ്സഹായത വ്യക്തമാക്കുന്നു.",
+    explanationEn: "The spatial contrast of the 'vast' universe suddenly becoming severely 'narrow' during death highlights psychological collapse.",
+    explanationAr: "طباق إيجاب لتصوير المفارقة المكانية بين سعة الأرض فيزيائياً وضيقها سيكولوجياً عند نزول الموت.",
+    lineNumber: 24
+  },
+  {
+    id: 11,
+    titleMl: "കാവ്യ സമമിതി (റദ്ദുൽ അജസ് അലസ്സ്വദ്ർ)",
+    titleEn: "Cyclical Symmetry (Radd al-A'jaz 'ala al-Sadr)",
+    titleAr: "رَدُّ العَجُزِ عَلَى الصَّدْرِ",
+    category: "بديع",
+    exampleAr: "دَعِ الأَيَّامَ (في البداية والنهاية)",
+    explanationMl: "കവിതയുടെ അവസാന വരിയെ ആദ്യ വരിയിലെ വാക്കുകൾ തന്നെ ഉപയോഗിച്ച് അവസാനിപ്പിച്ച് കവിതയ്ക്ക് പൂർണ്ണമായ ഒരു സമമിതി നൽകുന്ന രീതി.",
+    explanationEn: "A masterclass rhetorical device where the poet ends the poem by looping directly back to the very first opening command.",
+    explanationAr: "إعادة اللفظة التي بدأ بها مطلع القصيدة (دع الأيام) في ختامها، ليعطي للنص إغلاقاً متيناً وتأكيداً نهائياً على التسليم الوجودي.",
+    lineNumber: 25
+  }
+];
+`;
+
+fs.writeFileSync(balaghaPath, newBalaghaData);
+console.log('Updated questionsData.ts and balaghaData.ts');
