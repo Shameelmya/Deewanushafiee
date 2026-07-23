@@ -20,12 +20,18 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
     {
       id: 'shafiee-da-al-ayyam',
       titleAr: 'دَعِ الأَيَّامَ تَفْعَل مَا تَشَاءُ',
-      titleMl: 'ദഇൽ അയ്യാമ തഫ്അൽ മാ തശാഉ',
       poetAr: 'الإمام الشافعي',
-      poetMl: 'ഇമാം ശാഫിഈ',
       versesCount: 26,
-      status: 'active',
-      badge: 'പുതിയത് (New)'
+      bahrAr: 'البحر الوافر',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-sitata',
+      titleAr: 'أَخِي لَنْ تَنَالَ العِلْمَ إِلاَّ بِسِتَّةٍ',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 2,
+      bahrAr: 'البحر الوافر',
+      status: 'active'
     }
   ];
 
@@ -64,20 +70,13 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
                       onSelectPoem(p.id);
                     }
                   }}
-                  className={`relative p-5 rounded-2xl border transition-all duration-200 cursor-pointer ${
+                  className={`relative p-5 rounded-2xl border transition-all duration-200 cursor-pointer flex flex-col justify-between ${
                     isSelected
                       ? 'border-blue-600 bg-blue-50/60 dark:bg-blue-950/40 shadow-md ring-2 ring-blue-500/30'
                       : 'border-slate-200 dark:border-slate-800 hover:border-blue-300 dark:hover:border-slate-700 bg-white dark:bg-slate-800/60'
                   }`}
                 >
-                  <div className="flex justify-between items-start mb-2">
-                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full ${
-                      isSelected 
-                        ? 'bg-blue-600 text-white' 
-                        : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
-                    }`}>
-                      {p.badge}
-                    </span>
+                  <div className="flex justify-end items-start mb-2 min-h-[24px]">
                     {isSelected && (
                       <span className="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center">
                         <Check size={14} />
@@ -85,14 +84,16 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
                     )}
                   </div>
 
-                  <h4 className="font-arabic font-bold text-2xl text-slate-800 dark:text-white mb-1 leading-relaxed" dir="rtl">
+                  <h4 className="font-arabic font-bold text-2xl text-slate-800 dark:text-white mb-4 leading-relaxed text-right" dir="rtl">
                     {p.titleAr}
                   </h4>
-                  <p className="font-semibold text-xs text-blue-600 dark:text-blue-400 mb-2">{p.titleMl}</p>
                   
-                  <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-700/50">
-                    <span className="font-arabic" dir="rtl">{p.poetAr}</span>
-                    <span>{p.versesCount} വരികൾ</span>
+                  <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 pt-3 border-t border-slate-100 dark:border-slate-700/50">
+                    <span className="font-arabic font-bold" dir="rtl">{p.poetAr}</span>
+                    <div className="flex items-center gap-3">
+                      <span className="font-arabic" dir="rtl">{p.bahrAr}</span>
+                      <span className="font-arabic">{p.versesCount} أبيات</span>
+                    </div>
                   </div>
                 </div>
               );

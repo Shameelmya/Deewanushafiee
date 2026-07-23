@@ -149,7 +149,7 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
                               <div className="flex flex-wrap gap-3">
                                 {item.synonyms.map((s, idx) => (
                                   <span key={idx} className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">
-                                    {s.ar}
+                                    {s.ar}{idx < item.synonyms.length - 1 ? '،' : ''}
                                   </span>
                                 ))}
                               </div>
@@ -161,7 +161,7 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
                               <div className="flex flex-wrap gap-3">
                                 {item.antonyms.map((a, idx) => (
                                   <span key={idx} className="font-arabic font-bold text-sm text-blue-900 dark:text-blue-100">
-                                    {a.ar}
+                                    {a.ar}{idx < item.antonyms.length - 1 ? '،' : ''}
                                   </span>
                                 ))}
                               </div>
