@@ -40,6 +40,30 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
       versesCount: 6,
       bahrAr: 'البحر الوافر',
       status: 'active'
+    },
+    {
+      id: 'shafiee-waki',
+      titleAr: 'شَكَوْتُ إِلَى وَكِيعٍ سُوءَ حِفْظِي',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 4,
+      bahrAr: 'البحر الوافر',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-salihin',
+      titleAr: 'أُحِبُّ الصَّالِحِينَ وَلَسْتُ مِنْهُمْ',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 4,
+      bahrAr: 'البحر الوافر',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-safar',
+      titleAr: 'مَا فِي المَقَامِ لِذِي عَقْلٍ وَذِي أَدَبِ',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 14,
+      bahrAr: 'البحر البسيط',
+      status: 'active'
     }
   ];
 

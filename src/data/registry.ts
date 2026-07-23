@@ -20,6 +20,24 @@ import { glossaryData as naeeb_glossary } from './shafiee-naeeb/glossaryData';
 import { balaghaData as naeeb_balagha } from './shafiee-naeeb/balaghaData';
 import { essayData as naeeb_essay } from './shafiee-naeeb/essayData';
 
+import { poemData as waki_poem } from './shafiee-waki/poemData';
+import { questionsData as waki_questions } from './shafiee-waki/questionsData';
+import { glossaryData as waki_glossary } from './shafiee-waki/glossaryData';
+import { balaghaData as waki_balagha } from './shafiee-waki/balaghaData';
+import { essayData as waki_essay } from './shafiee-waki/essayData';
+
+import { poemData as salihin_poem } from './shafiee-salihin/poemData';
+import { questionsData as salihin_questions } from './shafiee-salihin/questionsData';
+import { glossaryData as salihin_glossary } from './shafiee-salihin/glossaryData';
+import { balaghaData as salihin_balagha } from './shafiee-salihin/balaghaData';
+import { essayData as salihin_essay } from './shafiee-salihin/essayData';
+
+import { poemData as safar_poem } from './shafiee-safar/poemData';
+import { questionsData as safar_questions } from './shafiee-safar/questionsData';
+import { glossaryData as safar_glossary } from './shafiee-safar/glossaryData';
+import { balaghaData as safar_balagha } from './shafiee-safar/balaghaData';
+import { essayData as safar_essay } from './shafiee-safar/essayData';
+
 export const poemsRegistry: Record<string, PoemBundle> = {
   'shafiee-da-al-ayyam': {
     poem: shaf_poem,
@@ -43,6 +61,30 @@ export const poemsRegistry: Record<string, PoemBundle> = {
     glossary: naeeb_glossary,
     balagha: naeeb_balagha,
     essay: naeeb_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-waki': {
+    poem: waki_poem,
+    questions: waki_questions,
+    glossary: waki_glossary,
+    balagha: waki_balagha,
+    essay: waki_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-salihin': {
+    poem: salihin_poem,
+    questions: salihin_questions,
+    glossary: salihin_glossary,
+    balagha: salihin_balagha,
+    essay: salihin_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-safar': {
+    poem: safar_poem,
+    questions: safar_questions,
+    glossary: safar_glossary,
+    balagha: safar_balagha,
+    essay: safar_essay,
     poet: shaf_poet,
   }
 };
