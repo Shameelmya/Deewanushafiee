@@ -116,7 +116,7 @@ export default function App() {
               <div className="flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span>
                 <span className="font-semibold text-slate-700 dark:text-slate-300">
-                  الألوان - Arabic Study Aid For Students
+                  ديوان الشافعي - Arabic Study Aid For Students
                 </span>
               </div>
               <p className="font-arabic amiri-bold text-sm" dir="rtl">

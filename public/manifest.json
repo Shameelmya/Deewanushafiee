@@ -1,9 +1,9 @@
 {
-  "short_name": "الألوان",
-  "name": "الألوان - Arabic Poem Learning",
+  "short_name": "ديوان الشافعي",
+  "name": "ديوان الشافعي - Deewanu Shafiee",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "./favicon.png",
       "sizes": "192x192 512x512",
       "type": "image/png"
     }

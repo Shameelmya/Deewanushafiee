@@ -28,7 +28,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onSeeChapters }) => {
             />
           </div>
           <h1 className="font-jomhuria font-normal text-[120px] md:text-[150px] text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-emerald-600 dark:from-blue-400 dark:to-emerald-400 leading-[0.8] pt-6 drop-shadow-sm" dir="rtl">
-            الألوان
+            ديوان الشافعي
           </h1>
         </div>
         
