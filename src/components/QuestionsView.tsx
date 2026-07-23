@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Award, BookOpen, CheckCircle, ChevronDown, ChevronUp, RotateCcw, XCircle } from 'lucide-react';
 
 interface QuestionsViewProps {
+  data: any[];
   interfaceLang?: 'ml' | 'en';
+  isHideMeaning?: boolean;
 }
 
-export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLang }) => {
+export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLang, isHideMeaning }) => {
   const [filterType, setFilterType] = useState<string>('all');
   const [selectedAnswers, setSelectedAnswers] = useState<{ [qId: number]: number }>({});
   const [expandedDescriptive, setExpandedDescriptive] = useState<{ [qId: number]: boolean }>({});
@@ -139,7 +141,7 @@ export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLan
                 <h3 className="text-base sm:text-lg font-bold font-arabic amiri-bold text-slate-800 dark:text-slate-100 mb-1.5 leading-relaxed text-right" dir="rtl">
                   {q.qAr}
                 </h3>
-                {(q.qMl || q.qEn) && (
+                {!isHideMeaning && (q.qMl || q.qEn) && (
                   <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 text-left font-medium" dir="ltr">
                     {interfaceLang === 'en' ? (q.qEn || q.qMl) : q.qMl}
                   </p>
@@ -170,7 +172,7 @@ export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLan
                         >
                           <div className="flex flex-col text-right">
                             <span className="leading-relaxed font-arabic amiri-bold text-xs sm:text-sm">{opt}</span>
-                            {interfaceLang === 'en' && optEn && (
+                            {!isHideMeaning && interfaceLang === 'en' && optEn && (
                               <span className="text-[11px] font-sans font-normal text-slate-500 dark:text-slate-400 mt-0.5" dir="ltr">{optEn}</span>
                             )}
                           </div>
@@ -191,7 +193,7 @@ export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLan
                       {interfaceLang === 'ml' ? 'التوضيح:' : 'Explanation:'}
                     </span>
                     <p className="font-arabic amiri-regular leading-relaxed text-slate-700 dark:text-slate-300 mb-1">{q.explanationAr}</p>
-                    {interfaceLang === 'en' && q.explanationEn && (
+                    {!isHideMeaning && interfaceLang === 'en' && q.explanationEn && (
                       <p className="text-xs font-sans text-slate-600 dark:text-slate-300 leading-relaxed text-left border-t border-blue-200/40 dark:border-blue-800/40 pt-1.5 mt-1" dir="ltr">{q.explanationEn}</p>
                     )}
                   </div>
@@ -219,7 +221,7 @@ export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLan
                             {q.answerAr}
                           </p>
                         </div>
-                        {(q.answerMl || q.answerEn) && (
+                        {!isHideMeaning && (q.answerMl || q.answerEn) && (
                           <div className="pt-2 border-t border-slate-200 dark:border-slate-700 text-xs text-slate-700 dark:text-slate-300 leading-relaxed text-left" dir="ltr">
                             <span className="font-bold text-slate-500 mr-1">{interfaceLang === 'ml' ? 'അർത്ഥം:' : 'Meaning:'}</span>
                             {interfaceLang === 'en' ? (q.answerEn || q.answerMl) : q.answerMl}

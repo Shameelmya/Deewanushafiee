@@ -30,9 +30,10 @@ const renderBioText = (text: string, isArabic: boolean) => {
 interface PoetViewProps {
   data: PoetData;
   interfaceLang?: 'ml' | 'en';
+  isHideMeaning?: boolean;
 }
 
-export const PoetView: React.FC<PoetViewProps> = ({ data, interfaceLang }) => {
+export const PoetView: React.FC<PoetViewProps> = ({ data, interfaceLang, isHideMeaning }) => {
   const [langTab, setLangTab] = useState<'ar' | 'translation'>('ar');
 
   return (
@@ -50,52 +51,63 @@ export const PoetView: React.FC<PoetViewProps> = ({ data, interfaceLang }) => {
             <div className="text-center md:text-right w-full" dir="rtl">
               <div className="inline-flex items-center gap-1.5 px-3 py-0.5 bg-white/10 backdrop-blur-md rounded-full text-[11px] font-semibold mb-2 border border-white/20 text-blue-200">
                 <Award size={13} />
-                <span className="font-arabic amiri-bold">{data.badgeAr} ({interfaceLang === 'ml' ? data.badgeMl : data.badgeEn})</span>
+                <span className="font-arabic amiri-bold">
+                  {data.badgeAr}
+                  {!isHideMeaning && ` (${interfaceLang === 'ml' ? data.badgeMl : data.badgeEn})`}
+                </span>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-arabic amiri-bold mb-1">{data.nameAr}</h1>
-              <h2 className="text-base sm:text-lg text-blue-200 font-semibold mb-3" dir="ltr">
-                {interfaceLang === 'ml' ? data.nameMl : data.nameEn}
-              </h2>
+              {!isHideMeaning && (
+                <h2 className="text-base sm:text-lg text-blue-200 font-semibold mb-3" dir="ltr">
+                  {interfaceLang === 'ml' ? data.nameMl : data.nameEn}
+                </h2>
+              )}
 
               <div className="flex flex-wrap justify-center md:justify-start gap-2 text-xs font-medium">
-                <span className="px-2.5 py-1 bg-white/10 rounded-lg backdrop-blur-sm border border-white/10 flex items-center gap-1 text-[11px]">
-                  <Calendar size={12} />
-                  <span>{data.dates}</span>
-                </span>
-                <span className="px-2.5 py-1 bg-white/10 rounded-lg backdrop-blur-sm border border-white/10 flex items-center gap-1 text-[11px]">
-                  <MapPin size={12} />
-                  <span>{data.location}</span>
-                </span>
+                <div className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg border border-white/10 backdrop-blur-md">
+                  <Calendar size={14} className="text-blue-300" />
+                  <span className="font-arabic" dir="rtl">{data.dates}</span>
+                </div>
+                <div className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg border border-white/10 backdrop-blur-md">
+                  <MapPin size={14} className="text-blue-300" />
+                  <span className="font-arabic" dir="rtl">{data.location}</span>
+                </div>
               </div>
             </div>
           </div>
+          
+          {/* Decorative background elements */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 mix-blend-screen pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 w-48 h-48 bg-indigo-500/30 rounded-full blur-2xl translate-y-1/3 -translate-x-1/4 mix-blend-screen pointer-events-none"></div>
         </div>
 
-        {/* Language Switcher Bar */}
-        <div className="p-3 bg-slate-50 dark:bg-slate-800/50 border-b border-slate-200/80 dark:border-slate-800 flex justify-center">
-          <div className="bg-slate-200 dark:bg-slate-700 p-1 rounded-xl flex items-center gap-1 text-xs font-bold">
-            <button
-              onClick={() => setLangTab('ar')}
-              className={`px-4 py-1.5 rounded-lg transition-all ${
-                langTab === 'ar' ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs font-arabic' : 'text-slate-600 dark:text-slate-300 font-arabic'
-              }`}
-            >
-              العربية (Arabic)
-            </button>
-            <button
-              onClick={() => setLangTab('translation')}
-              className={`px-4 py-1.5 rounded-lg transition-all ${
-                langTab === 'translation' ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs' : 'text-slate-600 dark:text-slate-300'
-              }`}
-            >
-              {interfaceLang === 'ml' ? 'മലയാളം' : 'English Summary'}
-            </button>
+        {/* Tab Selection */}
+        {!isHideMeaning && (
+          <div className="border-b border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 p-2">
+            <div className="flex bg-slate-200/50 dark:bg-slate-950/50 p-1 rounded-xl w-full sm:max-w-xs mx-auto text-sm font-semibold">
+              <button
+                onClick={() => setLangTab('ar')}
+                className={`flex-1 py-1.5 rounded-lg transition-all font-arabic ${
+                  langTab === 'ar' ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs' : 'text-slate-600 dark:text-slate-300'
+                }`}
+              >
+                عربي
+              </button>
+              <button
+                onClick={() => setLangTab('translation')}
+                className={`px-4 py-1.5 rounded-lg transition-all ${
+                  langTab === 'translation' ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs' : 'text-slate-600 dark:text-slate-300'
+                }`}
+              >
+                {interfaceLang === 'ml' ? 'മലയാളം' : 'English Summary'}
+              </button>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Detailed Biography Text */}
         <div className="p-4 sm:p-6">
-          {langTab === 'ar' ? (
+          {langTab === 'ar' || isHideMeaning ? (
             <div className="text-right space-y-3" dir="rtl">
               <h3 className="text-lg sm:text-xl font-bold font-arabic amiri-bold text-slate-800 dark:text-slate-100 flex items-center justify-start gap-2 mb-4">
                 <BookOpen size={18} className="text-blue-600" />
@@ -120,38 +132,36 @@ export const PoetView: React.FC<PoetViewProps> = ({ data, interfaceLang }) => {
       {/* Key Biographical Milestones Cards */}
       <div className="space-y-3">
         <h3 className="text-sm sm:text-base font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-          <Sparkles size={16} className="text-blue-600" />
-          <span>
-            {interfaceLang === 'ml'
-              ? 'കവിയുടെ ജീവിതത്തിലെ നാഴികക്കല്ലുകൾ:'
-              : 'Key Biographical Milestones of the Poet:'}
-          </span>
+          <Sparkles size={18} className="text-amber-500" />
+          <span>{interfaceLang === 'ml' ? 'പ്രധാന വസ്തുതകൾ:' : 'Key Facts & Milestones:'}</span>
         </h3>
-
-        <div className="grid gap-3 sm:gap-4 md:grid-cols-2">
-          {data.facts.map((fact, idx) => (
-            <div
-              key={idx}
-              className="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-2"
-            >
-              <div className="flex justify-between items-start">
-                <span className="w-7 h-7 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center font-bold text-xs">
-                  {idx + 1}
-                </span>
-                <h4 className="text-base font-bold font-arabic amiri-bold text-blue-700 dark:text-blue-400 text-right" dir="rtl">
-                  {fact.titleAr}
-                </h4>
-              </div>
-              <p className="text-sm font-arabic amiri-regular text-slate-800 dark:text-slate-200 text-right leading-relaxed pb-1.5" dir="rtl">
-                {fact.descAr}
-              </p>
-              <div className="pt-2 border-t border-slate-100 dark:border-slate-800 space-y-1">
-                <h5 className="font-bold text-xs sm:text-sm text-slate-800 dark:text-slate-200" dir="ltr">
-                  {interfaceLang === 'ml' ? fact.titleMl : fact.titleEn}
-                </h5>
-                <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed text-justify" dir="ltr">
-                  {interfaceLang === 'ml' ? fact.descMl : fact.descEn}
-                </p>
+        
+        <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">
+          {data.facts.map((fact, index) => (
+            <div key={index} className="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200/80 dark:border-slate-800 shadow-xs hover:shadow-sm transition-shadow">
+              <div className="flex gap-3">
+                <div className="mt-1 w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs font-bold text-blue-700 dark:text-blue-400">{index + 1}</span>
+                </div>
+                <div className="space-y-2 w-full">
+                  <h4 className="font-bold text-slate-800 dark:text-slate-100 text-sm sm:text-base font-arabic amiri-bold text-right" dir="rtl">
+                    {fact.titleAr}
+                  </h4>
+                  <p className="text-slate-600 dark:text-slate-300 text-sm font-arabic amiri-regular text-right" dir="rtl">
+                    {fact.descAr}
+                  </p>
+                  
+                  {!isHideMeaning && (
+                    <div className="pt-2 mt-2 border-t border-slate-100 dark:border-slate-800/80 text-left" dir="ltr">
+                      <h4 className="font-bold text-slate-700 dark:text-slate-200 text-xs sm:text-sm">
+                        {interfaceLang === 'ml' ? fact.titleMl : (fact.titleEn || fact.titleMl)}
+                      </h4>
+                      <p className="text-slate-500 dark:text-slate-400 text-xs sm:text-sm font-medium mt-1">
+                        {interfaceLang === 'ml' ? fact.descMl : (fact.descEn || fact.descMl)}
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           ))}

@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { FileText, Copy, Check, Globe } from 'lucide-react';
 
 interface EssayViewProps {
+  data: any;
   interfaceLang?: 'ml' | 'en';
+  isHideMeaning?: boolean;
 }
 
-export const EssayView: React.FC<EssayViewProps> = ({ data, interfaceLang }) => {
+export const EssayView: React.FC<EssayViewProps> = ({ data, interfaceLang, isHideMeaning }) => {
   const [copiedLang, setCopiedLang] = useState<string | null>(null);
 
   const copyEssay = (text: string, lang: string) => {
@@ -37,38 +39,40 @@ export const EssayView: React.FC<EssayViewProps> = ({ data, interfaceLang }) => 
       </div>
 
       {/* Essays Dual Columns Grid */}
-      <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
+      <div className={`grid ${isHideMeaning ? 'grid-cols-1 md:max-w-3xl mx-auto' : 'md:grid-cols-2'} gap-4 sm:gap-6`}>
         {/* Malayalam / English Essay Card */}
-        <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-4">
-          <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
-            <div className="flex items-center gap-1.5 text-blue-600 font-bold text-xs sm:text-sm" dir="ltr">
-              <Globe size={16} />
-              <span>{interfaceLang === 'ml' ? 'മലയാളം ഉപന്യാസം (Malayalam Essay)' : 'Scholarly Essay (English)'}</span>
+        {!isHideMeaning && (
+          <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-4">
+            <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
+              <div className="flex items-center gap-1.5 text-blue-600 font-bold text-xs sm:text-sm" dir="ltr">
+                <Globe size={16} />
+                <span>{interfaceLang === 'ml' ? 'മലയാളം ഉപന്യാസം (Malayalam Essay)' : 'Scholarly Essay (English)'}</span>
+              </div>
+              <button
+                onClick={() => copyEssay(currentEssayText, 'lang')}
+                className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 transition-colors"
+                title="Copy Essay"
+              >
+                {copiedLang === 'lang' ? <Check size={15} className="text-emerald-500" /> : <Copy size={15} />}
+              </button>
             </div>
-            <button
-              onClick={() => copyEssay(currentEssayText, 'lang')}
-              className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 transition-colors"
-              title="Copy Essay"
-            >
-              {copiedLang === 'lang' ? <Check size={15} className="text-emerald-500" /> : <Copy size={15} />}
-            </button>
+
+            <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100 leading-snug" dir="ltr">
+              {currentTitleText}
+            </h3>
+
+            <div
+              className="text-slate-800 dark:text-slate-200 leading-relaxed text-xs sm:text-sm font-medium space-y-3 text-justify"
+              dir="ltr"
+              dangerouslySetInnerHTML={{
+                __html: currentEssayText
+                  .replace(/### (.*?)\n/g, '<h4 class="font-bold text-sm sm:text-base text-blue-700 dark:text-blue-400 mt-4 mb-1.5">$1</h4>')
+                  .replace(/\*\*(.*?)\*\*/g, '<strong class="text-blue-800 dark:text-blue-300 font-bold">$1</strong>')
+                  .replace(/\n\n/g, '<br/><br/>'),
+              }}
+            />
           </div>
-
-          <h3 className="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100 leading-snug" dir="ltr">
-            {currentTitleText}
-          </h3>
-
-          <div
-            className="text-slate-800 dark:text-slate-200 leading-relaxed text-xs sm:text-sm font-medium space-y-3 text-justify"
-            dir="ltr"
-            dangerouslySetInnerHTML={{
-              __html: currentEssayText
-                .replace(/### (.*?)\n/g, '<h4 class="font-bold text-sm sm:text-base text-blue-700 dark:text-blue-400 mt-4 mb-1.5">$1</h4>')
-                .replace(/\*\*(.*?)\*\*/g, '<strong class="text-blue-800 dark:text-blue-300 font-bold">$1</strong>')
-                .replace(/\n\n/g, '<br/><br/>'),
-            }}
-          />
-        </div>
+        )}
 
         {/* Arabic Essay Card */}
         <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-4">

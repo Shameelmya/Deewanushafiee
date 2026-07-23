@@ -103,11 +103,11 @@ export default function App() {
                 isHideMeaning={isHideMeaning}
               />
             )}
-            {activeTab === 'qa' && <QuestionsView data={bundle.questions} interfaceLang={interfaceLang} />}
-            {activeTab === 'poet' && <PoetView data={bundle.poet} interfaceLang={interfaceLang} />}
-            {activeTab === 'balagha' && <BalaghaView data={bundle.balagha} interfaceLang={interfaceLang} />}
+            {activeTab === 'qa' && <QuestionsView data={bundle.questions} interfaceLang={interfaceLang} isHideMeaning={isHideMeaning} />}
+            {activeTab === 'poet' && <PoetView data={bundle.poet} interfaceLang={interfaceLang} isHideMeaning={isHideMeaning} />}
+            {activeTab === 'balagha' && <BalaghaView data={bundle.balagha} interfaceLang={interfaceLang} isHideMeaning={isHideMeaning} />}
             {activeTab === 'glossary' && <GlossaryView data={bundle.glossary} interfaceLang={interfaceLang} />}
-            {activeTab === 'essay' && <EssayView data={bundle.essay} interfaceLang={interfaceLang} />}
+            {activeTab === 'essay' && <EssayView data={bundle.essay} interfaceLang={interfaceLang} isHideMeaning={isHideMeaning} />}
           </main>
 
           {/* Footer */}

@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Feather, BookOpen } from 'lucide-react';
 
 interface BalaghaViewProps {
+  data: any[];
   interfaceLang?: 'ml' | 'en';
+  isHideMeaning?: boolean;
 }
 
-export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang }) => {
+export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang, isHideMeaning }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   const categories = [
@@ -73,9 +75,11 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang })
                 <h3 className="text-lg sm:text-xl font-arabic amiri-bold text-purple-800 dark:text-purple-300" dir="rtl">
                   {item.titleAr}
                 </h3>
-                <p className="text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-400 mt-1" dir="ltr">
-                  {interfaceLang === 'ml' ? item.titleMl : (item.titleEn || item.titleMl)}
-                </p>
+                {!isHideMeaning && (
+                  <p className="text-xs sm:text-sm font-bold text-slate-600 dark:text-slate-400 mt-1" dir="ltr">
+                    {interfaceLang === 'ml' ? item.titleMl : (item.titleEn || item.titleMl)}
+                  </p>
+                )}
               </div>
 
               <div className="flex items-center gap-1.5">
@@ -101,22 +105,24 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang })
             </div>
 
             {/* Explanation Grid (Language Translation & Arabic) */}
-            <div className="grid md:grid-cols-2 gap-6 pt-2 items-start">
+            <div className={`grid ${isHideMeaning ? 'grid-cols-1' : 'md:grid-cols-2'} gap-6 pt-2 items-start`}>
               {/* Meaning Column (Left) */}
-              <div className="space-y-1.5 pr-0 md:pr-4" dir="ltr">
-                <h4 className="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
-                  <BookOpen size={14} className="text-purple-600 shrink-0" />
-                  <span>
-                    {interfaceLang === 'ml' ? 'വിശദീകരണം:' : 'English Explanation:'}
-                  </span>
-                </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed text-justify font-medium">
-                  {interfaceLang === 'ml' ? item.explanationMl : (item.explanationEn || item.explanationMl)}
-                </p>
-              </div>
+              {!isHideMeaning && (
+                <div className="space-y-1.5 pr-0 md:pr-4" dir="ltr">
+                  <h4 className="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+                    <BookOpen size={14} className="text-purple-600 shrink-0" />
+                    <span>
+                      {interfaceLang === 'ml' ? 'വിശദീകരണം:' : 'English Explanation:'}
+                    </span>
+                  </h4>
+                  <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed text-justify font-medium">
+                    {interfaceLang === 'ml' ? item.explanationMl : (item.explanationEn || item.explanationMl)}
+                  </p>
+                </div>
+              )}
 
               {/* Arabic Sharah Column (Right with Vertical Separator) */}
-              <div className="space-y-1.5 text-right md:border-l-2 md:border-slate-200 dark:md:border-slate-800 md:pl-6 pt-4 md:pt-0 border-t md:border-t-0 border-slate-100 dark:border-slate-800" dir="rtl">
+              <div className={`space-y-1.5 text-right ${isHideMeaning ? '' : 'md:border-l-2 md:border-slate-200 dark:md:border-slate-800 md:pl-6'} pt-4 md:pt-0 border-t md:border-t-0 border-slate-100 dark:border-slate-800`} dir="rtl">
                 <h4 className="text-xs sm:text-sm font-bold font-arabic amiri-bold text-slate-900 dark:text-slate-100 flex items-center justify-start gap-1.5 text-right">
                   <BookOpen size={14} className="text-purple-600 shrink-0" />
                   <span>الشرح البلاغي بالعربية:</span>
