@@ -208,7 +208,7 @@ export const QuestionsView: React.FC<QuestionsViewProps> = ({ data, interfaceLan
                     >
                       <span className="flex items-center gap-1.5">
                         <BookOpen size={13} className="text-blue-500" />
-                        <span>{isExpanded ? (interfaceLang === 'ml' ? 'ഇജ്ജാബ മറയ്ക്കുക' : 'Hide Answer') : (interfaceLang === 'ml' ? 'ഇജ്ജാബ കാണുക (Show Answer)' : 'Show Answer')}</span>
+                        <span>{isExpanded ? (interfaceLang === 'ml' ? 'ഉത്തരം മറയ്ക്കുക' : 'Hide Answer') : (interfaceLang === 'ml' ? 'ഉത്തരം കാണുക (Show Answer)' : 'Show Answer')}</span>
                       </span>
                       {isExpanded ? <ChevronUp size={15} /> : <ChevronDown size={15} />}
                     </button>
