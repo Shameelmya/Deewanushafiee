@@ -185,8 +185,8 @@ export const PoemView: React.FC<PoemViewProps> = ({
                           {w.ar}
                         </span>
 
-                        {/* Hover Tooltip - Hidden if isHideMeaning is ON */}
-                        {isHovered && !isHideMeaning && (
+                        {/* Hover Tooltip - Hidden if isHideMeaning is ON (unless isIrabMode is active) */}
+                        {isHovered && (!isHideMeaning || isIrabMode) && (
                           <div
                             className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 sm:w-64 bg-slate-950 text-white rounded-xl p-2.5 sm:p-3 shadow-2xl border border-slate-800 pointer-events-none animate-in fade-in zoom-in-95 duration-100"
                             dir="ltr"
