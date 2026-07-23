@@ -14,6 +14,11 @@ import { balaghaData as sitata_balagha } from './shafiee-sitata/balaghaData';
 import { essayData as sitata_essay } from './shafiee-sitata/essayData';
 import { poetData as sitata_poet } from './shafiee-sitata/poetData';
 
+import { poemData as naeeb_poem } from './shafiee-naeeb/poemData';
+import { questionsData as naeeb_questions } from './shafiee-naeeb/questionsData';
+import { glossaryData as naeeb_glossary } from './shafiee-naeeb/glossaryData';
+import { essayData as naeeb_essay } from './shafiee-naeeb/essayData';
+
 export const poemsRegistry: Record<string, PoemBundle> = {
   'shafiee-da-al-ayyam': {
     poem: shaf_poem,
@@ -30,6 +35,14 @@ export const poemsRegistry: Record<string, PoemBundle> = {
     balagha: sitata_balagha,
     essay: sitata_essay,
     poet: sitata_poet,
+  },
+  'shafiee-naeeb': {
+    poem: naeeb_poem,
+    questions: naeeb_questions,
+    glossary: naeeb_glossary,
+    balagha: [],
+    essay: naeeb_essay,
+    poet: shaf_poet,
   }
 };
 

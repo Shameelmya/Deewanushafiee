@@ -29,7 +29,15 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
       id: 'shafiee-sitata',
       titleAr: 'أَخِي لَنْ تَنَالَ العِلْمَ إِلاَّ بِسِتَّةٍ',
       poetAr: 'الإمام الشافعي',
-      versesCount: 2,
+      versesCount: 4,
+      bahrAr: 'البحر الوافر',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-naeeb',
+      titleAr: 'نَعِيبُ زَمَانَنَا وَالعَيْبُ فِينَا',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 6,
       bahrAr: 'البحر الوافر',
       status: 'active'
     }
