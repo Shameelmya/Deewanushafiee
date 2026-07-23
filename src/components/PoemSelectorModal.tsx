@@ -25,6 +25,16 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
       poetMl: 'ഇമാം ശാഫിഈ',
       versesCount: 26,
       status: 'active',
+      badge: 'ആദ്യ അധ്യായം'
+    },
+    {
+      id: 'shafiee-sitata',
+      titleAr: 'أَخِي لَنْ تَنَالَ العِلْمَ إِلاَّ بِسِتَّةٍ',
+      titleMl: 'അറിവ് നേടാനുള്ള ആറ് നിബന്ധനകൾ',
+      poetAr: 'الإمام الشافعي',
+      poetMl: 'ഇമാം ശാഫിഈ',
+      versesCount: 2,
+      status: 'active',
       badge: 'പുതിയത് (New)'
     }
   ];
