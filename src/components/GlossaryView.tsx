@@ -34,7 +34,7 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
           </div>
           <p className="text-emerald-200 text-xs sm:text-sm font-medium mt-1 text-right" dir="ltr">
             {interfaceLang === 'ml'
-              ? 'കവിതയിലെ പ്രയോഗ നിഘണ്ടുവും പദകോശവും (Glossary & Dictionary)'
+              ? 'കവിതയിലെ പ്രയോഗ നിഘണ്ടുവും പദകോശവും'
               : 'Poem Vocabulary Glossary & Arabic Dictionary'}
           </p>
         </div>
@@ -48,7 +48,7 @@ export const GlossaryView: React.FC<GlossaryViewProps> = ({ data, interfaceLang 
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder={interfaceLang === 'ml' ? "പദമോ മൂല പദമോ തിരയുക (Search)..." : "Search word, root, or meaning..."}
+            placeholder={interfaceLang === 'ml' ? "പദമോ മൂല പദമോ തിരയുക..." : "Search word, root, or meaning..."}
             className="w-full pl-9 pr-3 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-slate-800 dark:text-slate-200"
           />
         </div>
