@@ -17,6 +17,7 @@ import { poetData as sitata_poet } from './shafiee-sitata/poetData';
 import { poemData as naeeb_poem } from './shafiee-naeeb/poemData';
 import { questionsData as naeeb_questions } from './shafiee-naeeb/questionsData';
 import { glossaryData as naeeb_glossary } from './shafiee-naeeb/glossaryData';
+import { balaghaData as naeeb_balagha } from './shafiee-naeeb/balaghaData';
 import { essayData as naeeb_essay } from './shafiee-naeeb/essayData';
 
 export const poemsRegistry: Record<string, PoemBundle> = {
@@ -40,7 +41,7 @@ export const poemsRegistry: Record<string, PoemBundle> = {
     poem: naeeb_poem,
     questions: naeeb_questions,
     glossary: naeeb_glossary,
-    balagha: [],
+    balagha: naeeb_balagha,
     essay: naeeb_essay,
     poet: shaf_poet,
   }
