@@ -50,9 +50,7 @@ export const poemData: Poem = {
         { ar: 'أُسْتَاذٍ', ml: 'അധ്യാപകന്റെ', en: 'Of a teacher', irab: 'مضاف إليه مجرور' },
         { ar: 'وَطُولُ', ml: 'ദീർഘമായ', en: 'And length', irab: 'معطوف' },
         { ar: 'زَمَانِ', ml: 'കാലം', en: 'Of time', irab: 'مضاف إليه مجرور' }
-      ],
-      noteMl: 'അറിവ് നേടുന്നതിന് പ്രധാനമായും ആറ് നിബന്ധനകളാണുള്ളതെന്ന് ഇമാം വ്യക്തമാക്കുന്നു. ഇതിൽ ഒന്നെങ്കിലും കുറഞ്ഞാൽ പരിപൂർണ്ണത ലഭിക്കില്ല.',
-      noteEn: 'The Imam clarifies that there are six primary conditions for attaining knowledge. True mastery is impossible without all six.'
+      ]
     }
   ],
   couplets: [
