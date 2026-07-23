@@ -75,7 +75,6 @@ export default function App() {
       {currentView === 'home' ? (
         <HomeView 
           onSeeChapters={() => { window.location.hash = 'chapters'; }} 
-          onSelectPoem={handleSelectPoem} 
         />
       ) : (
         <>
