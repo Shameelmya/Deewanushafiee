@@ -39,7 +39,7 @@ export const BalaghaView: React.FC<BalaghaViewProps> = ({ data, interfaceLang, i
           </div>
           <p className="text-purple-200 text-xs sm:text-sm font-medium mt-1 text-right" dir="ltr">
             {interfaceLang === 'ml'
-              ? 'കവിതയിലെ പ്രയോഗ ഭംഗികളും കാവ്യാലങ്കാരങ്ങളും (Poetic Devices & Rhetoric)'
+              ? 'കവിതയിലെ പ്രയോഗ ഭംഗികളും കാവ്യാലങ്കാരങ്ങളും'
               : 'Rhetorical Analysis & Poetic Devices in the Poem'}
           </p>
         </div>

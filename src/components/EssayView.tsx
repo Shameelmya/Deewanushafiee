@@ -32,7 +32,7 @@ export const EssayView: React.FC<EssayViewProps> = ({ data, interfaceLang, isHid
           </div>
           <p className="text-blue-200 text-xs sm:text-sm font-medium mt-1 text-right" dir="ltr">
             {interfaceLang === 'ml'
-              ? 'കവിതയുടെ സമഗ്ര സാഹിത്യ നിരൂപണ ഉപന്യാസങ്ങൾ (Detailed Scholarly Essays)'
+              ? 'കവിതയുടെ സമഗ്ര സാഹിത്യ നിരൂപണ ഉപന്യാസങ്ങൾ'
               : 'Scholarly Analytical Essays & Critical Studies of the Poem'}
           </p>
         </div>
