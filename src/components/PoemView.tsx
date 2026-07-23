@@ -139,8 +139,8 @@ export const PoemView: React.FC<PoemViewProps> = ({
         {filteredLines.map((line) => {
           const isCoupletEnd = line.id % 2 === 0;
           const coupletId = Math.floor((line.id - 1) / 2);
-          const coupletData = poem.couplets.find((c) => c.id === coupletId);
-          const sectionData = poem.sections.find((s) => s.endLine === line.id);
+          const coupletData = poem.couplets?.find((c) => c.id === coupletId);
+          const sectionData = poem.sections?.find((s) => s.endLine === line.id);
           const modeState = sharahCoupletState[coupletId] || 'default';
 
           const quatrainData = poem.quatrains?.find((q) => q.lineIndices.includes(line.id - 1));
