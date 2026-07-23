@@ -1,27 +1,27 @@
 export interface WordData {
-  ar: string;        // Arabic word
-  ml: string;        // Malayalam meaning
-  en: string;        // English meaning
-  irab: string;      // Arabic I'rab (grammar breakdown)
-  root?: string;     // Root word (e.g., ق و م)
+  ar: string;
+  ml: string;
+  en: string;
+  irab?: string;
+  root?: string;
 }
 
 export interface PoemLine {
   id: number;
-  ar: string;         // Full verse / hemistich Arabic text
-  words: WordData[];  // Individual word breakdowns
-  noteMl?: string;    // Poetic / grammatical / contextual notes in Malayalam
-  noteEn?: string;    // Poetic / grammatical / contextual notes in English
+  ar: string;
+  words: WordData[];
+  noteMl?: string;
+  noteEn?: string;
 }
 
 export interface CoupletSummary {
-  id: number;         // Couplet index (0 = lines 0 & 1, 1 = lines 2 & 3, etc.)
-  lineIndices: [number, number]; // e.g. [0, 1]
-  mlMeaning: string;  // Exact Malayalam meaning of these two lines
-  enMeaning?: string; // Exact English meaning of these two lines
-  arSharah: string;   // Exact Arabic Sharah of these two lines
-  newWords?: { ar: string; ml: string; en: string }[];
-  noteMl?: string;    // Extra poetic or grammatical notes for the couplet
+  id: number;
+  lineIndices: number[]; // e.g., [1, 2] for the first couplet
+  mlMeaning: string;
+  enMeaning: string;
+  arSharah: string;
+  newWords?: any[];
+  noteMl?: string;
   noteEn?: string;
 }
 
@@ -63,6 +63,10 @@ export interface GlossaryItem {
   meaningEn: string;
   typeAr: string; // اسم, فعل, حرف, تركيب
   exampleLineNumber?: number;
+  singular?: string;
+  plural?: string;
+  synonyms?: { ar: string; ml: string }[];
+  antonyms?: { ar: string; ml: string }[];
 }
 
 export interface BalaghaItem {
@@ -78,6 +82,14 @@ export interface BalaghaItem {
   lineNumber?: number;
 }
 
+export interface QuatrainSummary {
+  id: number;
+  lineIndices: number[];
+  mlMeaning: string;
+  enMeaning: string;
+  arSharah: string;
+}
+
 export interface Poem {
   id: string;
   titleAr: string;
@@ -90,6 +102,7 @@ export interface Poem {
   lines: PoemLine[];
   couplets: CoupletSummary[];
   sections?: SectionSummary[];
+  quatrains?: QuatrainSummary[];
 }
 
 export interface PoemBundle {

@@ -16,6 +16,14 @@ export const PoemView: React.FC<PoemViewProps> = ({
   isHideMeaning = false,
 }) => {
   const [hoveredWordKey, setHoveredWordKey] = useState<string | null>(null);
+  const [sharahQuatrainState, setSharahQuatrainState] = useState<Record<number, 'default' | 'ar'>>({});
+
+  const toggleQuatrainSharah = (quatrainId: number) => {
+    setSharahQuatrainState((prev) => ({
+      ...prev,
+      [quatrainId]: prev[quatrainId] === 'ar' ? 'default' : 'ar',
+    }));
+  };
   const [selectedWord, setSelectedWord] = useState<{ word: WordData; lineNum: number } | null>(null);
   const [sharahCoupletState, setSharahCoupletState] = useState<{ [key: number]: 'default' | 'ar' }>({});
   const [sharahSectionState, setSharahSectionState] = useState<{ [key: number]: boolean }>({});
@@ -134,6 +142,10 @@ export const PoemView: React.FC<PoemViewProps> = ({
           const coupletData = poem.couplets.find((c) => c.id === coupletId);
           const sectionData = poem.sections.find((s) => s.endLine === line.id);
           const modeState = sharahCoupletState[coupletId] || 'default';
+
+          const quatrainData = poem.quatrains?.find((q) => q.lineIndices.includes(line.id - 1));
+          const isQuatrainEnd = quatrainData && quatrainData.lineIndices[quatrainData.lineIndices.length - 1] === line.id - 1;
+          const qModeState = quatrainData ? (sharahQuatrainState[quatrainData.id] || 'default') : 'default';
 
           return (
             <div

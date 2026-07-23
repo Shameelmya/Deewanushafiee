@@ -1787,5 +1787,49 @@ export const poemData: Poem = {
   totalLines: poemLines.length,
   lines: poemLines,
   couplets: coupletsData,
+  quatrains: [
+    {
+      id: 1,
+      lineIndices: [0, 1, 2, 3],
+      mlMeaning: "അധ്യാപകനെ ആദരിക്കുക, അദ്ദേഹം ഒരു പ്രവാചകനെപ്പോലെയാണ്. മനസ്സുകളെയും ബുദ്ധിയെയും രൂപപ്പെടുത്തുന്നവനേക്കാൾ ശ്രേഷ്ഠനായി മറ്റാരുമില്ല.",
+      enMeaning: "Stand up for the teacher and give him full reverence, for he is almost like a messenger. Is there anyone more honorable than the one who builds souls and minds?",
+      arSharah: "قم احترامًا وتقديراً للمعلم، فمكانته تقارب مكانة الرسل، لأنه يبني العقول والنفوس ولا يوجد أشرف من هذه المهمة العظيمة."
+    },
+    {
+      id: 2,
+      lineIndices: [4, 5, 6, 7],
+      mlMeaning: "അല്ലാഹുവേ, നീയാണ് ഏറ്റവും മികച്ച അധ്യാപകൻ. പേനകൊണ്ട് മുൻതലമുറകളെ പഠിപ്പിച്ചതും അജ്ഞതയുടെ ഇരുട്ടിൽ നിന്ന് ബുദ്ധിയെ പ്രകാശത്തിലേക്ക് വഴിനടത്തിയതും നീയാണ്.",
+      enMeaning: "Glory be to You, O Allah, the best of teachers. You taught the early generations by the pen, bringing the mind out of darkness into the clear light.",
+      arSharah: "سبحانك يا الله، أنت خير معلم، فقد علمت الأمم السابقة بالقلم، وأخرجت عقولهم من ظلمات الجهل إلى نور العلم المبين."
+    },
+    {
+      id: 3,
+      lineIndices: [8, 9, 10, 11],
+      mlMeaning: "ചിലപ്പോൾ ഇരുമ്പ് പോലെ തുരുമ്പിച്ച മനസ്സുകളെ അധ്യാപകൻ മിനുസപ്പെടുത്തുന്നു. അല്ലാഹു തൗറാത്തുമായി മൂസായെയും ഇൻജീലുമായി ഈസായെയും വഴികാട്ടികളായി അയച്ചു.",
+      enMeaning: "The teacher molds the mind, polishing it when it rusts. God sent Moses with the Torah and Jesus, Son of the Virgin, with the Gospel as guides.",
+      arSharah: "والمعلم يصقل العقول كما يُصقل الحديد. وقد أرسل الله موسى هاديًا بالتوراة، وعيسى ابن مريم ليعلم الناس الإنجيل."
+    },
+    {
+      id: 4,
+      lineIndices: [12, 13, 14, 15],
+      mlMeaning: "മുഹമ്മദ് നബിയെ സാഹിത്യത്തിന്റെ ഉറവയായി നീ നിയോഗിച്ചു, അദ്ദേഹം ഖുർആനും ഹദീസും പകർന്നുനൽകി. എന്നാൽ അറിവിനെ കൈവിട്ട ഗ്രീസും ഈജിപ്തും പതനത്തിലേക്ക് കൂപ്പുകുത്തി.",
+      enMeaning: "You brought forth Muhammad as the fountain of eloquence, imparting the Hadith and the Quran. Yet Greece and Egypt faded away when they lost their suns of knowledge.",
+      arSharah: "وبعث الله محمدًا نبعًا للفصاحة يسقي الناس بالقرآن والحديث. وقد زالت حضارات عظيمة كاليونان ومصر عندما تخلت عن العلم والمعلمين."
+    },
+    {
+      id: 5,
+      lineIndices: [16, 17, 18, 19],
+      mlMeaning: "ഇന്ന് ആ കിഴക്കൻ രാജ്യങ്ങൾ അറിവ് തേടി മറ്റുള്ളവരെ ആശ്രയിക്കുന്ന കുട്ടികളെപ്പോലെയായി. പണ്ട് അറിവിന്റെ സൂര്യന്മാർ അവിടെ നിന്നാണ് ഉദിച്ചതെങ്കിലും ഇപ്പോൾ അവർ പടിഞ്ഞാറിന് കീഴടങ്ങി.",
+      enMeaning: "Today they are like dependent children seeking knowledge. Although the suns of knowledge rose from the East, what has happened that the West now dominates?",
+      arSharah: "واليوم أصبحت تلك الأمم تعتمد على غيرها في طلب العلم كالأطفال. ورغم أن شمس المعرفة أشرقت من الشرق، فقد آلت السيادة للغرب بسبب إهمال الشرق للعلم."
+    },
+    {
+      id: 6,
+      lineIndices: [20, 21, 22],
+      mlMeaning: "സത്യം കൈപ്പേറിയതാണെങ്കിലും അതു സംരക്ഷിക്കാൻ ത്യാഗം സഹിച്ച മഹത്തുക്കൾ കടന്നുപോയി. സത്യസന്ധർ ഇന്ന് അധികാരത്തിന്റെ മുന്നിൽ അടിച്ചമർത്തപ്പെടുന്നു.",
+      enMeaning: "Gone are those who protected the truth, finding its sweet hardship. Now the truth is bitter and those who speak it are shackled by tyranny.",
+      arSharah: "لقد رحل العلماء الذين دافعوا عن الحقيقة وتحملوا العذاب في سبيلها. فالحقيقة مرة، والمستبدون يقمعون أهل الحق ويقيدون حريتهم."
+    }
+  ],
   sections: sectionSummaries
 };

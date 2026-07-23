@@ -425,5 +425,56 @@ export const poemData: Poem = {
       enSummary: "A profound reminder that both sorrow and joy are fleeting, that true wealth lies solely in contentment, and deep reflections on the inescapable, absolute reality of death.",
       arSummary: "بيان لتقلب أحوال الدنيا بين الحزن والفرح، وتأكيد على أن القناعة هي الغنى الحقيقي، وختام بالتذكير القوي بحتمية الموت الذي لا يدفعه دواء ولا واسطة."
     }
+  ],
+  quatrains: [
+    {
+      id: 1,
+      lineIndices: [1, 2, 3, 4],
+      mlMeaning: "കാലത്തിന്റെ ഗതിവിഗതികളെ അതിന്റെ വഴിക്ക് വിടുക, അല്ലാഹുവിന്റെ വിധിയിൽ പൂർണ്ണ തൃപ്തി കണ്ടെത്തുക. രാത്രികളുടെ ദുരന്തങ്ങളിൽ പതറരുത്, കാരണം ഈ ലോകത്തെ ഒരു ദുരന്തവും ശാശ്വതമല്ല.",
+      enMeaning: "Leave the days to unfold as they will, and find absolute peace in the divine decree. Never panic at the calamities brought by the nights, for no hardship in this transient world is eternal.",
+      arSharah: "يبدأ الإمام الشافعي بوضع قاعدة ذهبية للتعامل مع تقلبات الحياة، وهي التسليم المطلق لله وتجنب الاعتراض على الأقدار. يدعو إلى الطمأنينة الكاملة والرضا التام بقضاء الله، محذراً من الجزع والخوف أمام المصائب، ومذكراً بحقيقة فناء الدنيا وزوال همومها ومشاكلها."
+    },
+    {
+      id: 2,
+      lineIndices: [5, 6, 7, 8],
+      mlMeaning: "പ്രതിസന്ധികളിൽ ഉറച്ചുനിൽക്കുന്ന ധീരനാവുക, ഒപ്പം വിട്ടുവീഴ്ചയും വിശ്വസ്തതയും നിന്റെ സ്വഭാവമാക്കുക. ജനങ്ങൾക്കിടയിൽ നിനക്ക് ധാരാളം ന്യൂനതകൾ ഉണ്ടെങ്കിലും അതിനൊരു മറ ഉണ്ടായിരിക്കുന്നത് നിന്നെ സന്തോഷിപ്പിക്കുന്നുവെങ്കിൽ...",
+      enMeaning: "Be a person of steadfast courage against terrors, while making magnanimity and loyalty your true character. And if your flaws become many among people, and you wish for a cover to conceal them...",
+      arSharah: "يوجه الشاعر نحو بناء شخصية متوازنة تجمع بين الصلابة في مواجهة الشدائد واللين والكرم في معاملة الناس. كما يعالج الخوف البشري الطبيعي من انكشاف العيوب، ممهداً الطريق لوصفة سحرية في الأبيات التالية لعلاج هذه المشكلة النفسية والاجتماعية."
+    },
+    {
+      id: 3,
+      lineIndices: [9, 10, 11, 12],
+      mlMeaning: "...എങ്കിൽ ഔദാര്യം കൊണ്ട് നീ അത് മറയ്ക്കുക; സകല ന്യൂനതകളെയും ഔദാര്യം മായ്ച്ചുകളയും. അതുപോലെ, ശത്രുക്കളുടെ മുന്നിൽ നിന്റെ ബലഹീനത ഒരിക്കലും വെളിപ്പെടുത്തരുത്, കാരണം അവരുടെ പരിഹാസം കടുത്ത പരീക്ഷണമാണ്.",
+      enMeaning: "...then cloak yourself in generosity, for it conceals every flaw as the wise have said. Furthermore, never show an ounce of weakness to your enemies, as their malicious gloating is an unbearable affliction.",
+      arSharah: "يقدم الشافعي الحل العملي لستر العيوب وهو التحلي بالكرم والسخاء، فالمجتمع يغفر للكريم زلاته. وينتقل مباشرة إلى تحذير شديد اللهجة من إظهار أي ضعف أو انكسار أمام الأعداء، لأن شماتتهم تسبب ألماً يفوق ألم المصيبة ذاتها."
+    },
+    {
+      id: 4,
+      lineIndices: [13, 14, 15, 16],
+      mlMeaning: "പിശുക്കനിൽ നിന്ന് ഒരിക്കലും നന്മ പ്രതീക്ഷിക്കരുത്, ദാഹിക്കുന്നവന് തീയിൽ നിന്ന് വെള്ളം കിട്ടാത്തത് പോലെയാണത്. നിന്റെ ഉപജീവനം സാവകാശം കാണിക്കുന്നതുകൊണ്ട് കുറയുകയോ അമിതമായി കഷ്ടപ്പെടുന്നതുകൊണ്ട് വർദ്ധിക്കുകയോ ഇല്ല.",
+      enMeaning: "Do not expect generosity from a miser; it is like a thirsty man seeking water in a fire. Your destined provision will not decrease through patience, nor will it miraculously increase through exhausting toil.",
+      arSharah: "يؤكد الشاعر على حفظ الكرامة بتجنب طلب الحاجة من اللئام والبخلاء. ثم يعالج قلق الإنسان الأزلي حول الرزق، مؤكداً أن الأرزاق مقدرة، ولا العجلة تزيدها ولا التأني ينقصها، مما يبعث على السكينة والتوكل الحقيقي."
+    },
+    {
+      id: 5,
+      lineIndices: [17, 18, 19, 20],
+      mlMeaning: "സന്തോഷവും ദുഃഖവും ദാരിദ്ര്യവും സമ്പന്നതയും ഇവിടെ ശാശ്വതമല്ല. സംതൃപ്തമായ ഒരു ഹൃദയമാണ് നിനക്കുള്ളതെങ്കിൽ, നീയും ഈ ലോകത്തിന്റെ രാജാവും പൂർണ്ണമായും തുല്യരാണ്.",
+      enMeaning: "No joy or sorrow is eternal, nor is any state of misery or prosperity permanent. If you possess a contented heart, then you and the master of this world are absolutely equal.",
+      arSharah: "يقرر حقيقة كونية وهي تقلب أحوال الدنيا وعدم ثباتها على حال من حزن أو سرور. ويصل إلى قمة الحكمة ببيان أن الغنى الحقيقي هو غنى النفس والقناعة، فمن رزق الرضا استوى في شعوره مع ملوك الأرض."
+    },
+    {
+      id: 6,
+      lineIndices: [21, 22, 23, 24],
+      mlMeaning: "മരണം ആരുടെയെങ്കിലും മുറ്റത്ത് വന്നിറങ്ങിയാൽ, അവനെ രക്ഷിക്കാൻ ഭൂമിക്കോ ആകാശത്തിനോ കഴിയില്ല. അല്ലാഹുവിന്റെ ഭൂമി വിശാലമാണ്, എന്നാൽ വിധി വന്നെത്തുമ്പോൾ ബഹിരാകാശം പോലും ഇടുങ്ങിയതായി മാറും.",
+      enMeaning: "When death descends upon a person's courtyard, neither earth nor sky can protect him. Allah's earth is vast, yet when the divine decree arrives, even the vastness of space becomes narrow.",
+      arSharah: "يذكر الشاعر بحتمية الموت الذي لا مفر منه، فإذا حان الأجل سقطت كل أسباب الحماية الأرضية والسماوية. ورغم سعة الكون وعظمته، فإنه يضيق على الإنسان عندما ينفذ قضاء الله وقدره."
+    },
+    {
+      id: 7,
+      lineIndices: [25, 26],
+      mlMeaning: "അതിനാൽ എപ്പോഴും ചതിക്കുന്ന കാലത്തെ അതിന്റെ പാട്ടിന് വിടുക; മരണം വന്നെത്തുമ്പോൾ ഒരു മരുന്നും അതിനെ തടയാൻ ഫലം ചെയ്യില്ല.",
+      enMeaning: "Therefore, leave the days that constantly betray; when death finally comes, no medicine whatsoever will avail against it.",
+      arSharah: "يختم القصيدة بالعودة إلى فكرتها الأولى مع تكثيف للمعنى، مشيراً إلى غدر الزمان وتقلباته. ويؤكد في النهاية عجز الطب والدواء أمام حتمية الموت، داعياً إلى الاستعداد للآخرة وترك التعلق المفرط بالدنيا."
+    }
   ]
 };
