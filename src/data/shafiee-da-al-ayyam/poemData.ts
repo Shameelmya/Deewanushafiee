@@ -31,8 +31,8 @@ export const poemData: Poem = {
         { ar: "حَكَمَ", ml: "വിധിച്ചു", en: "decrees / rules", irab: "فعل ماض مبني على الفتح", root: "ح ك م" },
         { ar: "القَضَاءُ", ml: "ദൈവവിധി", en: "the destiny / decree", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "ق ض ي" }
       ],
-      noteMl: "**الأَيَّامَ (Al-Ayyam):** 'ദിവസങ്ങൾ' എന്ന് പദാർത്ഥം. അലങ്കാരശാസ്ത്രത്തിലെ 'മജാസ് മുർസൽ' (مجاز مرسل - Synecdoche) പ്രയോഗമാണിത്. ചരിത്രമുഹൂർത്തങ്ങളെയും സാഹചര്യങ്ങളെയും മൊത്തത്തിൽ പ്രതിനിധീകരിക്കാനാണ് ഈ പദം ഉപയോഗിച്ചിരിക്കുന്നത്.",
-      noteEn: "**الأَيَّامَ (Al-Ayyam):** This employs the rhetorical device *Majaz Mursal* (Synecdoche). By mentioning \"the days,\" the poet is referencing the totality of uncontrollable circumstances."
+      noteMl: "الأَيَّامَ (Al-Ayyam): 'ദിവസങ്ങൾ' എന്ന് പദാർത്ഥം. അലങ്കാരശാസ്ത്രത്തിലെ 'മജാസ് മുർസൽ' (مجاز مرسل - Synecdoche) പ്രയോഗമാണിത്. ചരിത്രമുഹൂർത്തങ്ങളെയും സാഹചര്യങ്ങളെയും മൊത്തത്തിൽ പ്രതിനിധീകരിക്കാനാണ് ഈ പദം ഉപയോഗിച്ചിരിക്കുന്നത്.",
+      noteEn: "الأَيَّامَ (Al-Ayyam): This employs the rhetorical device Majaz Mursal (Synecdoche). By mentioning \"the days,\" the poet is referencing the totality of uncontrollable circumstances."
     },
     {
       id: 3,
@@ -53,8 +53,8 @@ export const poemData: Poem = {
         { ar: "الدُّنْيَا", ml: "ഈ ലോകത്തെ", en: "of the world", irab: "مضاف إليه مجرور وعلامة جره الكسرة المقدرة للتعذر", root: "د ن و" },
         { ar: "بَقَاءُ", ml: "നിലനിൽപ്പ്", en: "permanence / lasting", irab: "مبتدأ مؤخر مرفوع وعلامة رفعه الضمة الظاهرة", root: "ب ق ي" }
       ],
-      noteMl: "**اللَّيَالِي (Al-Layali - രാത്രികൾ):** കാവ്യശാസ്ത്രത്തിൽ ഇരുട്ടിന്റെയും, അപ്രതീക്ഷിതമായി കടന്നുവരുന്ന പ്രതിസന്ധികളുടെയും പ്രതീകമായാണ് 'രാത്രികളെ' ഉപയോഗിക്കാറുള്ളത് (الاستعارة - Metaphor).\n**حَادِثَةِ / حَوَادِثِ (Haditha / Hawadith):** ഒരേ ധാതുവിൽ നിന്നുള്ള പദങ്ങളുടെ ആവർത്തനം (الجناس الاشتقاقي - Al-Jinas Al-Ishtiqaqi).",
-      noteEn: "**اللَّيَالِي (Al-Layali - രാത്രികൾ):** \"Nights\" are utilized as a classic literary metaphor symbolizing unforeseen darkness, uncertainty, and psychological terror.\n**حَادِثَةِ / حَوَادِثِ (Haditha / Hawadith):** (Al-Jinas Al-Ishtiqaqi)."
+      noteMl: "اللَّيَالِي (Al-Layali - രാത്രികൾ): കാവ്യശാസ്ത്രത്തിൽ ഇരുട്ടിന്റെയും, അപ്രതീക്ഷിതമായി കടന്നുവരുന്ന പ്രതിസന്ധികളുടെയും പ്രതീകമായാണ് 'രാത്രികളെ' ഉപയോഗിക്കാറുള്ളത് (الاستعارة - Metaphor).\nحَادِثَةِ / حَوَادِثِ (Haditha / Hawadith): ഒരേ ധാതുവിൽ നിന്നുള്ള പദങ്ങളുടെ ആവർത്തനം (الجناس الاشتقاقي - Al-Jinas Al-Ishtiqaqi).",
+      noteEn: "اللَّيَالِي (Al-Layali): \"Nights\" are utilized as a classic literary metaphor symbolizing unforeseen darkness, uncertainty, and psychological terror.\n**حَادِثَةِ / حَوَادِثِ (Haditha / Hawadith):** (Al-Jinas Al-Ishtiqaqi)."
     },
     {
       id: 5,
@@ -75,8 +75,8 @@ export const poemData: Poem = {
         { ar: "السَّمَاحَةُ", ml: "വിട്ടുവീഴ്ച", en: "magnanimity / tolerance", irab: "خبر المبتدأ مرفوع وعلامة رفعه الضمة الظاهرة", root: "س م ح" },
         { ar: "وَالوَفَاءُ", ml: "വിശ്വസ്തതയും", en: "and loyalty", irab: "الواو حرف عطف، الوفاء: معطوف على السماحة مرفوع مثله", root: "و ف ي" }
       ],
-      noteMl: "**رَجُلاً (Rajulan - ഒരു പുരുഷൻ / A man):** അറബി കാവ്യശാസ്ത്രത്തിൽ ഇതൊരു കേവല ലിംഗസൂചകമല്ല (Not merely a biological gender). മറിച്ച്, ക്ലാസിക്കൽ അറബി സാഹിത്യത്തിലെ ഏറ്റവും ഉന്നതമായ മാനുഷിക ഗുണമായ 'മുറൂഅത്ത്' (المروءة - Chivalry / Magnanimity / Fortitude) ആണ് ഇതിലൂടെ വിവക്ഷിക്കുന്നത്. കടുത്ത പ്രതിസന്ധികളിൽ ഉത്തരവാദിത്തം ഏറ്റെടുക്കാനും, പരാതികളില്ലാതെ പതറാതെ നിൽക്കാനുമുള്ള ഉന്നത വ്യക്തിത്വത്തെയും ആത്മധൈര്യത്തെയുമാണ് സാഹിത്യത്തിൽ 'റജുൽ' എന്ന് വിളിക്കുന്നത്.\n**شِيمَتُكَ (Sheematuka):** ഒരാളുടെ ജന്മസിദ്ധവും മാറ്റമില്ലാത്തതുമായ പ്രകൃതം. ഇതിനെ അറബി സാങ്കേതിക പദപ്രയോഗത്തിൽ 'അസ്സജിയ്യത്ത്' (السجية) എന്ന് വിളിക്കുന്നു. കൃത്രിമമായി ഉണ്ടാക്കിയെടുക്കുന്ന മുഖംമൂടിയല്ല, മറിച്ച് ജീനുകളിൽ അലിഞ്ഞുചേർന്ന സ്വഭാവമാണിത്.",
-      noteEn: "**رَجُلاً (Rajulan - ഒരു പുരുഷൻ / A man):** In classical Arabic literature, *Rajulan* does not denote mere biological gender. It invokes the supreme concept of *Muru'ah* (المروءة - Chivalry, unyielding fortitude, and absolute reliability during crises). It is the archetype of perfect character, responsibility, and emotional maturity.\n**شِيمَتُكَ (Sheematuka):** Refers to an intrinsic, genetically embedded behavioral baseline. In Arabic technical terminology, this is known as *Al-Sajiyyah* (السجية - innate disposition)."
+      noteMl: "رَجُلاً (Rajulan - ഒരു പുരുഷൻ / A man): അറബി കാവ്യശാസ്ത്രത്തിൽ ഇതൊരു കേവല ലിംഗസൂചകമല്ല (Not merely a biological gender). മറിച്ച്, ക്ലാസിക്കൽ അറബി സാഹിത്യത്തിലെ ഏറ്റവും ഉന്നതമായ മാനുഷിക ഗുണമായ 'മുറൂഅത്ത്' (المروءة - Chivalry / Magnanimity / Fortitude) ആണ് ഇതിലൂടെ വിവക്ഷിക്കുന്നത്. കടുത്ത പ്രതിസന്ധികളിൽ ഉത്തരവാദിത്തം ഏറ്റെടുക്കാനും, പരാതികളില്ലാതെ പതറാതെ നിൽക്കാനുമുള്ള ഉന്നത വ്യക്തിത്വത്തെയും ആത്മധൈര്യത്തെയുമാണ് സാഹിത്യത്തിൽ 'റജുൽ' എന്ന് വിളിക്കുന്നത്.\nشِيمَتُكَ (Sheematuka): ഒരാളുടെ ജന്മസിദ്ധവും മാറ്റമില്ലാത്തതുമായ പ്രകൃതം. ഇതിനെ അറബി സാങ്കേതിക പദപ്രയോഗത്തിൽ 'അസ്സജിയ്യത്ത്' (السجية) എന്ന് വിളിക്കുന്നു. കൃത്രിമമായി ഉണ്ടാക്കിയെടുക്കുന്ന മുഖംമൂടിയല്ല, മറിച്ച് ജീനുകളിൽ അലിഞ്ഞുചേർന്ന സ്വഭാവമാണിത്.",
+      noteEn: "رَجُلاً (Rajulan - A man): In classical Arabic literature, Rajulan does not denote mere biological gender. It invokes the supreme concept of Muru'ah (المروءة - Chivalry, unyielding fortitude, and absolute reliability during crises). It is the archetype of perfect character, responsibility, and emotional maturity.\nشِيمَتُكَ (Sheematuka): Refers to an intrinsic, genetically embedded behavioral baseline. In Arabic technical terminology, this is known as Al-Sajiyyah (السجية - innate disposition)."
     },
     {
       id: 7,
@@ -99,8 +99,8 @@ export const poemData: Poem = {
         { ar: "لَهَا", ml: "അതിന്", en: "for it (faults)", irab: "اللام حرف جر، وها ضمير متصل مجرور، وشبه الجملة خبر مقدم لـ يكون" },
         { ar: "غِطَاءُ", ml: "ഒരു മറ", en: "a cover", irab: "اسم يكون مؤخر مرفوع وعلامة رفعه الضمة", root: "غ ط و" }
       ],
-      noteMl: "**البَرَايَا (Al-Baraya):** സൃഷ്ടികൾ (The creations). അനേകം മനുഷ്യർ അടങ്ങുന്ന വിശാലമായ സമൂഹത്തെയും അവരുടെ നിരന്തരമായ നിരീക്ഷണങ്ങളെയും സൂചിപ്പിക്കുന്നു. മനുഷ്യൻ എപ്പോഴും നിരീക്ഷിക്കപ്പെടുന്ന ഒരു വ്യവസ്ഥയുടെ (Social Panopticon) ഭാഗമാണെന്ന് ഈ വാക്ക് ദ്യോതിപ്പിക്കുന്നു.",
-      noteEn: "**البَرَايَا (Al-Baraya):** Derived from the root Bara'a (to create), highlighting the universal scale of social observation and scrutiny."
+      noteMl: "البَرَايَا (Al-Baraya): സൃഷ്ടികൾ (The creations). അനേകം മനുഷ്യർ അടങ്ങുന്ന വിശാലമായ സമൂഹത്തെയും അവരുടെ നിരന്തരമായ നിരീക്ഷണങ്ങളെയും സൂചിപ്പിക്കുന്നു. മനുഷ്യൻ എപ്പോഴും നിരീക്ഷിക്കപ്പെടുന്ന ഒരു വ്യവസ്ഥയുടെ (Social Panopticon) ഭാഗമാണെന്ന് ഈ വാക്ക് ദ്യോതിപ്പിക്കുന്നു.",
+      noteEn: "البَرَايَا (Al-Baraya): Derived from the root Bara'a (to create), highlighting the universal scale of social observation and scrutiny."
     },
     {
       id: 9,
@@ -121,8 +121,8 @@ export const poemData: Poem = {
         { ar: "قِيلَ", ml: "പറയപ്പെട്ടു", en: "it was said", irab: "فعل ماض مبني للمجهول", root: "ق و ل" },
         { ar: "السَّخَاءُ", ml: "ഔദാര്യം", en: "generosity", irab: "فاعل لـ (يغطيه) مؤخر مرفوع وعلامة رفعه الضمة", root: "س خ و" }
       ],
-      noteMl: "**كَمَا قِيلَ (Kama Qeela):** \"പറയപ്പെട്ടതുപോലെ\". സമൂഹത്തിൽ പരമ്പരാഗതമായി നിലനിൽക്കുന്ന ഒരു തത്വത്തെ കാവ്യഘടനയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അറബി സാഹിത്യത്തിൽ ഇതിനെ 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് വിളിക്കുന്നു.",
-      noteEn: "**كَمَا قِيلَ (Kama Qeela):** \"As it was said.\" The classical rhetorical technique of Tadmin (Incorporation), seamlessly weaving existing universal wisdom or proverbs into the poem's structural meter."
+      noteMl: "كَمَا قِيلَ (Kama Qeela): \"പറയപ്പെട്ടതുപോലെ\". സമൂഹത്തിൽ പരമ്പരാഗതമായി നിലനിൽക്കുന്ന ഒരു തത്വത്തെ കാവ്യഘടനയിലേക്ക് വിദഗ്ദ്ധമായി വിളക്കിച്ചേർക്കുന്ന രീതിയാണിത്. അറബി സാഹിത്യത്തിൽ ഇതിനെ 'തദ്മീൻ' (التضمين - Tadmin) എന്ന് വിളിക്കുന്നു.",
+      noteEn: "كَمَا قِيلَ (Kama Qeela): \"As it was said.\" The classical rhetorical technique of Tadmin (Incorporation), seamlessly weaving existing universal wisdom or proverbs into the poem's structural meter."
     },
     {
       id: 11,
@@ -144,8 +144,8 @@ export const poemData: Poem = {
         { ar: "الأَعْدَا", ml: "ശത്രുക്കളുടെ", en: "of the enemies", irab: "مضاف إليه مجرور وعلامة جره الكسرة المقدرة (حذفت الهمزة للضرورة الشعرية)", root: "ع د و" },
         { ar: "بَلاءُ", ml: "വലിയൊരു പരീക്ഷണമാണ്", en: "is an affliction", irab: "خبر إن مرفوع وعلامة رفعه الضمة الظاهرة", root: "ب ل و" }
       ],
-      noteMl: "**قَطُّ (Qattu):** ഒരിക്കലും (Never / Ever). ഭാഷാശാസ്ത്രത്തിൽ ഒരു പ്രവൃത്തിയെ പൂർണ്ണമായും നിഷേധിക്കാൻ ഉപയോഗിക്കുന്ന പദമാണിത് (ظرف زمان لاستغراق النفي). ശത്രുവിന് മുന്നിലെ കീഴടങ്ങലിനെ ഇത് അസന്ദിഗ്ധമായി വിലക്കുന്നു.\n**شَمَاتَةَ (Shamatah):** ശത്രുക്കളുടെ വീഴ്ചയിലുള്ള ആനന്ദം (Schadenfreude). മാനസികമായി ഒരു മനുഷ്യനെ തകർക്കുന്ന ഏറ്റവും മൂർച്ചയേറിയ ആയുധമാണിത്.",
-      noteEn: "**قَطُّ (Qattu):** A highly specialized linguistic particle (Zarf Zaman) used for absolute, categorical negation.\n**شَمَاتَةَ (Shamatah):** Schadenfreude (malicious joy derived from an adversary's total misfortune)."
+      noteMl: "قَطُّ (Qattu): ഒരിക്കലും (Never / Ever). ഭാഷാശാസ്ത്രത്തിൽ ഒരു പ്രവൃത്തിയെ പൂർണ്ണമായും നിഷേധിക്കാൻ ഉപയോഗിക്കുന്ന പദമാണിത് (ظرف زمان لاستغراق النفي). ശത്രുവിന് മുന്നിലെ കീഴടങ്ങലിനെ ഇത് അസന്ദിഗ്ധമായി വിലക്കുന്നു.\nشَمَاتَةَ (Shamatah): ശത്രുക്കളുടെ വീഴ്ചയിലുള്ള ആനന്ദം (Schadenfreude). മാനസികമായി ഒരു മനുഷ്യനെ തകർക്കുന്ന ഏറ്റവും മൂർച്ചയേറിയ ആയുധമാണിത്.",
+      noteEn: "قَطُّ (Qattu): A highly specialized linguistic particle (Zarf Zaman) used for absolute, categorical negation.\nشَمَاتَةَ (Shamatah): Schadenfreude (malicious joy derived from an adversary's total misfortune)."
     },
     {
       id: 13,
@@ -168,8 +168,8 @@ export const poemData: Poem = {
         { ar: "لِلظَّمْآنِ", ml: "ദാഹിക്കുന്നവന്", en: "for the thirsty", irab: "اللام حرف جر، ظمآن: اسم مجرور وعلامة جره الكسرة", root: "ظ م أ" },
         { ar: "مَاءُ", ml: "വെള്ളം", en: "water", irab: "مبتدأ مؤخر مرفوع وعلامة رفعه الضمة الظاهرة", root: "م و ه" }
       ],
-      noteMl: "**التشبيه الضمني (Tashbeeh Dhimni):** മറഞ്ഞിരിക്കുന്ന ഉപമ (Implicit Simile). രണ്ട് വ്യത്യസ്ത കാര്യങ്ങളെ ഉപമാവാചകങ്ങളില്ലാതെ ലയിപ്പിച്ച് അവതരിപ്പിക്കുന്ന അലങ്കാര പ്രയോഗം. പിശുക്കനിൽ നിന്ന് സഹായം ചോദിക്കുന്നത് ഫലം തരില്ല എന്ന് മാത്രമല്ല, അത് തീ പോലെ നിങ്ങളെ അപമാനത്തിൽ ചുട്ടെരിക്കുകയും ചെയ്യും.",
-      noteEn: "**التشبيه الضمني (Tashbeeh Dhimni):** A master-level rhetorical construct (Implicit Simile) paralleling the futility of seeking charity from a miser with plunging into fire for hydration."
+      noteMl: "التشبيه الضمني (Tashbeeh Dhimni): മറഞ്ഞിരിക്കുന്ന ഉപമ (Implicit Simile). രണ്ട് വ്യത്യസ്ത കാര്യങ്ങളെ ഉപമാവാചകങ്ങളില്ലാതെ ലയിപ്പിച്ച് അവതരിപ്പിക്കുന്ന അലങ്കാര പ്രയോഗം. പിശുക്കനിൽ നിന്ന് സഹായം ചോദിക്കുന്നത് ഫലം തരില്ല എന്ന് മാത്രമല്ല, അത് തീ പോലെ നിങ്ങളെ അപമാനത്തിൽ ചുട്ടെരിക്കുകയും ചെയ്യും.",
+      noteEn: "التشبيه الضمني (Tashbeeh Dhimni): A master-level rhetorical construct (Implicit Simile) paralleling the futility of seeking charity from a miser with plunging into fire for hydration."
     },
     {
       id: 15,
@@ -191,8 +191,8 @@ export const poemData: Poem = {
         { ar: "الرِّزْقِ", ml: "ഉപജീവനത്തിൽ", en: "the provision", irab: "اسم مجرور بفي وعلامة جره الكسرة", root: "ر ز ق" },
         { ar: "العَنَاءُ", ml: "കഷ്ടപ്പാട് / ആയാസം", en: "hardship / exhaustion", irab: "فاعل لـ (يزيد) مرفوع وعلامة رفعه الضمة الظاهرة", root: "ع ن و" }
       ],
-      noteMl: "**المقابلة (Al-Muqabalah):** 'അത്തഅന്നി' (التَّأَنِّي - കൃത്യമായ പ്ലാനിങ്ങോടെയുള്ള ശാന്തമായ പ്രവർത്തനം) എന്ന പദവും 'അൽ-അനാഅ്' (العَنَاءُ - പരിഭ്രാന്തിയോടെയുള്ള അമിതാധ്വാനവും കഷ്ടപ്പാടും) എന്ന പദവും തമ്മിലുള്ള വിപരീതാർത്ഥം പ്രൊഫഷണൽ ജീവിതത്തിലെ സന്തുലിതാവസ്ഥയെ വരച്ചുകാട്ടുന്നു.",
-      noteEn: "**المقابلة (Al-Muqabalah):** The precise semantic contrast (Al-Muqabalah) between calm deliberation and frantic exhaustion."
+      noteMl: "المقابلة (Al-Muqabalah): 'അത്തഅന്നി' (التَّأَنِّي - കൃത്യമായ പ്ലാനിങ്ങോടെയുള്ള ശാന്തമായ പ്രവർത്തനം) എന്ന പദവും 'അൽ-അനാഅ്' (العَنَاءُ - പരിഭ്രാന്തിയോടെയുള്ള അമിതാധ്വാനവും കഷ്ടപ്പാടും) എന്ന പദവും തമ്മിലുള്ള വിപരീതാർത്ഥം പ്രൊഫഷണൽ ജീവിതത്തിലെ സന്തുലിതാവസ്ഥയെ വരച്ചുകാട്ടുന്നു.",
+      noteEn: "المقابلة (Al-Muqabalah): The precise semantic contrast (Al-Muqabalah) between calm deliberation and frantic exhaustion."
     },
     {
       id: 17,
@@ -215,8 +215,8 @@ export const poemData: Poem = {
         { ar: "وَلا", ml: "അതുപോലെ ഇല്ല", en: "and no", irab: "الواو حرف عطف، لا: نافية" },
         { ar: "رَخَاءُ", ml: "സമൃദ്ധി / സുഖം", en: "prosperity / ease", irab: "معطوف على بؤس مرفوع وعلامة رفعه الضمة", root: "ر خ و" }
       ],
-      noteMl: "**الطباق (Tibaq - Antithesis):** പരസ്പരം വിപരീതാർത്ഥമുള്ള പദങ്ങൾ ഒരുമിച്ചു കൊണ്ടുവരുന്ന കാവ്യതന്ത്രം (ദുഃഖം/സന്തോഷം, ദാരിദ്ര്യം/സമൃദ്ധി). പ്രപഞ്ചത്തിന്റെ ദ്വന്ദ്വാത്മക സ്വഭാവത്തെ (Dualistic nature) ഇത് അടയാളപ്പെടുത്തുന്നു.",
-      noteEn: "**الطباق (Tibaq - Antithesis):** Employing Tibaq (Antithesis) by structuring opposite conceptual binaries together to highlight reality's dualistic nature."
+      noteMl: "الطباق (Tibaq - Antithesis): പരസ്പരം വിപരീതാർത്ഥമുള്ള പദങ്ങൾ ഒരുമിച്ചു കൊണ്ടുവരുന്ന കാവ്യതന്ത്രം (ദുഃഖം/സന്തോഷം, ദാരിദ്ര്യം/സമൃദ്ധി). പ്രപഞ്ചത്തിന്റെ ദ്വന്ദ്വാത്മക സ്വഭാവത്തെ (Dualistic nature) ഇത് അടയാളപ്പെടുത്തുന്നു.",
+      noteEn: "الطباق (Tibaq - Antithesis): Employing Tibaq (Antithesis) by structuring opposite conceptual binaries together to highlight reality's dualistic nature."
     },
     {
       id: 19,
@@ -239,8 +239,8 @@ export const poemData: Poem = {
         { ar: "الدُّنْيَا", ml: "ലോകത്തിന്റെ", en: "of the world", irab: "مضاف إليه مجرور بالكسرة المقدرة للتعذر", root: "د ن و" },
         { ar: "سَوَاءُ", ml: "തുല്യരാണ്", en: "are equal", irab: "خبر المبتدأ مرفوع وعلامة رفعه الضمة الظاهرة", root: "س و ي" }
       ],
-      noteMl: "**قَنُوعٍ (Qanu'):** തികഞ്ഞ സംതൃപ്തി. സമ്പത്തിനെ ബാഹ്യമായ കൂട്ടിവെക്കലുകൾക്ക് പകരം ആന്തരികമായ മാനസികാവസ്ഥയായി (Cognitive state) നിർവചിക്കുന്ന സൂഫിസത്തിലെ ശക്തമായ ആശയം (القناعة).",
-      noteEn: "**قَنُوعٍ (Qanu'):** Derived from absolute contentment. Redefining wealth purely as an internal cognitive state rather than external accumulation."
+      noteMl: "قَنُوعٍ (Qanu'): തികഞ്ഞ സംതൃപ്തി. സമ്പത്തിനെ ബാഹ്യമായ കൂട്ടിവെക്കലുകൾക്ക് പകരം ആന്തരികമായ മാനസികാവസ്ഥയായി (Cognitive state) നിർവചിക്കുന്ന സൂഫിസത്തിലെ ശക്തമായ ആശയം (القناعة).",
+      noteEn: "قَنُوعٍ (Qanu'): Derived from absolute contentment. Redefining wealth purely as an internal cognitive state rather than external accumulation."
     },
     {
       id: 21,
@@ -262,8 +262,8 @@ export const poemData: Poem = {
         { ar: "وَلا", ml: "അതുപോലെ ഇല്ല", en: "and nor", irab: "الواو حرف عطف، لا: نافية" },
         { ar: "سَمَاءُ", ml: "ആകാശവും", en: "sky", irab: "معطوف على أرض مرفوع وعلامة رفعه الضمة", root: "س م و" }
       ],
-      noteMl: "**بِسَاحَتِهِ (Bisahatihi):** മുറ്റത്ത് (In his courtyard). മരണം അനിവാര്യമായി പടിക്കൽ വന്നെത്തുന്നതിനെ കുറിക്കുന്ന മൂർച്ചയേറിയ രൂപകം (الاستعارة).",
-      noteEn: "**بِسَاحَتِهِ (Bisahatihi):** A highly tangible spatial metaphor denoting the unescapable, physical arrival of mortality at one's personal threshold."
+      noteMl: "بِسَاحَتِهِ (Bisahatihi): മുറ്റത്ത് (In his courtyard). മരണം അനിവാര്യമായി പടിക്കൽ വന്നെത്തുന്നതിനെ കുറിക്കുന്ന മൂർച്ചയേറിയ രൂപകം (الاستعارة).",
+      noteEn: "بِسَاحَتِهِ (Bisahatihi): A highly tangible spatial metaphor denoting the unescapable, physical arrival of mortality at one's personal threshold."
     },
     {
       id: 23,
@@ -285,8 +285,8 @@ export const poemData: Poem = {
         { ar: "ضَاقَ", ml: "ഇടുങ്ങിയതാകും", en: "narrows", irab: "فعل ماض مبني على الفتح، وهو جواب الشرط", root: "ض ي ق" },
         { ar: "الفَضَاءُ", ml: "ബഹിരാകാശം / ഇടം", en: "the space", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "ف ض و" }
       ],
-      noteMl: "**وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa):** വിശാലമായതും ഇടുങ്ങിയതും തമ്മിലുള്ള വൈരുദ്ധ്യം (Spatial Paradox - الطباق). മരണസമയത്തെ മനുഷ്യന്റെ ശ്വാസംമുട്ടലിനെ ദൃശ്യവൽക്കരിക്കുന്നു.",
-      noteEn: "**وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa):** The masterful spatial juxtaposition (Tibaq) of infinite expansiveness against claustrophobic constriction, illustrating ultimate psychological collapse."
+      noteMl: "وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa): വിശാലമായതും ഇടുങ്ങിയതും തമ്മിലുള്ള വൈരുദ്ധ്യം (Spatial Paradox - الطباق). മരണസമയത്തെ മനുഷ്യന്റെ ശ്വാസംമുട്ടലിനെ ദൃശ്യവൽക്കരിക്കുന്നു.",
+      noteEn: "وَاسِعَةٌ / ضَاقَ (Wasi'ah / Daqa): The masterful spatial juxtaposition (Tibaq) of infinite expansiveness against claustrophobic constriction, illustrating ultimate psychological collapse."
     },
     {
       id: 25,
@@ -309,8 +309,8 @@ export const poemData: Poem = {
         { ar: "المَوْتِ", ml: "മരണത്തിൽ", en: "death", irab: "اسم مجرور بعن وعلامة جره الكسرة", root: "م و ت" },
         { ar: "الدَّوَاءُ", ml: "മരുന്ന്", en: "the medicine", irab: "فاعل مرفوع وعلامة رفعه الضمة الظاهرة", root: "د و ي" }
       ],
-      noteMl: "**رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr):** അവസാന വരിയെ ആദ്യ വരിയുമായി (\"دع الأيام\") ബന്ധിപ്പിച്ച് കവിതയ്ക്ക് പൂർണ്ണത നൽകുന്ന കാവ്യ സമമിതി.",
-      noteEn: "**رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr):** A masterclass in structural poetic symmetry, looping the conclusion directly back to the opening command."
+      noteMl: "رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr): അവസാന വരിയെ ആദ്യ വരിയുമായി (\"دع الأيام\") ബന്ധിപ്പിച്ച് കവിതയ്ക്ക് പൂർണ്ണത നൽകുന്ന കാവ്യ സമമിതി.",
+      noteEn: "رد العجز على الصدر (Radd al-A'jaz 'ala al-Sadr): A masterclass in structural poetic symmetry, looping the conclusion directly back to the opening command."
     }
   ],
   couplets: [
@@ -431,7 +431,8 @@ export const poemData: Poem = {
         "mlMeaning": "എല്ലാ സമയത്തും കാലം ചതിക്കാൻ നീ വിട്ടേക്കുക. കാരണം മരണത്തിന് പകരമായി യാതൊരു മരുന്നും ഫലം ചെയ്യുകയില്ല.",
         "enMeaning": "Let the days betray at every moment. For medicine absolutely does not avail against death."
     }
-],
+
+    ],
   sections: [
     {
         "id": 1,
