@@ -2,7 +2,33 @@ import React, { useState } from 'react';
 import { PoetData } from '../types';
 import { User, Award, Calendar, MapPin, BookOpen, Feather, Sparkles } from 'lucide-react';
 
+const renderBioText = (text: string, isArabic: boolean) => {
+  if (!text) return null;
+  const paragraphs = text.split('\n\n');
+  return (
+    <div className={`space-y-4 ${isArabic ? 'font-arabic amiri-regular text-lg sm:text-xl text-justify' : 'text-xs sm:text-sm font-medium text-justify'}`}>
+      {paragraphs.map((para, idx) => {
+        const lines = para.split('\n');
+        if (lines.length > 1) {
+          return (
+            <div key={idx} className="mb-2">
+              <strong className={`block text-blue-800 dark:text-blue-300 ${isArabic ? 'mb-2 font-bold text-xl sm:text-2xl amiri-bold' : 'mb-1 font-bold text-sm sm:text-base'}`}>{lines[0]}</strong>
+              <span className="whitespace-pre-line leading-relaxed">{lines.slice(1).join('\n')}</span>
+            </div>
+          );
+        }
+        return (
+          <div key={idx} className="mb-2 whitespace-pre-line leading-relaxed">
+            {para}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 interface PoetViewProps {
+  data: PoetData;
   interfaceLang?: 'ml' | 'en';
 }
 
@@ -71,25 +97,21 @@ export const PoetView: React.FC<PoetViewProps> = ({ data, interfaceLang }) => {
         <div className="p-4 sm:p-6">
           {langTab === 'ar' ? (
             <div className="text-right space-y-3" dir="rtl">
-              <h3 className="text-lg sm:text-xl font-bold font-arabic amiri-bold text-slate-800 dark:text-slate-100 flex items-center justify-start gap-2">
+              <h3 className="text-lg sm:text-xl font-bold font-arabic amiri-bold text-slate-800 dark:text-slate-100 flex items-center justify-start gap-2 mb-4">
                 <BookOpen size={18} className="text-blue-600" />
                 <span>السيرة الذاتية المفصلة للشاعر:</span>
               </h3>
-              <p className="text-slate-800 dark:text-slate-200 leading-relaxed font-arabic amiri-regular text-lg sm:text-xl text-justify whitespace-pre-line">
-                {data.bioAr}
-              </p>
+              {renderBioText(data.bioAr, true)}
             </div>
           ) : (
             <div className="space-y-3 text-justify" dir="ltr">
-              <h3 className="text-sm sm:text-base font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
+              <h3 className="text-sm sm:text-base font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2 mb-4">
                 <BookOpen size={18} className="text-blue-600" />
                 <span>
                   {interfaceLang === 'ml' ? 'കവിയുടെ വിശദമായ ജീവചരിത്രം:' : 'Detailed Biography of the Poet:'}
                 </span>
               </h3>
-              <p className="text-slate-800 dark:text-slate-200 leading-relaxed text-xs sm:text-sm font-medium whitespace-pre-line">
-                {interfaceLang === 'ml' ? data.bioMl : data.bioEn}
-              </p>
+              {renderBioText(interfaceLang === 'ml' ? data.bioMl : data.bioEn, false)}
             </div>
           )}
         </div>
