@@ -75,7 +75,7 @@ export const EssayView: React.FC<EssayViewProps> = ({ data, interfaceLang, isHid
         )}
 
         {/* Arabic Essay Card */}
-        <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-4">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-200/80 dark:border-slate-800 shadow-xs space-y-4 order-first md:order-last">
           <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
             <button
               onClick={() => copyEssay(data.arEssay, 'ar')}

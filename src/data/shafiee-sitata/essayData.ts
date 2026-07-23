@@ -2,57 +2,72 @@ import { EssayData } from '../../types';
 
 export const essayData: EssayData = {
   arTitle: "منهجية تحصيل المعرفة: تحليل الشروط الستة للإمام الشافعي",
-  mlTitle: "വിജ്ഞാന സമ്പാദനത്തിന്റെ മനഃശാസ്ത്രം: ഇമാം ശാഫിയുടെ ആറ് നിബന്ധനകൾ",
-  enTitle: "The Epistemology of Learning: Analyzing Al-Shafi'i's Six Conditions of Knowledge",
-  
-  arEssay: `### المقدمة
-تعتبر أبيات الإمام الشافعي في شروط طلب العلم "أخي لن تنال العلم إلا بستة" بمثابة دستور أكاديمي وتربوي مكثف. في هذين البيتين فقط، يلخص الشافعي، بخبرته المعرفية الواسعة، المنهجية الكاملة للنجاح الأكاديمي والنمو الفكري. إنها ليست مجرد نصائح سطحية، بل هي تشريح دقيق للمتطلبات المعرفية (Cognitive)، والنفسية (Psychological)، والاجتماعية (Social)، والمادية (Material) اللازمة لتحصيل أي علم حقيقي. يقدم الشافعي هذه الروشتة التربوية بأسلوب أبوي حنون يبدأ بكلمة "أخي"، ليؤكد أن العلم رحلة شاقة تحتاج إلى صدق النصيحة.
+  mlTitle: "വിജ്ഞാന സമ്പാദനത്തിന്റെ അടിസ്ഥാന ശിലകൾ: ഇമാം ശാഫീ(റ)യുടെ വീക്ഷണം",
+  enTitle: "The Foundations of Knowledge Acquisition: Imam Al-Shafi'i's Perspective",
+  arEssay: `تعتبر هذه الأبيات للإمام محمد بن إدريس الشافعي من أعظم الخلاصات التربوية والمنهجية في تاريخ الفكر الإسلامي. لا يقتصر الشافعي هنا على وصف أهمية العلم، بل يضع "خارطة طريق" دقيقة وعملية توضح الشروط الستة التي لا بد منها لكل طالب علم يريد أن يصل إلى درجة الرسوخ والتميز. 
 
-### المتطلبات المعرفية: الذكاء (Intelligence)
-يبدأ الشافعي شروطه بـ "الذكاء". في السياق الأكاديمي القديم والحديث، لا يُقصد بالذكاء هنا مجرد معدل الذكاء الفطري (IQ) المرتفع فحسب، بل يشمل **الفطنة وقوة الملاحظة وسرعة البديهة**. في علم النفس المعرفي، يعادل هذا ما يُعرف بـ **المرونة الإدراكية (Cognitive Flexibility)** وقدرة العقل على تحليل المعلومات وربطها. بدون جهاز عصبي مستعد، وعقل منفتح قادر على النقد والاستنباط، يصبح طلب العلم مجرد تخزين أصم للمعلومات دون فهم حقيقي لجوهرها.
+**أولاً: الذكاء (الفطري والمكتسب)**
+يضع الشافعي "الذكاء" كأول شرط، وهو يشمل الفطنة الطبيعية التي يولد بها الإنسان، والقدرة على التحليل والاستيعاب السريع. ولكن الذكاء الفطري وحده لا يكفي إن لم يُصقل بالاستخدام والتدريب المستمر. الذكاء هنا هو الأداة الأولى لفهم المسائل المعقدة واستنباط الأحكام.
 
-### المتطلبات النفسية: الحرص والاجتهاد (Eagerness & Diligence)
-الذكاء الفطري وحده لا يكفي، وهذا ما يثبته علم النفس التربوي الحديث. يضيف الشافعي شرطين نفسيين متلازمين: **"الحرص"** (الشغف الداخلي والرغبة العارمة في التعلم)، و**"الاجتهاد"** (بذل الجهد البدني والذهني المضني). يمثل "الحرص" هنا **الدافعية الداخلية (Intrinsic Motivation)**، التي تجعل المتعلم يبحث عن المعرفة لذاتها وليس لأجل مكافأة خارجية. أما "الاجتهاد"، فهو ما يطلق عليه اليوم في أدبيات النجاح بـ **الجلد والمثابرة (Grit)**. إن أذكى الطلاب يفشلون إذا افتقروا إلى الانضباط الذاتي وقوة الإرادة لمواجهة صعوبة النصوص وتعقيد النظريات.
+**ثانياً: الحرص (الشغف المعرفي)**
+الحرص يعني الرغبة العارمة والشغف الذي لا ينطفئ لطلب العلم. المتعلم الحريص لا يكتفي بالقليل، بل يبحث دائماً عن المزيد، ولا تمنعه الصعوبات من مواصلة البحث. هذا الحرص هو الوقود الداخلي الذي يدفع الطالب لعدم الاستسلام عند مواجهة العقبات العلمية.
 
-### المتطلبات المادية: البُلغَة (Sustenance)
-يتجلى الواقعية البراغماتية العميقة للإمام الشافعي في شرط **"البلغة"**. يقصد بها الحد الأدنى من الكفاية المالية التي تضمن للمتعلم عدم الجوع أو التشرد. في هرم "ماسلو" للاحتياجات الإنسانية (Maslow's Hierarchy of Needs)، لا يمكن للإنسان أن يصل إلى قمة الهرم (تحقيق الذات والتعلم المعرفي العالي) إذا كانت احتياجاته الفسيولوجية الأساسية (الطعام والمأوى) مهددة. المتعلم الجائع أو المهموم بتأمين رزق عياله لن يستطيع التركيز في أعقد مسائل الفقه أو الرياضيات. هذا الشرط دعوة صريحة للمجتمع والدولة لكفالة طلاب العلم وتفريغهم.
+**ثالثاً: الاجتهاد (المثابرة والجهد)**
+الذكاء والحرص يحتاجان إلى تفعيل على أرض الواقع من خلال "الاجتهاد". وهو بذل أقصى درجات الجهد، والسهر، والتعب في الحفظ والفهم والمراجعة. العلم لا يُنال براحة الجسد، بل يحتاج إلى مكابدة وصبر ومثابرة يومية لا تنقطع.
 
-### المتطلبات الاجتماعية والزمنية: الأستاذ والزمن (Mentorship & Time)
-يختم الشافعي شروطه بشرطين يتعلقان بالبيئة والوقت: **"صحبة أستاذ"** و**"طول زمان"**. 
-أولاً، في عصر الذكاء الاصطناعي والمعلومات المفتوحة، لا يزال التوجيه البشري (Mentorship) حاسماً. "الصحبة" لا تعني مجرد الاستماع للمحاضر، بل تعني الملازمة والتربية واكتساب المنهجية النقدية والسمت الأخلاقي من معلم خبير. 
-ثانياً، يعالج الشافعي آفة الاستعجال الحديثة بـ **"طول زمان"**. المعرفة الحقيقية تحتاج إلى عملية تخمير عقلي. إنها تشبه بناء شبكات عصبية (Neural Networks) قوية في الدماغ، وهذا يتطلب تراكماً زمنياً، وتكراراً، ونضجاً لا يمكن اختزاله في دورات مكثفة أو كبسولات سريعة. المعرفة العميقة هي استثمار مدى الحياة.`,
-  
-  mlEssay: `### ആമുഖം
-അറിവ് നേടുന്നതിനെക്കുറിച്ച് ഇമാം ശാഫി രചിച്ച "എന്റെ സഹോദരാ, ആറ് കാര്യങ്ങൾ കൊണ്ടല്ലാതെ നിനക്ക് അറിവ് നേടാനാവില്ല..." എന്ന് തുടങ്ങുന്ന കവിത വിദ്യാഭ്യാസ മനഃശാസ്ത്രത്തിലെ (Educational Psychology) ഒരു സമ്പൂർണ്ണ ഭരണഘടനയാണ്. വെറും രണ്ട് വരികളിലൂടെ ഒരു വിദ്യാർത്ഥിക്ക് ആവശ്യമായ ബൗദ്ധികവും (Cognitive), മാനസികവും (Psychological), സാമ്പത്തികവും (Financial), സാമൂഹികവുമായ (Social) എല്ലാ ആവശ്യങ്ങളെയും അദ്ദേഹം കൃത്യമായി വരച്ചുകാണിക്കുന്നു. അറിവ് നേടുക എന്നത് കേവലം പുസ്തകങ്ങൾ വായിക്കുന്നതിനപ്പുറം വലിയൊരു സമർപ്പണം ആവശ്യപ്പെടുന്ന പ്രക്രിയയാണെന്ന് ഈ വരികൾ നമ്മെ ഓർമ്മിപ്പിക്കുന്നു. "എന്റെ സഹോദരാ" എന്ന സ്നേഹം നിറഞ്ഞ വിളിയിലൂടെയാണ് അദ്ദേഹം ഈ കർശനമായ വ്യവസ്ഥകൾ അവതരിപ്പിക്കുന്നത്.
+**رابعاً: البلغة (الكفاية المادية)**
+البلغة تعني ما يتبلغ به الإنسان من الرزق ويكفيه لسد حاجاته الأساسية. وهذا الشرط يعكس نظرة الشافعي الواقعية العميقة؛ فطالب العلم المشتت عقله بالبحث عن لقمة العيش طوال اليوم لن يجد صفاء الذهن الكافي للتركيز في دراسته. توفر الحد الأدنى من الكفاية المادية ضروري لاستقرار العقل وتفرغه للعلم.
 
-### ബൗദ്ധിക ആവശ്യങ്ങൾ: ബുദ്ധിശക്തി (Intelligence)
-ഒന്നാമത്തെ നിബന്ധനയായി ഇമാം പറയുന്നത് 'ബുദ്ധിശക്തി' (ذكاء) ആണ്. ആധുനിക മനഃശാസ്ത്രത്തിൽ ഇതിനെ **കോഗ്നിറ്റീവ് ഫ്ലെക്സിബിലിറ്റി (Cognitive Flexibility)** എന്ന് വിളിക്കാം. കേവലം കാര്യങ്ങൾ കാണാപാഠം പഠിക്കാനുള്ള കഴിവ് മാത്രമല്ല ഇത്. മറിച്ച്, കാര്യങ്ങൾ വേഗത്തിൽ മനസ്സിലാക്കാനും, വിശകലനം ചെയ്യാനും, പുതിയ ആശയങ്ങൾ രൂപപ്പെടുത്താനുമുള്ള തലച്ചോറിന്റെ കഴിവാണിത്. വിമർശനാത്മക ചിന്തയും (Critical thinking) ഗ്രഹണശേഷിയുമില്ലാതെ അറിവ് നേടാൻ കഴിയില്ല എന്ന യാഥാർത്ഥ്യമാണ് ഇമാം ഇവിടെ വ്യക്തമാക്കുന്നത്.
+**خامساً: صحبة الأستاذ (الموجه والقدوة)**
+العلم لا يؤخذ من الكتب وحدها، بل يحتاج إلى "أستاذ" خبير ومربي. الأستاذ لا ينقل المعلومات فحسب، بل يعلم الطالب منهجية التفكير، والأدب، وكيفية التعامل مع المعرفة، ويجنبه الزلل والخطأ. صحبة الأستاذ تعني الملازمة الطويلة له لأخذ العلم والأخلاق معاً.
 
-### മാനസിക ആവശ്യങ്ങൾ: ആഗ്രഹവും കഠിനാധ്വാനവും (Eagerness & Diligence)
-ജന്മനാ ലഭിച്ച ബുദ്ധിശക്തി മാത്രം കൊണ്ടുമാത്രം ഒരാൾക്കും മികച്ച വിദ്യാർത്ഥിയാകാൻ കഴിയില്ല എന്ന് ആധുനിക വിദ്യാഭ്യാസ മനഃശാസ്ത്രം സാക്ഷ്യപ്പെടുത്തുന്നു. അതുകൊണ്ടാണ് 'അതിയായ ആഗ്രഹവും' (حرص) 'കഠിനാധ്വാനവും' (اجتهاد) ഇമാം ഇതിനോടൊപ്പം ചേർത്തത്. അറിവിനോടുള്ള അടങ്ങാത്ത ദാഹത്തെയാണ് ഇത് സൂചിപ്പിക്കുന്നത്. ആധുനിക മനഃശാസ്ത്രത്തിൽ ഇതിനെ **ഇൻട്രിൻസിക് മോട്ടിവേഷൻ (Intrinsic Motivation)** എന്നും **ഗ്രിറ്റ് (Grit - കഠിനമായ സ്ഥിരോത്സാഹം)** എന്നും വിളിക്കുന്നു. സ്വന്തം ഇഷ്ടപ്രകാരം അറിവ് തേടിയിറങ്ങുന്ന ഒരു വിദ്യാർത്ഥിക്ക് മാത്രമേ ബുദ്ധിമുട്ടുകളെ തരണം ചെയ്ത് മുന്നേറാൻ കഴിയൂ. നിരന്തരമായ പരിശ്രമമില്ലാതെ ബുദ്ധിശക്തി മാത്രം കൊണ്ട് ആരും വിജയിച്ചിട്ടില്ല.
+**سادساً: طول الزمان (الاستمرارية والصبر)**
+العلم بحر لا ساحل له، ولا يمكن تحصيله في دورات قصيرة أو أيام معدودة. يحتاج العلم إلى سنوات طوال من التراكم المعرفي، والنضج العقلي، والتدرج في مراتب المعرفة. "طول الزمان" يعلم الطالب التواضع، ويثبت المعلومات في ذهنه، ويصقل خبراته.
 
-### സാമ്പത്തിക ആവശ്യങ്ങൾ: ഉപജീവനം (Sustenance)
-ഇമാം ശാഫിയുടെ ഏറ്റവും പ്രായോഗികമായ ചിന്തയാണ് 'ബൽഗ' (بلغة) അഥവാ ജീവിക്കാൻ ആവശ്യമായ വക എന്ന നിബന്ധന. മാസ്ലോയുടെ ആവശ്യങ്ങളുടെ ശ്രേണി (Maslow's Hierarchy of Needs) എന്ന ആധുനിക മനഃശാസ്ത്ര സിദ്ധാന്തം അനുസരിച്ച്, ഒരു മനുഷ്യന്റെ അടിസ്ഥാന ആവശ്യങ്ങളായ ഭക്ഷണവും സുരക്ഷയും ലഭിക്കാതെ അവന് ഉയർന്ന തലത്തിലുള്ള ബൗദ്ധിക ചിന്തകളിൽ മുഴുകാൻ കഴിയില്ല. വിശക്കുന്നവനും കുടുംബം പുലർത്താൻ രാപ്പകൽ അധ്വാനിക്കുന്നവനും അറിവിന്റെ ആഴങ്ങളിലേക്ക് ഇറങ്ങിച്ചെല്ലാൻ കഴിയില്ല. വിദ്യാർത്ഥികൾക്ക് സാമ്പത്തിക സുരക്ഷിതത്വം ഉറപ്പുവരുത്തേണ്ടതിന്റെ ആവശ്യകതയാണ് ഇത് കാണിക്കുന്നത്.
+**خاتمة**
+لقد جمع الإمام الشافعي في بيتين فقط منظومة متكاملة لنجاح أي عملية تعليمية في أي زمان ومكان. إذا اجتمعت هذه الشروط الستة في طالب، فإنه بلا شك سيبلغ الغاية ويكون منارة يقتدى بها في العلم والعمل.`,
+  mlEssay: `ഇമാം മുഹമ്മദ് ബിൻ ഇദ്‌രീസ് അശ്ശാഫിഈ (റ) യുടെ ഈ വരികൾ ഇസ്‌ലാമിക ചിന്താചരിത്രത്തിലെ ഏറ്റവും മഹത്തായ വിദ്യാഭ്യാസ സിദ്ധാന്തങ്ങളിലൊന്നാണ്. വിജ്ഞാനത്തിന്റെ പ്രാധാന്യം വെറുതെ പറയുകയല്ല, മറിച്ച് യഥാർത്ഥ അറിവ് നേടാൻ ഒരാൾക്ക് നിർബന്ധമായും ഉണ്ടായിരിക്കേണ്ട ആറ് അടിസ്ഥാന നിബന്ധനകൾ കൃത്യമായി വരച്ചുകാണിക്കുകയാണ് ഇമാം ചെയ്യുന്നത്.
 
-### സാമൂഹിക-കാലിക ആവശ്യങ്ങൾ: ഗുരുവും സമയവും (Mentorship & Time)
-അവസാനമായി 'ഒരു നല്ല അധ്യാപകന്റെ കൂട്ട്' (صحبة أستاذ), 'ദീർഘകാലത്തെ സമയം' (طول زمان) എന്നീ രണ്ട് കാര്യങ്ങൾ അദ്ദേഹം പറയുന്നു. 
-ആർട്ടിഫിഷ്യൽ ഇന്റലിജൻസും ഇന്റർനെറ്റും ഉള്ള ഈ കാലത്തും, ഒരു മനുഷ്യനായ അധ്യാപകന്റെ **(Mentorship)** റോൾ വളരെ വലുതാണ്. വിവരങ്ങൾ എവിടെനിന്നും കിട്ടും, എന്നാൽ അറിവിനെ എങ്ങനെ ഉപയോഗിക്കണമെന്നും, എന്ത് പഠിക്കണമെന്നും മനസ്സിലാക്കാൻ ഒരു നല്ല ഗുരുവിന്റെ ശിക്ഷണം കൂടിയേ തീരൂ. 
-അതുപോലെ, വിദ്യാഭ്യാസത്തിൽ കുറുക്കുവഴികളില്ല എന്ന് അദ്ദേഹം 'ദീർഘമായ കാലം' എന്നതിലൂടെ വ്യക്തമാക്കുന്നു. അറിവ് എന്നത് തലച്ചോറിൽ നടക്കുന്ന ബയോളജിക്കലായ ഒരു വലിയ മാറ്റമാണ് (Neural Networks development). ഇത് ദിവസങ്ങൾ കൊണ്ടോ മാസങ്ങൾ കൊണ്ടോ സംഭവിക്കുന്നതല്ല; വർഷങ്ങളുടെ നിരന്തരമായ വായനയും ചിന്തയും ആവശ്യപ്പെടുന്ന ഒരു ജീവിതകാല പ്രക്രിയയാണിത്.`,
-  
-  enEssay: `### Introduction
-Imam Al-Shafi'i's couplet on the conditions of seeking knowledge, "Brother, you will not attain knowledge except through six things," serves as a profound and highly condensed academic constitution. In just two lines, Al-Shafi'i distills his vast intellectual experience to lay out a complete methodology for academic excellence and cognitive growth. These are not superficial pieces of advice; they are a clinical dissection of the cognitive, psychological, material, and social prerequisites necessary for true intellectual mastery. By beginning with the affectionate vocative "My brother," Al-Shafi'i softens the intimidating reality that the path of knowledge is grueling and requires brutal honesty.
+**1. ബുദ്ധിശക്തി (ذكاء)**
+ഒരാൾക്ക് ജന്മനാ ലഭിക്കുന്ന ബുദ്ധിയും കാര്യങ്ങൾ വേഗത്തിൽ ഗ്രഹിക്കാനുള്ള കഴിവുമാണിത്. സങ്കീർണ്ണമായ വിഷയങ്ങൾ മനസ്സിലാക്കാൻ ഇത് അത്യാവശ്യമാണ്. എന്നാൽ ജന്മനായുള്ള ബുദ്ധി മാത്രം പോരാ, നിരന്തരമായ ഉപയോഗത്തിലൂടെ അതിനെ മൂർച്ച കൂട്ടേണ്ടതുമുണ്ട്.
 
-### Cognitive Prerequisites: Intelligence (Dhaka')
-Al-Shafi'i establishes "Intelligence" as the first condition. In both classical and modern academic contexts, this does not merely refer to a high innate IQ. It encompasses **cognitive flexibility**, analytical sharpness, and the capacity for critical abstraction. In the realm of cognitive psychology, it is the brain's baseline hardware required to process, synthesize, and interconnect complex datasets. Without an open, critical mind capable of deduction, the pursuit of knowledge devolves into mere rote memorization without any profound comprehension of the underlying principles.
+**2. അതിയായ താല്പര്യം (حرص)**
+അറിവ് നേടാനുളള അടങ്ങാത്ത ആഗ്രഹമാണിത്. ഈ താല്പര്യമാണ് ഒരു വിദ്യാർത്ഥിയെ പ്രതിസന്ധികളിൽ തളരാതെ മുന്നോട്ട് നയിക്കുന്ന ഇന്ധനം. കുറഞ്ഞ അറിവ് കൊണ്ട് തൃപ്തിപ്പെടാതെ കൂടുതൽ കൂടുതൽ പഠിക്കാൻ ഇത് പ്രേരിപ്പിക്കുന്നു.
 
-### Psychological Prerequisites: Eagerness & Diligence (Hirs & Ijtihad)
-Modern educational psychology consistently proves that innate intelligence is insufficient on its own. Al-Shafi'i acutely recognizes this, adding two intertwined psychological conditions: **"Eagerness"** (a burning, insatiable curiosity) and **"Diligence"** (exhausting physical and mental effort). "Eagerness" aligns perfectly with the modern psychological concept of **Intrinsic Motivation**—the drive to learn for the sheer joy of understanding rather than for external validation. "Diligence," on the other hand, corresponds directly to what modern behavioral scientists term **Grit**. The most brilliant minds routinely fail in academia if they lack the self-discipline and sheer willpower to endure the friction of complex problem-solving.
+**3. കഠിനാധ്വാനം (اجتهاد)**
+ബുദ്ധിയും താല്പര്യവും മാത്രം പോരാ, അത് പ്രാവർത്തികമാക്കാൻ കഠിനമായ അധ്വാനം ആവശ്യമാണ്. ഉറക്കമൊഴിഞ്ഞുള്ള പഠനവും, വായിച്ചും ഹൃദിസ്ഥമാക്കിയും മനസ്സിലാക്കിയുമുള്ള നിരന്തര പരിശ്രമവും വിജ്ഞാന സമ്പാദനത്തിന് അത്യന്താപേക്ഷിതമാണ്. വിശ്രമിച്ചു കൊണ്ട് അറിവ് നേടാൻ കഴിയില്ല.
 
-### Material Prerequisites: Sustenance (Bulghah)
-The profound pragmatism of Imam Al-Shafi'i is brilliantly highlighted in his fourth condition: **"Bulghah"** (sufficient sustenance). This is an explicit acknowledgment of human biological limits, mirroring **Maslow's Hierarchy of Needs**. According to Maslow, a human being cannot achieve self-actualization or engage in high-level cognitive tasks if their foundational physiological needs (food, shelter, security) are unmet. A student paralyzed by starvation or the crushing anxiety of providing for a family cannot focus on the intricacies of advanced jurisprudence or calculus. This condition is a timeless socio-economic call to sponsor scholars and free them from the burdens of manual labor.
+**4. സാമ്പത്തിക ഭദ്രത (بلغة)**
+ഒരു വിദ്യാർത്ഥിക്ക് തന്റെ പ്രാഥമിക ആവശ്യങ്ങൾ നിറവേറ്റാൻ ആവശ്യമായ ജീവിത മാർഗ്ഗമാണ് ഇത് കൊണ്ട് അർത്ഥമാക്കുന്നത്. ഇമാം ശാഫിഈ(റ)യുടെ തികച്ചും പ്രായോഗികമായ ഒരു ചിന്തയാണിത്. വിശപ്പടക്കാൻ എന്ത് ചെയ്യും എന്നോർത്ത് വിഷമിക്കുന്ന ഒരു വിദ്യാർത്ഥിക്ക് ഒരിക്കലും പഠനത്തിൽ പൂർണ്ണമായി ശ്രദ്ധ കേന്ദ്രീകരിക്കാൻ കഴിയില്ല.
 
-### Socio-Temporal Prerequisites: Mentorship & Time (Suhba & Zaman)
-Al-Shafi'i concludes with two conditions related to environment and temporal investment: **"The companionship of a teacher"** and **"A long length of time."**
-First, even in the modern era of Artificial Intelligence and decentralized information, human **Mentorship** remains indispensable. "Companionship" implies more than just attending a lecture; it requires absorbing a master's critical methodology, academic integrity, and ethical framework—nuances a machine cannot teach. 
-Second, Al-Shafi'i addresses the modern plague of impatience and instant gratification by demanding a "long length of time." Deep learning requires immense neurological restructuring (**neuroplasticity**), forming dense neural networks that only solidify through prolonged exposure, repetition, and cognitive marination. Profound knowledge cannot be hacked or rushed via crash courses; it is a lifelong, grueling, yet beautiful investment.`
+**5. ഗുരുവുമായുള്ള സഹവാസം (صحبة أستاذ)**
+പുസ്തകങ്ങളിൽ നിന്ന് മാത്രം അറിവ് നേടാനാവില്ല. അറിവും അനുഭവവുമുള്ള ഒരു ഗുരുവിന്റെ ശിക്ഷണം നിർബന്ധമാണ്. ഗുരു വിവരങ്ങൾ പകർന്നു നൽകുക മാത്രമല്ല ചെയ്യുന്നത്, മറിച്ച് ചിന്താശേഷി വളർത്താനും അച്ചടക്കം ശീലിപ്പിക്കാനും തെറ്റുകളിൽ നിന്ന് വഴിനടത്താനും അദ്ദേഹം സഹായിക്കുന്നു.
+
+**6. ദീർഘകാലത്തെ പഠനം (طول زمان)**
+വിജ്ഞാനം എന്നത് അതിരുകളില്ലാത്ത ഒരു മഹാസമുദ്രമാണ്. ഏതാനും ദിവസങ്ങളോ മാസങ്ങളോ കൊണ്ട് അത് കരസ്ഥമാക്കാനാവില്ല. വർഷങ്ങൾ നീളുന്ന നിരന്തരമായ പഠനത്തിലൂടെ മാത്രമേ വിജ്ഞാനത്തിൽ അവഗാഹം നേടാൻ കഴിയൂ.
+
+**ഉപസംഹാരം**
+ഏതൊരു കാലഘട്ടത്തിലെയും വിദ്യാഭ്യാസ സമ്പ്രദായങ്ങൾക്ക് അടിസ്ഥാനമാക്കാവുന്ന ആറ് സുവർണ്ണ നിയമങ്ങളാണ് ഇമാം ശാഫിഈ (റ) ഈ രണ്ട് വരികളിലൂടെ ലോകത്തിന് സമ്മാനിച്ചിരിക്കുന്നത്. ഈ ആറ് ഗുണങ്ങൾ ഒത്തിണങ്ങിയ ഒരു വിദ്യാർത്ഥിക്ക് വിജ്ഞാന ലോകത്ത് ഉന്നതങ്ങളിലെത്താൻ കഴിയുമെന്നതിൽ സംശയമില്ല.`,
+  enEssay: `These verses by Imam Muhammad ibn Idris al-Shafi'i are considered one of the most profound pedagogical and methodological summaries in the history of Islamic thought. Al-Shafi'i does not merely describe the importance of knowledge; rather, he lays out a precise and practical "roadmap" detailing the six indispensable conditions for any seeker of knowledge who wishes to attain true mastery and distinction.
+
+**First: Intelligence (Innate and Acquired)**
+Al-Shafi'i places "intelligence" as the first condition. This includes the natural acumen a person is born with and the ability to quickly analyze and comprehend. However, innate intelligence alone is insufficient if it is not constantly sharpened through use and training. It is the primary tool for unraveling complex issues.
+
+**Second: Eagerness (Intellectual Passion)**
+Eagerness means an overwhelming desire and unquenchable thirst for learning. An eager learner is never satisfied with just a little; they constantly seek more, and difficulties do not stop their pursuit. This passion is the internal fuel that drives the student to persevere through academic obstacles.
+
+**Third: Diligence (Perseverance and Hard Work)**
+Intelligence and eagerness must be activated through "diligence." This means exerting the utmost effort, staying up late, and enduring the fatigue of memorization, understanding, and revision. True knowledge is not attained through physical comfort; it requires constant struggle, patience, and unbroken daily effort.
+
+**Fourth: Sustenance (Financial Sufficiency)**
+"Sustenance" refers to having just enough provision to meet one's basic needs. This condition reflects Al-Shafi'i's deep realism. A student whose mind is constantly preoccupied with surviving and earning a daily living will not find the mental clarity required to focus deeply on studies. A minimum level of financial stability is necessary for the mind to settle and devote itself to knowledge.
+
+**Fifth: Companionship of a Teacher (Mentor and Role Model)**
+Knowledge cannot be acquired from books alone; it requires an expert "teacher" and mentor. A teacher does not merely transmit information; they teach the methodology of thinking, proper etiquette (Adab), how to handle knowledge respectfully, and they protect the student from falling into fundamental errors. Close companionship with a teacher means spending a long time with them to absorb both their knowledge and their character.
+
+**Sixth: Length of Time (Continuity and Patience)**
+Knowledge is a shoreless ocean that cannot be mastered in short courses or a few days. It requires long years of cognitive accumulation, mental maturity, and gradual progression through the ranks of understanding. A "long time" teaches the student humility, solidifies information in their mind, and refines their expertise.
+
+**Conclusion**
+In just two poetic couplets, Imam Al-Shafi'i encapsulated a comprehensive framework for the success of any educational endeavor, applicable in any time or place. If these six conditions unite in a student, they will undoubtedly reach their ultimate goal and become a guiding light of knowledge and practice.`
 };
