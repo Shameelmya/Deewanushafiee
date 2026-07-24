@@ -64,6 +64,38 @@ export const PoemSelectorModal: React.FC<PoemSelectorModalProps> = ({
       versesCount: 14,
       bahrAr: 'البحر البسيط',
       status: 'active'
+    },
+    {
+      id: 'shafiee-safeeh',
+      titleAr: 'إِذَا نَطَقَ السَّفِيهُ فَلا تُجِبْهُ',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 4,
+      bahrAr: 'البحر الوافر',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-lisan',
+      titleAr: 'احْفَظْ لِسَانَكَ أَيُّهَا الإِنْسَانُ',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 4,
+      bahrAr: 'البحر الكامل',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-sadeeq',
+      titleAr: 'إِذَا المَرْءُ لا يَرْعَاكَ إِلا تَكَلُّفاً',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 6,
+      bahrAr: 'البحر الطويل',
+      status: 'active'
+    },
+    {
+      id: 'shafiee-tawakkul',
+      titleAr: 'تَوَكَّلْتُ فِي رِزْقِي عَلَى اللَّهِ خَالِقِي',
+      poetAr: 'الإمام الشافعي',
+      versesCount: 4,
+      bahrAr: 'البحر الطويل',
+      status: 'active'
     }
   ];
 

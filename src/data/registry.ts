@@ -38,6 +38,30 @@ import { glossaryData as safar_glossary } from './shafiee-safar/glossaryData';
 import { balaghaData as safar_balagha } from './shafiee-safar/balaghaData';
 import { essayData as safar_essay } from './shafiee-safar/essayData';
 
+import { poemData as safeeh_poem } from './shafiee-safeeh/poemData';
+import { questionsData as safeeh_questions } from './shafiee-safeeh/questionsData';
+import { glossaryData as safeeh_glossary } from './shafiee-safeeh/glossaryData';
+import { balaghaData as safeeh_balagha } from './shafiee-safeeh/balaghaData';
+import { essayData as safeeh_essay } from './shafiee-safeeh/essayData';
+
+import { poemData as lisan_poem } from './shafiee-lisan/poemData';
+import { questionsData as lisan_questions } from './shafiee-lisan/questionsData';
+import { glossaryData as lisan_glossary } from './shafiee-lisan/glossaryData';
+import { balaghaData as lisan_balagha } from './shafiee-lisan/balaghaData';
+import { essayData as lisan_essay } from './shafiee-lisan/essayData';
+
+import { poemData as sadeeq_poem } from './shafiee-sadeeq/poemData';
+import { questionsData as sadeeq_questions } from './shafiee-sadeeq/questionsData';
+import { glossaryData as sadeeq_glossary } from './shafiee-sadeeq/glossaryData';
+import { balaghaData as sadeeq_balagha } from './shafiee-sadeeq/balaghaData';
+import { essayData as sadeeq_essay } from './shafiee-sadeeq/essayData';
+
+import { poemData as tawakkul_poem } from './shafiee-tawakkul/poemData';
+import { questionsData as tawakkul_questions } from './shafiee-tawakkul/questionsData';
+import { glossaryData as tawakkul_glossary } from './shafiee-tawakkul/glossaryData';
+import { balaghaData as tawakkul_balagha } from './shafiee-tawakkul/balaghaData';
+import { essayData as tawakkul_essay } from './shafiee-tawakkul/essayData';
+
 export const poemsRegistry: Record<string, PoemBundle> = {
   'shafiee-da-al-ayyam': {
     poem: shaf_poem,
@@ -85,6 +109,38 @@ export const poemsRegistry: Record<string, PoemBundle> = {
     glossary: safar_glossary,
     balagha: safar_balagha,
     essay: safar_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-safeeh': {
+    poem: safeeh_poem,
+    questions: safeeh_questions,
+    glossary: safeeh_glossary,
+    balagha: safeeh_balagha,
+    essay: safeeh_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-lisan': {
+    poem: lisan_poem,
+    questions: lisan_questions,
+    glossary: lisan_glossary,
+    balagha: lisan_balagha,
+    essay: lisan_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-sadeeq': {
+    poem: sadeeq_poem,
+    questions: sadeeq_questions,
+    glossary: sadeeq_glossary,
+    balagha: sadeeq_balagha,
+    essay: sadeeq_essay,
+    poet: shaf_poet,
+  },
+  'shafiee-tawakkul': {
+    poem: tawakkul_poem,
+    questions: tawakkul_questions,
+    glossary: tawakkul_glossary,
+    balagha: tawakkul_balagha,
+    essay: tawakkul_essay,
     poet: shaf_poet,
   }
 };
